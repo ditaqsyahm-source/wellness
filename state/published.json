@@ -1,0 +1,99 @@
+[
+  {
+    "day": 1,
+    "published_at": "2026-10-17T10:01:45.255588",
+    "video": "dita_wellness_day_001_compressed.mp4",
+    "results": {
+      "youtube": {
+        "platform": "youtube",
+        "ok": true,
+        "videoId": "mCAjf63GQyU",
+        "url": "https://youtube.com/shorts/mCAjf63GQyU"
+      },
+      "zernio": {
+        "platform": "zernio",
+        "ok": true,
+        "postId": "6ad2d701c47e856dd4615baa",
+        "data": {
+          "_id": "6ad2d701c47e856dd4615baa",
+          "userId": "6ac0fee4b5fe160e5da5505e",
+          "title": "Sering merasa cemas atau lemas seharian padahal baru bangun tidur? Jangan buru-b",
+          "content": "Sering merasa cemas atau lemas seharian padahal baru bangun tidur? Jangan buru-buru menyalahkan kopi atau jam tidurmu. \ud83c\udf3f\u2600\ufe0f\n\nMenatap layar HP di 10 menit pertama membingungkan jam sirkadian otak. Coba terapkan protokol lembut 10 menit ini besok pagi:\n1. Tunda menyentuh layar ponsel\n2. Minum segelas air hangat\n3. Biarkan foton matahari pagi menyapa matamu selama 10 menit di luar ruangan.\n\n\ud83d\udcac Kamu tim yang mana: langsung cek HP pas melek, atau bisa tahan 15 menit tanpa layar? Tulis kebiasaan pagimu di bawah! \ud83d\udc47\n\nSimpan video ini untuk diingat besok pagi, dan share ke teman yang butuh reset energi alami! \u2728\n\n#ditawellness #gentlewellness #biohackingindonesia #ritmesirkadian #hidupsehatalami #polahidupsehat #kesehatantubuh #deepsleep #tipssehat",
+          "mediaItems": [
+            {
+              "_id": "6ad2d701c47e856dd4615bad",
+              "url": "https://media.zernio.com/media/1792202487266_wqtu8hxk_dita_wellness_day_001_compressed.mp4",
+              "type": "video"
+            }
+          ],
+          "scheduledFor": "2026-10-17T02:01:37.066Z",
+          "timezone": "UTC",
+          "status": "publishing",
+          "tags": [],
+          "hashtags": [],
+          "mentions": [],
+          "visibility": "public",
+          "crosspostingEnabled": true,
+          "metadata": {
+            "usageCounted": true
+          },
+          "publishingClaimedAt": "2026-10-17T02:01:37.887Z",
+          "recycling": {
+            "enabled": false,
+            "gapFreq": "month",
+            "recycleCount": 0,
+            "contentVariations": [],
+            "contentVariationIndex": 0
+          },
+          "createdAt": "2026-10-17T02:01:37.789Z",
+          "updatedAt": "2026-10-17T02:01:44.810Z",
+          "platforms": [
+            {
+              "_id": "6ad2d701c47e856dd4615ba8",
+              "platform": "tiktok",
+              "accountId": {
+                "_id": "6ac101d7b7173e371b8e5d31",
+                "platform": "tiktok",
+                "username": "ditawellness",
+                "displayName": "ditawellness",
+                "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/861510685ce99bc54cb77c064296059e~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=dd771961&x-expires=1792303200&x-signature=x3eq%2F%2F%2FNeg15iP3ut5xoHZ0r91U%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my3",
+                "isActive": true,
+                "profileId": "6ac0fee4b5fe160e5da55060"
+              },
+              "profileId": "6ac0fee4b5fe160e5da55060",
+              "customMedia": [],
+              "scheduledFor": "2026-10-17T02:01:37.066Z",
+              "platformSpecificData": {
+                "tiktokBusinessPublishId": "v_pub_url~v2.7697450906484721684"
+              },
+              "status": "published",
+              "publishedAt": "2026-10-17T02:01:44.794Z",
+              "platformPostId": "v_pub_url~v2.7697450906484721684",
+              "publishAttempts": 1,
+              "contentHash": "12c2683ab63a574631da32222b33765b"
+            },
+            {
+              "_id": "6ad2d701c47e856dd4615ba9",
+              "platform": "instagram",
+              "accountId": {
+                "_id": "6ac0fff63c403551667bfd7d",
+                "platform": "instagram",
+                "username": "ditawellness",
+                "displayName": "Dita Gentle Wellness",
+                "profilePicture": null,
+                "isActive": true,
+                "profileId": "6ac0fee4b5fe160e5da55060"
+              },
+              "profileId": "6ac0fee4b5fe160e5da55060",
+              "customMedia": [],
+              "scheduledFor": "2026-10-17T02:01:37.066Z",
+              "status": "processing",
+              "publishAttempts": 1,
+              "contentHash": "4ff05f78290aca3e6eaba28aef6b9594"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

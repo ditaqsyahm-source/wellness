@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "channel_id": "DITA-03",
+    "channel_name": "Dita Gentle Wellness",
+    "handle": "@ditawellness",
+    "day_number": 1,
+    "cycle_number": 1,
+    "cycle_theme": "Fondasi Ritme Sirkadian & Jam Biologis Alami",
+    "topic_pillar_id": "P1",
+    "topic_pillar_name": "Ritme Sirkadian & Arsitektur Tidur Dalam",
+    "narrative_format_id": "F1",
+    "narrative_format_name": "Protokol Harian Siap Tiru (Step-by-Step Practical Routine)",
+    "emotional_trigger": "Pencerahan Menenangkan & Pembebasan dari Rasa Cemas Pagi",
+    "visual_pacing": "Transisi dari Pagi Sunyi ke Kehangatan Sinar Matahari Alami (Calm & Serene)",
+    "target_duration_range": "45-55 detik",
+    "cta_hook_type": "Simpan Protokol Pagi & Praktikkan Besok",
+    "target_audience": "Profesional muda, wanita & pria 22-45 tahun yang sering lelah dan cemas di pagi hari",
+    "created_by": "Content Research & Narrative Architect (@content-researcher)",
+    "reviewed_by": "Herman (Command Point / @hermes)",
+    "intended_executor": "Director (@fullmontage) & Fleet Operator (@social-operator)"
+  },
+  "scientific_research_dossier": {
+    "core_topic": "Protokol Cahaya Pagi & Pelepasan Hormon Kortisol Alami (ipRGCs & SCN Activation)",
+    "academic_citations": [
+      {
+        "author": "Dr. Andrew Huberman, Ph.D.",
+        "publication": "Stanford University School of Medicine (Cell & Neuroscience Research, 2021)",
+        "key_findings": "Foton sinar matahari pagi menstimulasi intrinsically photosensitive retinal ganglion cells (ipRGCs) yang mengekspresikan fotopigmen melanopsin. Sinyal saraf ini langsung ditransmisikan ke Suprachiasmatic Nucleus (SCN) sebagai jam master sirkadian tubuh. Ini memicu lonjakan Cortisol Awakening Response (CAR) yang sehat untuk fokus mental dan mengatur penghitung waktu mundur pembersihan adenosin serta pelepasan hormon melatonin 12-14 jam kemudian."
+      },
+      {
+        "author": "Dr. Satchin Panda, Ph.D.",
+        "publication": "The Salk Institute for Biological Studies (The Circadian Code, Rodale Books, 2018)",
+        "key_findings": "Cahaya buatan layar gawai di kamar tidur (hanya ~300-500 lux dengan spektrum sempit) gagal memicu kalibrasi SCN, namun cukup kuat untuk membingungkan ritme sirkadian. Membuka media sosial saat bangun tidur memicu banjir dopamin instan dan respon stres reaktif yang menyebabkan kelelahan adrenal dini (chronic fatigue) sepanjang hari."
+      },
+      {
+        "author": "Dr. Matthew Walker, Ph.D.",
+        "publication": "Center for Human Sleep Science, UC Berkeley (Why We Sleep, Scribner, 2017)",
+        "key_findings": "Kualitas tidur malam berikutnya ditentukan oleh 30 menit pertama saat seseorang bangun tidur. Sinar matahari pagi adalah zeitgeber (pemberi waktu) terkuat yang menstabilkan arsitektur tidur gelombang lambat (Slow-Wave Deep Sleep)."
+      }
+    ],
+    "psychological_mechanism_breakdown": {
+      "neurobiological_state": "Transisi dari gelombang otak Theta ke Alpha/Beta saat bangun tidur adalah jendela plastisitas paling rentan. Memaparkan otak ke layar gawai memotong fase ini secara kasar dan memicu kecemasan subliminal.",
+      "cognitive_limitation": "Dopamine baseline menurun ketika otak dibiasakan dengan stimulasi notifikasi ponsel sebelum tubuh mendapatkan sinyal biologis matahari dan hidrasi seluler.",
+      "common_parenting_trap": "Seringkali orang mengira kelelahan pagi diselesaikan dengan menambah konsumsi kopi, padahal akar masalahnya adalah ketiadaan foton cahaya alami untuk menyinkronkan jam seluler tubuh.",
+      "moral_syariah_alignment": "Selaras dengan anjuran kebiasaan pagi penuh berkah, menyambut fajar, bersyukur, dan menjaga amanah kesehatan raga dengan kelembutan (ar-rifq) serta ketenangan batin."
+    }
+  },
+  "script_architecture_breakdown": {
+    "anatomy": [
+      {
+        "segment_id": "SEG_01",
+        "phase": "Thumb-Stopping Hook",
+        "timestamp_range": "00:00 - 00:05",
+        "duration_seconds": 5,
+        "spoken_text": "Hentikan kebiasaan langsung membuka layar HP di menit-menit pertama kamu membuka mata!",
+        "word_count": 12,
+        "pacing_wpm": 144,
+        "visual_direction": "Kamera gerak lambat sinematik: Sudut kamar tidur tenang bernuansa kayu dan sprei katun putih. Tangan wanita/pria hendak meraih ponsel di nakas, namun berhenti. Cahaya matahari pagi lembut menembus tirai tipis. Tanpa wajah.",
+        "text_on_screen": {
+          "headline": "JANGAN BUKA HP DULU!",
+          "sub_headline": "Mengapa 10 menit pertama menentukan energimu?",
+          "style": "Tipografi serif elegan warna broken white dengan aksen sage green (#4A6B53), fade-in halus."
+        },
+        "audio_design": {
+          "voice_inflection": "Tegas namun bersahabat, intim, membangun kesadaran tanpa menghakimi.",
+          "sfx": "Suara desau angin pagi lembut dan gemercik dedaunan (low pass filter).",
+          "bgm": "Alunan petikan dawai akustik dan synth ambient yang sangat menenangkan."
+        }
+      },
+      {
+        "segment_id": "SEG_02",
+        "phase": "Emotional & Biological Anchor",
+        "timestamp_range": "00:05 - 00:16",
+        "duration_seconds": 11,
+        "spoken_text": "Cahaya redup layar gawai membingungkan sensor retina matamu. Akibatnya, hormon kortisol alami gagal memuncak dengan benar, memicu rasa cemas, dan menahan tubuhmu dalam kelelahan.",
+        "word_count": 24,
+        "pacing_wpm": 130,
+        "visual_direction": "Close-up estetik: Jam weker kayu minimalis, vas kecil bunga chamomile segar, dan gelas kaca bening di atas meja kayu rustic. Cahaya hangat keemasan menyapu permukaan meja.",
+        "text_on_screen": {
+          "headline": "Sinyal Retina Terdistorsi",
+          "sub_headline": "Kortisol kacau = Cemas & Brain Fog",
+          "style": "Sub-panel glassmorphic transparan elegan di sepertiga atas layar."
+        },
+        "audio_design": {
+          "voice_inflection": "Empatik, menenangkan, mengurai penyebab kelelahan yang selama ini dirasakan penonton.",
+          "sfx": "Dentang mangkuk bernada rendah (tibetan singing bowl subtle bell).",
+          "bgm": "Melodi piano minimalis lembut bergulir perlahan."
+        }
+      },
+      {
+        "segment_id": "SEG_03",
+        "phase": "Scientific Mechanism & Turning Point",
+        "timestamp_range": "00:16 - 00:32",
+        "duration_seconds": 16,
+        "spoken_text": "Secara biologis, sensor foton di matamu membutuhkan spektrum matahari pagi untuk menyalakan jam sirkadian otak. Cukup melangkah ke luar selama sepuluh menit. Foton alami ini akan membersihkan rasa kantuk dan mengatur alarm tidur lelapmu nanti malam.",
+        "word_count": 36,
+        "pacing_wpm": 135,
+        "visual_direction": "Siluet anggun dari belakang berjalan perlahan ke teras atau taman berembun. Langkah kaki tanpa alas menapak di teras kayu hangat. Matahari pagi menyinari dedaunan hijau monstera dan tanaman herbal. Tetap strictly faceless.",
+        "text_on_screen": {
+          "headline": "Foton Matahari = Jam Sirkadian",
+          "sub_headline": "Reset energi pagi, kunci tidur nyenyak malam",
+          "style": "Highlight teks putih bersih dengan penanda sage green."
+        },
+        "audio_design": {
+          "voice_inflection": "Jernih, edukatif, memberikan pemahaman ilmiah yang menyegarkan.",
+          "sfx": "Kicau burung pagi yang jauh dan halus (distant birds chirping).",
+          "bgm": "Nuansa musik semakin mengalir hangat dan harmonis."
+        }
+      },
+      {
+        "segment_id": "SEG_04",
+        "phase": "Actionable Micro-Routine",
+        "timestamp_range": "00:32 - 00:41",
+        "duration_seconds": 9,
+        "spoken_text": "Ganti jempol yang mengusap layar dengan segelas air hangat dan pandangan ke langit lepas.",
+        "word_count": 14,
+        "pacing_wpm": 93,
+        "visual_direction": "Dua tangan memegang cangkir keramik kerajinan berisi seduhan teh herbal hangat. Uap lembut mengepul di udara pagi. Sudut pandang mendongak ke arah langit fajar yang cerah.",
+        "text_on_screen": {
+          "headline": "Protokol 10 Menit:",
+          "sub_headline": "1 Gelas Air Hangat + Tatap Langit Pagi",
+          "style": "Kotak ringkasan minimalis bergaris emas tipis di area tengah-atas."
+        },
+        "audio_design": {
+          "voice_inflection": "Hangat, memotivasi dengan kelembutan, mengajak aksi nyata.",
+          "sfx": "Suara air hangat dituangkan ke cangkir keramik.",
+          "bgm": "Arpeggio dawai akustik yang mengembang indah."
+        }
+      },
+      {
+        "segment_id": "SEG_05",
+        "phase": "Empowerment & Seamless Loop Climax",
+        "timestamp_range": "00:41 - 00:50",
+        "duration_seconds": 9,
+        "spoken_text": "Mulai besok pagi, berikan hak matamu menyapa lembutnya matahari terbit, dan ingat baik-baik pesan ini.",
+        "word_count": 15,
+        "pacing_wpm": 100,
+        "visual_direction": "Pemandangan alam fajar berkabut tipis yang tenang dengan sinar matahari pagi lembut menembus pepohonan. Logo minimalis Dita Gentle Wellness muncul anggun dengan aksen botanical. Transisi halus siap memutar ulang.",
+        "text_on_screen": {
+          "headline": "Dita Gentle Wellness",
+          "sub_headline": "Harmoni Tubuh & Ketenangan Alami",
+          "style": "Logo badge minimalis sage green dan font serif elegan di safe zone atas."
+        },
+        "audio_design": {
+          "voice_inflection": "Penuh kedamaian, menutup tuntas namun membuka siklus pemutaran ulang secara mulus.",
+          "sfx": "Chime lembut bertransisi halus ke pembuka.",
+          "bgm": "Fade out anggun yang menyambung nada ambient awal."
+        }
+      }
+    ]
+  },
+  "seamless_loop_mechanism": {
+    "loop_phrase_ending": "Mulai besok pagi, berikan hak matamu menyapa lembutnya matahari terbit, dan ingat baik-baik pesan ini.",
+    "hook_phrase_beginning": "Hentikan kebiasaan langsung membuka layar HP di menit-menit pertama kamu membuka mata!",
+    "full_loop_sentence": "Mulai besok pagi, berikan hak matamu menyapa lembutnya matahari terbit, dan ingat baik-baik pesan ini: Hentikan kebiasaan langsung membuka layar HP di menit-menit pertama kamu membuka mata!",
+    "retention_mechanic": "Secara gramatikal kalimat penutup berdiri tuntas dan memuaskan secara batin. Namun saat video diulang di feed TikTok/Instagram/Shorts, frasa 'dan ingat baik-baik pesan ini' langsung bersambung menjadi intro logis bagi kalimat peringatan di detik 00:00."
+  },
+  "verbatim_script_master": {
+    "full_spoken_text_id": "Hentikan kebiasaan langsung membuka layar HP di menit-menit pertama kamu membuka mata! Cahaya redup layar gawai membingungkan sensor retina matamu. Akibatnya, hormon kortisol alami gagal memuncak dengan benar, memicu rasa cemas, dan menahan tubuhmu dalam kelelahan. Secara biologis, sensor foton di matamu membutuhkan spektrum matahari pagi untuk menyalakan jam sirkadian otak. Cukup melangkah ke luar selama sepuluh menit. Foton alami ini akan membersihkan rasa kantuk dan mengatur alarm tidur lelapmu nanti malam. Ganti jempol yang mengusap layar dengan segelas air hangat dan pandangan ke langit lepas. Mulai besok pagi, berikan hak matamu menyapa lembutnya matahari terbit, dan ingat baik-baik pesan ini.",
+    "total_word_count": 101,
+    "estimated_reading_duration_seconds": 49.5,
+    "average_wpm": 122,
+    "voiceover_profile": {
+      "service": "Edge TTS",
+      "voice_name": "id-ID-GadisNeural",
+      "rate": "+0%",
+      "pitch": "+0Hz",
+      "volume": "+0%"
+    }
+  },
+  "production_prompts_for_fullmontage": {
+    "midjourney_flux_visual_cues": [
+      "Cinematic cozy bedroom at dawn, soft natural sunbeams through linen curtains, warm wooden bedside table, aesthetic plant leaf, no human visible, photorealistic 8k --ar 9:16",
+      "Close up shot of ceramic mug with steaming chamomile tea on rustic wooden table, morning golden hour light, tranquil aesthetic, strictly faceless --ar 9:16",
+      "Silhouette of a person walking barefoot onto a sunlit wooden veranda, lush garden plants, morning dew, rear view, no face, peaceful zen vibe --ar 9:16",
+      "Aesthetic botanical workstation with dried herbs, glass amber dropper bottles, fresh eucalyptus branch, soft window daylight, clean cream and sage palette --ar 9:16"
+    ],
+    "voiceover_audio_generation_specs": {
+      "engine": "edge-tts",
+      "voice": "id-ID-GadisNeural",
+      "output_format": "audio-24khz-48kbitrate-mono-mp3",
+      "bgm_track_recommendation": "calm-acoustic-zen-botanical",
+      "bgm_ducking_volume": "-18dB"
+    },
+    "broll_queries": [
+      "morning sunlight window curtains",
+      "hands pouring warm water into ceramic cup",
+      "peaceful woman silhouette standing by garden window morning light back view",
+      "herbal tea steam rising wooden table",
+      "green leaves morning dew sunshine bokeh",
+      "stretching arms morning sunlight tranquil bedroom back view"
+    ]
+  },
+  "social_fleet_distribution_metadata": {
+    "title": "Kenapa Langsung Cek HP Pas Bangun Tidur Bikin Badan Lemas Seharian? 🌿☀️",
+    "caption_instagram_tiktok": "Sering merasa cemas atau lemas seharian padahal baru bangun tidur? Jangan buru-buru menyalahkan kopi atau jam tidurmu. 🌿\n\nMenatap layar HP di 10 menit pertama membingungkan jam sirkadian otak. Coba terapkan protokol lembut 10 menit ini besok pagi:\n1. Tunda layar ponsel\n2. Minum segelas air hangat\n3. Biarkan foton matahari pagi menyapa matamu selama 10 menit di luar ruangan.\n\nSimpan video ini untuk diingat besok pagi, dan tag seseorang yang butuh reset energi alami! ✨\n\n#ditawellness #gentlewellness #biohackingindonesia #ritmesirkadian #hidupsehatalami #polahidupsehat #kesehatantubuh #deepsleep",
+    "youtube_shorts_title": "Rahasia Bangun Segar Tanpa Brain Fog: Protokol Foton Pagi ☀️🌿 #Shorts"
+  }
+}
