@@ -51,5 +51,5 @@ jobs:
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: |
-          echo "Running Dita Gentle Wellness Daily Pipeline..."
-          python3 scripts/publish_video.py
+          echo "Running Dita Gentle Wellness Daily Autonomous Pipeline..."
+          npm run pipeline

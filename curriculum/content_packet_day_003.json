@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "channel_id": "DITA-03",
+    "channel_name": "Dita Gentle Wellness",
+    "handle": "@ditawellness",
+    "day_number": 3,
+    "cycle_number": 1,
+    "cycle_theme": "Ritme Sirkadian & Arsitektur Tidur Dalam",
+    "topic_pillar_id": "P1",
+    "topic_pillar_name": "Ritme Sirkadian & Arsitektur Tidur Dalam",
+    "narrative_format_id": "F1",
+    "narrative_format_name": "Protokol Harian Siap Tiru (Step-by-Step Practical Routine)",
+    "emotional_trigger": "Pencerahan Menenangkan & Solusi Biologis Tanpa Biaya",
+    "visual_pacing": "Transisi Sinematik Estetik menuju Visual Sains HyperFrames dan Protokol Praktis",
+    "target_duration_range": "48-53 detik",
+    "cta_hook_type": "Simpan Protokol & Praktikkan Hari Ini",
+    "target_audience": "Profesional muda, pekerja kantoran, pria & wanita usia 22-45 tahun",
+    "created_by": "Content Research & Narrative Architect (@content-researcher)",
+    "reviewed_by": "Herman (Command Point / CEO)",
+    "intended_executor": "Director (@fullmontage) & Fleet Operator (@social-operator)"
+  },
+  "scientific_research_dossier": {
+    "core_topic": "Mandi Air Hangat Sebelum Tidur Bikin Mengantuk? Ini Penjelasan Sainsnya! 🛁🌙",
+    "academic_citations": [
+      {
+        "author": "Dr. Matthew Walker, Ph.D.",
+        "publication": "Why We Sleep: Vasodilation and Core Body Temperature Dynamics (Scribner)",
+        "key_findings": "Tubuh manusia membutuhkan penurunan suhu inti sebesar satu derajat celsius agar otak bisa memicu rasa kantuk dan hormon melatonin. Air hangat melebarkan pembuluh darah tepi di kulitmu, membuang panas inti tubuh ke udara, sehingga suhu dalam tubuhmu justru turun drastis."
+      }
+    ],
+    "psychological_mechanism_breakdown": {
+      "neurobiological_state": "Air hangat melebarkan pembuluh darah tepi di kulitmu, membuang panas inti tubuh ke udara, sehingga suhu dalam tubuhmu justru turun drastis.",
+      "cognitive_limitation": "Pola kebiasaan modern sering bertentangan dengan jam biologis purba sel manusia.",
+      "common_trap": "Tubuh manusia membutuhkan penurunan suhu inti sebesar satu derajat celsius agar otak bisa memicu rasa kantuk dan hormon melatonin.",
+      "solution_formula": "Mandi air hangat satu jam sebelum tidur malam. Suhu ruangan yang sejuk akan mempercepat penurunan suhu inti dan membuatmu lelap seketika."
+    }
+  },
+  "script_architecture_breakdown": {
+    "anatomy": [
+      {
+        "segment_id": "SEG_01",
+        "phase": "Thumb-Stopping Shock Hook",
+        "timestamp_range": "00:00 - 00:05",
+        "duration_seconds": 5,
+        "spoken_text": "Mandi air hangat sebelum tidur bikin badan rileks dan cepat tidur? Ternyata mekanismenya bukan seperti yang kamu kira!",
+        "word_count": 18,
+        "visual_direction": "Kamera gerak lambat: visual estetika zen pagi hari / suasana tenang tanpa wajah. Headline peringatan emas-merah di sepertiga atas layar.",
+        "audio_design": {
+          "voice_inflection": "Tegas, intim, bersahabat, scroll-stopping.",
+          "sfx": "Sub-bass soft impact thud pada frame ke-1.",
+          "bgm": "Petikan dawai akustik dan ambient synth lembut."
+        }
+      },
+      {
+        "segment_id": "SEG_02",
+        "phase": "Emotional & Biological Anchor",
+        "timestamp_range": "00:05 - 00:16",
+        "duration_seconds": 11,
+        "spoken_text": "Tubuh manusia membutuhkan penurunan suhu inti sebesar satu derajat celsius agar otak bisa memicu rasa kantuk dan hormon melatonin.",
+        "word_count": 19,
+        "visual_direction": "Close-up macro estetika: cangkir teh, piring makanan sehat, atau detail dedaunan dengan cahaya alami.",
+        "audio_design": {
+          "voice_inflection": "Empatik, mengurai rasa lemas atau cemas yang selama ini dirasakan penonton.",
+          "sfx": "Whoosh lembut pada transisi adegan.",
+          "bgm": "Alunan dawai mengalir hangat."
+        }
+      },
+      {
+        "segment_id": "SEG_03",
+        "phase": "HyperFrames Scientific Mechanism",
+        "timestamp_range": "00:16 - 00:32",
+        "duration_seconds": 16,
+        "spoken_text": "Air hangat melebarkan pembuluh darah tepi di kulitmu, membuang panas inti tubuh ke udara, sehingga suhu dalam tubuhmu justru turun drastis.",
+        "word_count": 21,
+        "visual_direction": "Klip animasi vektor HyperFrames: Termometer suhu tubuh inti turun dari 37.0°C ke 36.0°C dengan kurva melatonin aktif naik.",
+        "audio_design": {
+          "voice_inflection": "Jernih, edukatif berwibawa, membuka mata audiens.",
+          "sfx": "Chime rendah lembut dan suara desau alam.",
+          "bgm": "Harmoni piano ambient mengembang anggun."
+        }
+      },
+      {
+        "segment_id": "SEG_04",
+        "phase": "Actionable Rp 0 Micro-Routine",
+        "timestamp_range": "00:32 - 00:43",
+        "duration_seconds": 11,
+        "spoken_text": "Mandi air hangat satu jam sebelum tidur malam. Suhu ruangan yang sejuk akan mempercepat penurunan suhu inti dan membuatmu lelap seketika.",
+        "word_count": 21,
+        "visual_direction": "Gestur tangan tanpa wajah yang sedang mempraktikkan protokol sehat (menuang air, menyeduh teh, jalan kaki).",
+        "audio_design": {
+          "voice_inflection": "Hangat, mengajak aksi konkret tanpa beban.",
+          "sfx": "Foley alami (gemericik air, gesekan dedaunan).",
+          "bgm": "Melodi semakin rileks dan menenangkan."
+        }
+      },
+      {
+        "segment_id": "SEG_05",
+        "phase": "Empowerment & Seamless Loop Climax",
+        "timestamp_range": "00:43 - 00:52",
+        "duration_seconds": 9,
+        "spoken_text": "Tidur nyenyak bukan tentang menghangatkan tubuh, melainkan mendinginkan suhu intinya secara perlahan. Malam ini sebelum tidur, ingat rahasia ini:",
+        "word_count": 19,
+        "visual_direction": "Outro Card Zen Dita Gentle Wellness dengan logo sage green & emas, bersiap menyambung ulang ke detik ke-0.",
+        "audio_design": {
+          "voice_inflection": "Menutup tuntas dan mengalir mulus ke kalimat pertama.",
+          "sfx": "Bell chime zen lembut di ujung video.",
+          "bgm": "Fade-out anggun yang beresonansi harmonis."
+        }
+      }
+    ]
+  },
+  "seamless_loop_mechanism": {
+    "loop_phrase_ending": "Tidur nyenyak bukan tentang menghangatkan tubuh, melainkan mendinginkan suhu intinya secara perlahan. Malam ini sebelum tidur, ingat rahasia ini:",
+    "hook_phrase_beginning": "Mandi air hangat sebelum tidur bikin badan rileks dan cepat tidur? Ternyata mekanismenya bukan seperti yang kamu kira!",
+    "full_loop_sentence": "Tidur nyenyak bukan tentang menghangatkan tubuh, melainkan mendinginkan suhu intinya secara perlahan. Malam ini sebelum tidur, ingat rahasia ini: Mandi air hangat sebelum tidur bikin badan rileks dan cepat tidur? Ternyata mekanismenya bukan seperti yang kamu kira!",
+    "retention_mechanic": "Kalimat penutup tuntas secara tata bahasa, namun saat diputar ulang di feed medsos langsung menjadi pembuka logis bagi kalimat shock hook di detik awal."
+  },
+  "verbatim_script_master": {
+    "full_spoken_text_id": "Mandi air hangat sebelum tidur bikin badan rileks dan cepat tidur? Ternyata mekanismenya bukan seperti yang kamu kira! Tubuh manusia membutuhkan penurunan suhu inti sebesar satu derajat celsius agar otak bisa memicu rasa kantuk dan hormon melatonin. Air hangat melebarkan pembuluh darah tepi di kulitmu, membuang panas inti tubuh ke udara, sehingga suhu dalam tubuhmu justru turun drastis. Mandi air hangat satu jam sebelum tidur malam. Suhu ruangan yang sejuk akan mempercepat penurunan suhu inti dan membuatmu lelap seketika. Tidur nyenyak bukan tentang menghangatkan tubuh, melainkan mendinginkan suhu intinya secara perlahan. Malam ini sebelum tidur, ingat rahasia ini:",
+    "total_word_count": 98,
+    "estimated_reading_duration_seconds": 51.0,
+    "average_wpm": 120,
+    "voiceover_profile": {
+      "service": "Edge TTS",
+      "voice_name": "id-ID-GadisNeural",
+      "rate": "+0%",
+      "pitch": "+0Hz",
+      "volume": "+0%"
+    }
+  },
+  "production_prompts_for_fullmontage": {
+    "hyperframes_scene_spec": "Termometer suhu tubuh inti turun dari 37.0°C ke 36.0°C dengan kurva melatonin aktif naik.",
+    "broll_queries": [
+      "warm water pouring bathtub steam",
+      "cozy bedroom dark evening linen bed",
+      "feet touching wooden floor calm",
+      "dim bedside lamp warm light",
+      "peaceful sleep silhouette"
+    ]
+  },
+  "social_fleet_distribution_metadata": {
+    "title": "Mandi Air Hangat Sebelum Tidur Bikin Mengantuk? Ini Penjelasan Sainsnya! 🛁🌙",
+    "youtube_shorts_title": "Mandi Air Hangat Sebelum Tidur Bikin Mengantuk? Ini Penjelasan Sainsnya #Shorts #DitaWellness",
+    "caption_instagram_tiktok": "Mandi air hangat sebelum tidur bikin badan rileks dan cepat tidur? Ternyata mekanismenya bukan seperti yang kamu kira!\n\nSecara biologis: Tubuh manusia membutuhkan penurunan suhu inti sebesar satu derajat celsius agar otak bisa memicu rasa kantuk dan hormon melatonin. Air hangat melebarkan pembuluh darah tepi di kulitmu, membuang panas inti tubuh ke udara, sehingga suhu dalam tubuhmu justru turun drastis.\n\n🌿 Protokol Lembut Hari Ini:\nMandi air hangat satu jam sebelum tidur malam. Suhu ruangan yang sejuk akan mempercepat penurunan suhu inti dan membuatmu lelap seketika.\n\n💬 Kamu lebih suka mandi air hangat atau air dingin sebelum tidur malam? Ceritakan di kolom komentar! 👇\n\nSimpan video ini biar nggak lupa, dan share ke orang tersayang yang butuh tips sehat alami ini! ✨\n\n#ditawellness #gentlewellness #biohackingindonesia #hidupsehatalami #kesehatantubuh #tipssehatalami #polahidupsehat #sainskesehatan"
+  }
+}

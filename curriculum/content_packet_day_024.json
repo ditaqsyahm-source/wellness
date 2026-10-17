@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "channel_id": "DITA-03",
+    "channel_name": "Dita Gentle Wellness",
+    "handle": "@ditawellness",
+    "day_number": 24,
+    "cycle_number": 4,
+    "cycle_theme": "Nutrisi Fungsional & Kestabilan Gula Darah",
+    "topic_pillar_id": "P5",
+    "topic_pillar_name": "Nutrisi Fungsional & Kestabilan Gula Darah",
+    "narrative_format_id": "F1",
+    "narrative_format_name": "Protokol Harian Siap Tiru (Step-by-Step Practical Routine)",
+    "emotional_trigger": "Pencerahan Menenangkan & Solusi Biologis Tanpa Biaya",
+    "visual_pacing": "Transisi Sinematik Estetik menuju Visual Sains HyperFrames dan Protokol Praktis",
+    "target_duration_range": "48-53 detik",
+    "cta_hook_type": "Simpan Protokol & Praktikkan Hari Ini",
+    "target_audience": "Profesional muda, pekerja kantoran, pria & wanita usia 22-45 tahun",
+    "created_by": "Content Research & Narrative Architect (@content-researcher)",
+    "reviewed_by": "Herman (Command Point / CEO)",
+    "intended_executor": "Director (@fullmontage) & Fleet Operator (@social-operator)"
+  },
+  "scientific_research_dossier": {
+    "core_topic": "Jalan Kaki 10 Menit Pasca Makan: Otot Soleus Mengisap Glukosa! 🚶‍♂️⚡",
+    "academic_citations": [
+      {
+        "author": "Dr. Marc Hamilton, Ph.D.",
+        "publication": "iScience (Cell Press): The Potent Physiological Role of the Soleus Muscle in Whole-Body Metabolism (University of Houston)",
+        "key_findings": "Duduk diam pasca makan membiarkan glukosa berlebih mengendap di pembuluh darah, memicu inflamasi seluler dan rasa kantuk berat. Kontraksi otot betis (soleus muscle) mengaktifkan reseptor GLUT-4 yang menyerap gula darah langsung ke sel otot tanpa bantuan hormon insulin."
+      }
+    ],
+    "psychological_mechanism_breakdown": {
+      "neurobiological_state": "Kontraksi otot betis (soleus muscle) mengaktifkan reseptor GLUT-4 yang menyerap gula darah langsung ke sel otot tanpa bantuan hormon insulin.",
+      "cognitive_limitation": "Pola kebiasaan modern sering bertentangan dengan jam biologis purba sel manusia.",
+      "common_trap": "Duduk diam pasca makan membiarkan glukosa berlebih mengendap di pembuluh darah, memicu inflamasi seluler dan rasa kantuk berat.",
+      "solution_formula": "Lakukan jalan kaki santai di koridor atau luar ruangan selama sepuluh menit saja tepat setelah suapan makan terakhirmu tuntas."
+    }
+  },
+  "script_architecture_breakdown": {
+    "anatomy": [
+      {
+        "segment_id": "SEG_01",
+        "phase": "Thumb-Stopping Shock Hook",
+        "timestamp_range": "00:00 - 00:05",
+        "duration_seconds": 5,
+        "spoken_text": "Jangan langsung duduk atau rebahan setelah makan siang! Bergeraklah sepuluh menit untuk trik otot ajaib ini!",
+        "word_count": 16,
+        "visual_direction": "Kamera gerak lambat: visual estetika zen pagi hari / suasana tenang tanpa wajah. Headline peringatan emas-merah di sepertiga atas layar.",
+        "audio_design": {
+          "voice_inflection": "Tegas, intim, bersahabat, scroll-stopping.",
+          "sfx": "Sub-bass soft impact thud pada frame ke-1.",
+          "bgm": "Petikan dawai akustik dan ambient synth lembut."
+        }
+      },
+      {
+        "segment_id": "SEG_02",
+        "phase": "Emotional & Biological Anchor",
+        "timestamp_range": "00:05 - 00:16",
+        "duration_seconds": 11,
+        "spoken_text": "Duduk diam pasca makan membiarkan glukosa berlebih mengendap di pembuluh darah, memicu inflamasi seluler dan rasa kantuk berat.",
+        "word_count": 18,
+        "visual_direction": "Close-up macro estetika: cangkir teh, piring makanan sehat, atau detail dedaunan dengan cahaya alami.",
+        "audio_design": {
+          "voice_inflection": "Empatik, mengurai rasa lemas atau cemas yang selama ini dirasakan penonton.",
+          "sfx": "Whoosh lembut pada transisi adegan.",
+          "bgm": "Alunan dawai mengalir hangat."
+        }
+      },
+      {
+        "segment_id": "SEG_03",
+        "phase": "HyperFrames Scientific Mechanism",
+        "timestamp_range": "00:16 - 00:32",
+        "duration_seconds": 16,
+        "spoken_text": "Kontraksi otot betis (soleus muscle) mengaktifkan reseptor GLUT-4 yang menyerap gula darah langsung ke sel otot tanpa bantuan hormon insulin.",
+        "word_count": 20,
+        "visual_direction": "Klip animasi vektor HyperFrames: Aktivasi reseptor GLUT-4 pada otot betis mengisap molekul glukosa bebas dalam darah.",
+        "audio_design": {
+          "voice_inflection": "Jernih, edukatif berwibawa, membuka mata audiens.",
+          "sfx": "Chime rendah lembut dan suara desau alam.",
+          "bgm": "Harmoni piano ambient mengembang anggun."
+        }
+      },
+      {
+        "segment_id": "SEG_04",
+        "phase": "Actionable Rp 0 Micro-Routine",
+        "timestamp_range": "00:32 - 00:43",
+        "duration_seconds": 11,
+        "spoken_text": "Lakukan jalan kaki santai di koridor atau luar ruangan selama sepuluh menit saja tepat setelah suapan makan terakhirmu tuntas.",
+        "word_count": 19,
+        "visual_direction": "Gestur tangan tanpa wajah yang sedang mempraktikkan protokol sehat (menuang air, menyeduh teh, jalan kaki).",
+        "audio_design": {
+          "voice_inflection": "Hangat, mengajak aksi konkret tanpa beban.",
+          "sfx": "Foley alami (gemericik air, gesekan dedaunan).",
+          "bgm": "Melodi semakin rileks dan menenangkan."
+        }
+      },
+      {
+        "segment_id": "SEG_05",
+        "phase": "Empowerment & Seamless Loop Climax",
+        "timestamp_range": "00:43 - 00:52",
+        "duration_seconds": 9,
+        "spoken_text": "Langkah kecil setelah makan adalah tameng terhebat melawan penuaan seluler dan diabetes. Sebelum kamu bersandar di kursi, ingat ini:",
+        "word_count": 19,
+        "visual_direction": "Outro Card Zen Dita Gentle Wellness dengan logo sage green & emas, bersiap menyambung ulang ke detik ke-0.",
+        "audio_design": {
+          "voice_inflection": "Menutup tuntas dan mengalir mulus ke kalimat pertama.",
+          "sfx": "Bell chime zen lembut di ujung video.",
+          "bgm": "Fade-out anggun yang beresonansi harmonis."
+        }
+      }
+    ]
+  },
+  "seamless_loop_mechanism": {
+    "loop_phrase_ending": "Langkah kecil setelah makan adalah tameng terhebat melawan penuaan seluler dan diabetes. Sebelum kamu bersandar di kursi, ingat ini:",
+    "hook_phrase_beginning": "Jangan langsung duduk atau rebahan setelah makan siang! Bergeraklah sepuluh menit untuk trik otot ajaib ini!",
+    "full_loop_sentence": "Langkah kecil setelah makan adalah tameng terhebat melawan penuaan seluler dan diabetes. Sebelum kamu bersandar di kursi, ingat ini: Jangan langsung duduk atau rebahan setelah makan siang! Bergeraklah sepuluh menit untuk trik otot ajaib ini!",
+    "retention_mechanic": "Kalimat penutup tuntas secara tata bahasa, namun saat diputar ulang di feed medsos langsung menjadi pembuka logis bagi kalimat shock hook di detik awal."
+  },
+  "verbatim_script_master": {
+    "full_spoken_text_id": "Jangan langsung duduk atau rebahan setelah makan siang! Bergeraklah sepuluh menit untuk trik otot ajaib ini! Duduk diam pasca makan membiarkan glukosa berlebih mengendap di pembuluh darah, memicu inflamasi seluler dan rasa kantuk berat. Kontraksi otot betis (soleus muscle) mengaktifkan reseptor GLUT-4 yang menyerap gula darah langsung ke sel otot tanpa bantuan hormon insulin. Lakukan jalan kaki santai di koridor atau luar ruangan selama sepuluh menit saja tepat setelah suapan makan terakhirmu tuntas. Langkah kecil setelah makan adalah tameng terhebat melawan penuaan seluler dan diabetes. Sebelum kamu bersandar di kursi, ingat ini:",
+    "total_word_count": 92,
+    "estimated_reading_duration_seconds": 51.0,
+    "average_wpm": 120,
+    "voiceover_profile": {
+      "service": "Edge TTS",
+      "voice_name": "id-ID-GadisNeural",
+      "rate": "+0%",
+      "pitch": "+0Hz",
+      "volume": "+0%"
+    }
+  },
+  "production_prompts_for_fullmontage": {
+    "hyperframes_scene_spec": "Aktivasi reseptor GLUT-4 pada otot betis mengisap molekul glukosa bebas dalam darah.",
+    "broll_queries": [
+      "standing up from dining chair after meal",
+      "walking outdoors park sunlight post lunch",
+      "close up feet walking sneakers path",
+      "alert fresh face breathing outdoor air",
+      "sunlit street sidewalk strolling"
+    ]
+  },
+  "social_fleet_distribution_metadata": {
+    "title": "Jalan Kaki 10 Menit Pasca Makan: Otot Soleus Mengisap Glukosa! 🚶‍♂️⚡",
+    "youtube_shorts_title": "Jalan Kaki 10 Menit Pasca Makan: Otot Soleus Mengisap Glukosa #Shorts #DitaWellness",
+    "caption_instagram_tiktok": "Jangan langsung duduk atau rebahan setelah makan siang! Bergeraklah sepuluh menit untuk trik otot ajaib ini!\n\nSecara biologis: Duduk diam pasca makan membiarkan glukosa berlebih mengendap di pembuluh darah, memicu inflamasi seluler dan rasa kantuk berat. Kontraksi otot betis (soleus muscle) mengaktifkan reseptor GLUT-4 yang menyerap gula darah langsung ke sel otot tanpa bantuan hormon insulin.\n\n🌿 Protokol Lembut Hari Ini:\nLakukan jalan kaki santai di koridor atau luar ruangan selama sepuluh menit saja tepat setelah suapan makan terakhirmu tuntas.\n\n💬 Siapa yang habis makan siang bawaannya langsung mau tidur atau rebahan di kasur? Tulis di kolom komentar! 👇\n\nSimpan video ini biar nggak lupa, dan share ke orang tersayang yang butuh tips sehat alami ini! ✨\n\n#ditawellness #gentlewellness #biohackingindonesia #hidupsehatalami #kesehatantubuh #tipssehatalami #polahidupsehat #sainskesehatan"
+  }
+}

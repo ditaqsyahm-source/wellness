@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "channel_id": "DITA-03",
+    "channel_name": "Dita Gentle Wellness",
+    "handle": "@ditawellness",
+    "day_number": 19,
+    "cycle_number": 3,
+    "cycle_theme": "Kesehatan Usus & Mikrobiom Anti-Inflamasi",
+    "topic_pillar_id": "P3",
+    "topic_pillar_name": "Kesehatan Usus & Mikrobiom Anti-Inflamasi",
+    "narrative_format_id": "F1",
+    "narrative_format_name": "Protokol Harian Siap Tiru (Step-by-Step Practical Routine)",
+    "emotional_trigger": "Pencerahan Menenangkan & Solusi Biologis Tanpa Biaya",
+    "visual_pacing": "Transisi Sinematik Estetik menuju Visual Sains HyperFrames dan Protokol Praktis",
+    "target_duration_range": "48-53 detik",
+    "cta_hook_type": "Simpan Protokol & Praktikkan Hari Ini",
+    "target_audience": "Profesional muda, pekerja kantoran, pria & wanita usia 22-45 tahun",
+    "created_by": "Content Research & Narrative Architect (@content-researcher)",
+    "reviewed_by": "Herman (Command Point / CEO)",
+    "intended_executor": "Director (@fullmontage) & Fleet Operator (@social-operator)"
+  },
+  "scientific_research_dossier": {
+    "core_topic": "Kaldu Tulang (Bone Broth): Obat Alami Lambung dan Maag Kronis 🥣✨",
+    "academic_citations": [
+      {
+        "author": "Dr. Josh Axe, D.N.M.",
+        "publication": "Nutritional Immunology: Glutamine and Glycine Support of Intestinal Mucosal Barrier Integrity",
+        "key_findings": "Kaldu tulang yang dimasak lambat kaya akan asam amino glisin, prolin, serta kolagen alami yang bioavailable. Asam amino ini menjadi batu bata pembangun untuk menambal lapisan mukosa lambung dan mempercepat regenerasi epitel usus yang luka."
+      }
+    ],
+    "psychological_mechanism_breakdown": {
+      "neurobiological_state": "Asam amino ini menjadi batu bata pembangun untuk menambal lapisan mukosa lambung dan mempercepat regenerasi epitel usus yang luka.",
+      "cognitive_limitation": "Pola kebiasaan modern sering bertentangan dengan jam biologis purba sel manusia.",
+      "common_trap": "Kaldu tulang yang dimasak lambat kaya akan asam amino glisin, prolin, serta kolagen alami yang bioavailable.",
+      "solution_formula": "Nikmati secangkir kaldu tulang hangat di pagi hari atau sebelum makan malam dengan sejumput garam laut dan irisan jahe segar."
+    }
+  },
+  "script_architecture_breakdown": {
+    "anatomy": [
+      {
+        "segment_id": "SEG_01",
+        "phase": "Thumb-Stopping Shock Hook",
+        "timestamp_range": "00:00 - 00:05",
+        "duration_seconds": 5,
+        "spoken_text": "Secangkir air rebusan kaldu tulang hangat ini jauh lebih ampuh menenangkan dinding lambungmu dibanding obat maag biasa!",
+        "word_count": 17,
+        "visual_direction": "Kamera gerak lambat: visual estetika zen pagi hari / suasana tenang tanpa wajah. Headline peringatan emas-merah di sepertiga atas layar.",
+        "audio_design": {
+          "voice_inflection": "Tegas, intim, bersahabat, scroll-stopping.",
+          "sfx": "Sub-bass soft impact thud pada frame ke-1.",
+          "bgm": "Petikan dawai akustik dan ambient synth lembut."
+        }
+      },
+      {
+        "segment_id": "SEG_02",
+        "phase": "Emotional & Biological Anchor",
+        "timestamp_range": "00:05 - 00:16",
+        "duration_seconds": 11,
+        "spoken_text": "Kaldu tulang yang dimasak lambat kaya akan asam amino glisin, prolin, serta kolagen alami yang bioavailable.",
+        "word_count": 16,
+        "visual_direction": "Close-up macro estetika: cangkir teh, piring makanan sehat, atau detail dedaunan dengan cahaya alami.",
+        "audio_design": {
+          "voice_inflection": "Empatik, mengurai rasa lemas atau cemas yang selama ini dirasakan penonton.",
+          "sfx": "Whoosh lembut pada transisi adegan.",
+          "bgm": "Alunan dawai mengalir hangat."
+        }
+      },
+      {
+        "segment_id": "SEG_03",
+        "phase": "HyperFrames Scientific Mechanism",
+        "timestamp_range": "00:16 - 00:32",
+        "duration_seconds": 16,
+        "spoken_text": "Asam amino ini menjadi batu bata pembangun untuk menambal lapisan mukosa lambung dan mempercepat regenerasi epitel usus yang luka.",
+        "word_count": 19,
+        "visual_direction": "Klip animasi vektor HyperFrames: Asam amino glisin & kolagen melapisi dan merapatkan dinding mukosa lambung.",
+        "audio_design": {
+          "voice_inflection": "Jernih, edukatif berwibawa, membuka mata audiens.",
+          "sfx": "Chime rendah lembut dan suara desau alam.",
+          "bgm": "Harmoni piano ambient mengembang anggun."
+        }
+      },
+      {
+        "segment_id": "SEG_04",
+        "phase": "Actionable Rp 0 Micro-Routine",
+        "timestamp_range": "00:32 - 00:43",
+        "duration_seconds": 11,
+        "spoken_text": "Nikmati secangkir kaldu tulang hangat di pagi hari atau sebelum makan malam dengan sejumput garam laut dan irisan jahe segar.",
+        "word_count": 20,
+        "visual_direction": "Gestur tangan tanpa wajah yang sedang mempraktikkan protokol sehat (menuang air, menyeduh teh, jalan kaki).",
+        "audio_design": {
+          "voice_inflection": "Hangat, mengajak aksi konkret tanpa beban.",
+          "sfx": "Foley alami (gemericik air, gesekan dedaunan).",
+          "bgm": "Melodi semakin rileks dan menenangkan."
+        }
+      },
+      {
+        "segment_id": "SEG_05",
+        "phase": "Empowerment & Seamless Loop Climax",
+        "timestamp_range": "00:43 - 00:52",
+        "duration_seconds": 9,
+        "spoken_text": "Makanan adalah obat terbaik saat diolah dengan kesabaran dan keaslian alami. Sebelum lambungmu perih kembali, ingat resep kuno ini:",
+        "word_count": 19,
+        "visual_direction": "Outro Card Zen Dita Gentle Wellness dengan logo sage green & emas, bersiap menyambung ulang ke detik ke-0.",
+        "audio_design": {
+          "voice_inflection": "Menutup tuntas dan mengalir mulus ke kalimat pertama.",
+          "sfx": "Bell chime zen lembut di ujung video.",
+          "bgm": "Fade-out anggun yang beresonansi harmonis."
+        }
+      }
+    ]
+  },
+  "seamless_loop_mechanism": {
+    "loop_phrase_ending": "Makanan adalah obat terbaik saat diolah dengan kesabaran dan keaslian alami. Sebelum lambungmu perih kembali, ingat resep kuno ini:",
+    "hook_phrase_beginning": "Secangkir air rebusan kaldu tulang hangat ini jauh lebih ampuh menenangkan dinding lambungmu dibanding obat maag biasa!",
+    "full_loop_sentence": "Makanan adalah obat terbaik saat diolah dengan kesabaran dan keaslian alami. Sebelum lambungmu perih kembali, ingat resep kuno ini: Secangkir air rebusan kaldu tulang hangat ini jauh lebih ampuh menenangkan dinding lambungmu dibanding obat maag biasa!",
+    "retention_mechanic": "Kalimat penutup tuntas secara tata bahasa, namun saat diputar ulang di feed medsos langsung menjadi pembuka logis bagi kalimat shock hook di detik awal."
+  },
+  "verbatim_script_master": {
+    "full_spoken_text_id": "Secangkir air rebusan kaldu tulang hangat ini jauh lebih ampuh menenangkan dinding lambungmu dibanding obat maag biasa! Kaldu tulang yang dimasak lambat kaya akan asam amino glisin, prolin, serta kolagen alami yang bioavailable. Asam amino ini menjadi batu bata pembangun untuk menambal lapisan mukosa lambung dan mempercepat regenerasi epitel usus yang luka. Nikmati secangkir kaldu tulang hangat di pagi hari atau sebelum makan malam dengan sejumput garam laut dan irisan jahe segar. Makanan adalah obat terbaik saat diolah dengan kesabaran dan keaslian alami. Sebelum lambungmu perih kembali, ingat resep kuno ini:",
+    "total_word_count": 91,
+    "estimated_reading_duration_seconds": 51.0,
+    "average_wpm": 120,
+    "voiceover_profile": {
+      "service": "Edge TTS",
+      "voice_name": "id-ID-GadisNeural",
+      "rate": "+0%",
+      "pitch": "+0Hz",
+      "volume": "+0%"
+    }
+  },
+  "production_prompts_for_fullmontage": {
+    "hyperframes_scene_spec": "Asam amino glisin & kolagen melapisi dan merapatkan dinding mukosa lambung.",
+    "broll_queries": [
+      "steaming bone broth soup ceramic bowl",
+      "fresh ginger slice cutting board herb",
+      "hands holding warm soup bowl comfort",
+      "gentle steam rising rustic kitchen table",
+      "peaceful soothing dining atmosphere"
+    ]
+  },
+  "social_fleet_distribution_metadata": {
+    "title": "Kaldu Tulang (Bone Broth): Obat Alami Lambung dan Maag Kronis 🥣✨",
+    "youtube_shorts_title": "Kaldu Tulang (Bone Broth): Obat Alami Lambung dan Maag Kronis 🥣✨ #Shorts #DitaWellness",
+    "caption_instagram_tiktok": "Secangkir air rebusan kaldu tulang hangat ini jauh lebih ampuh menenangkan dinding lambungmu dibanding obat maag biasa!\n\nSecara biologis: Kaldu tulang yang dimasak lambat kaya akan asam amino glisin, prolin, serta kolagen alami yang bioavailable. Asam amino ini menjadi batu bata pembangun untuk menambal lapisan mukosa lambung dan mempercepat regenerasi epitel usus yang luka.\n\n🌿 Protokol Lembut Hari Ini:\nNikmati secangkir kaldu tulang hangat di pagi hari atau sebelum makan malam dengan sejumput garam laut dan irisan jahe segar.\n\n💬 Pernah coba rutin minum bone broth atau kaldu sup hangat buat lambung? Gimana rasanya di perutmu? Tulis di bawah! 👇\n\nSimpan video ini biar nggak lupa, dan share ke orang tersayang yang butuh tips sehat alami ini! ✨\n\n#ditawellness #gentlewellness #biohackingindonesia #hidupsehatalami #kesehatantubuh #tipssehatalami #polahidupsehat #sainskesehatan"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "channel_id": "DITA-03",
+    "channel_name": "Dita Gentle Wellness",
+    "handle": "@ditawellness",
+    "day_number": 2,
+    "cycle_number": 1,
+    "cycle_theme": "Ritme Sirkadian & Arsitektur Tidur Dalam",
+    "topic_pillar_id": "P1",
+    "topic_pillar_name": "Ritme Sirkadian & Arsitektur Tidur Dalam",
+    "narrative_format_id": "F1",
+    "narrative_format_name": "Protokol Harian Siap Tiru (Step-by-Step Practical Routine)",
+    "emotional_trigger": "Pencerahan Menenangkan & Solusi Biologis Tanpa Biaya",
+    "visual_pacing": "Transisi Sinematik Estetik menuju Visual Sains HyperFrames dan Protokol Praktis",
+    "target_duration_range": "48-53 detik",
+    "cta_hook_type": "Simpan Protokol & Praktikkan Hari Ini",
+    "target_audience": "Profesional muda, pekerja kantoran, pria & wanita usia 22-45 tahun",
+    "created_by": "Content Research & Narrative Architect (@content-researcher)",
+    "reviewed_by": "Herman (Command Point / CEO)",
+    "intended_executor": "Director (@fullmontage) & Fleet Operator (@social-operator)"
+  },
+  "scientific_research_dossier": {
+    "core_topic": "Stop Minum Kopi di 90 Menit Pertama Bangun Tidur! Ini Bahayanya ☕🌿",
+    "academic_citations": [
+      {
+        "author": "Dr. Matthew Walker, Ph.D. & Dr. Andrew Huberman",
+        "publication": "Stanford University & Center for Human Sleep Science UC Berkeley (2022)",
+        "key_findings": "Saat bangun, zat kimia adenosin masih menumpuk di otak. Kafein yang masuk terlalu cepat hanya memblokir reseptor sementara tanpa membersihkannya. Akibatnya, saat kafein habis di jam dua siang, seluruh adenosin menyerbu sekaligus, memicu rasa lemas dan kantuk yang luar biasa parah."
+      }
+    ],
+    "psychological_mechanism_breakdown": {
+      "neurobiological_state": "Akibatnya, saat kafein habis di jam dua siang, seluruh adenosin menyerbu sekaligus, memicu rasa lemas dan kantuk yang luar biasa parah.",
+      "cognitive_limitation": "Pola kebiasaan modern sering bertentangan dengan jam biologis purba sel manusia.",
+      "common_trap": "Saat bangun, zat kimia adenosin masih menumpuk di otak. Kafein yang masuk terlalu cepat hanya memblokir reseptor sementara tanpa membersihkannya.",
+      "solution_formula": "Tunda cangkir pertamamu minimal sembilan puluh menit. Biarkan foton matahari pagi dan hidrasi air putih membersihkan adenosinmu secara alami."
+    }
+  },
+  "script_architecture_breakdown": {
+    "anatomy": [
+      {
+        "segment_id": "SEG_01",
+        "phase": "Thumb-Stopping Shock Hook",
+        "timestamp_range": "00:00 - 00:05",
+        "duration_seconds": 5,
+        "spoken_text": "Stop minum kopi di sembilan puluh menit pertama setelah kamu bangun tidur! Ini alasan biologisnya.",
+        "word_count": 15,
+        "visual_direction": "Kamera gerak lambat: visual estetika zen pagi hari / suasana tenang tanpa wajah. Headline peringatan emas-merah di sepertiga atas layar.",
+        "audio_design": {
+          "voice_inflection": "Tegas, intim, bersahabat, scroll-stopping.",
+          "sfx": "Sub-bass soft impact thud pada frame ke-1.",
+          "bgm": "Petikan dawai akustik dan ambient synth lembut."
+        }
+      },
+      {
+        "segment_id": "SEG_02",
+        "phase": "Emotional & Biological Anchor",
+        "timestamp_range": "00:05 - 00:16",
+        "duration_seconds": 11,
+        "spoken_text": "Saat bangun, zat kimia adenosin masih menumpuk di otak. Kafein yang masuk terlalu cepat hanya memblokir reseptor sementara tanpa membersihkannya.",
+        "word_count": 20,
+        "visual_direction": "Close-up macro estetika: cangkir teh, piring makanan sehat, atau detail dedaunan dengan cahaya alami.",
+        "audio_design": {
+          "voice_inflection": "Empatik, mengurai rasa lemas atau cemas yang selama ini dirasakan penonton.",
+          "sfx": "Whoosh lembut pada transisi adegan.",
+          "bgm": "Alunan dawai mengalir hangat."
+        }
+      },
+      {
+        "segment_id": "SEG_03",
+        "phase": "HyperFrames Scientific Mechanism",
+        "timestamp_range": "00:16 - 00:32",
+        "duration_seconds": 16,
+        "spoken_text": "Akibatnya, saat kafein habis di jam dua siang, seluruh adenosin menyerbu sekaligus, memicu rasa lemas dan kantuk yang luar biasa parah.",
+        "word_count": 21,
+        "visual_direction": "Klip animasi vektor HyperFrames: Diagram pembersihan molekul adenosin (biru) vs reseptor kafein (merah) dengan grafik crash jam 14:00.",
+        "audio_design": {
+          "voice_inflection": "Jernih, edukatif berwibawa, membuka mata audiens.",
+          "sfx": "Chime rendah lembut dan suara desau alam.",
+          "bgm": "Harmoni piano ambient mengembang anggun."
+        }
+      },
+      {
+        "segment_id": "SEG_04",
+        "phase": "Actionable Rp 0 Micro-Routine",
+        "timestamp_range": "00:32 - 00:43",
+        "duration_seconds": 11,
+        "spoken_text": "Tunda cangkir pertamamu minimal sembilan puluh menit. Biarkan foton matahari pagi dan hidrasi air putih membersihkan adenosinmu secara alami.",
+        "word_count": 19,
+        "visual_direction": "Gestur tangan tanpa wajah yang sedang mempraktikkan protokol sehat (menuang air, menyeduh teh, jalan kaki).",
+        "audio_design": {
+          "voice_inflection": "Hangat, mengajak aksi konkret tanpa beban.",
+          "sfx": "Foley alami (gemericik air, gesekan dedaunan).",
+          "bgm": "Melodi semakin rileks dan menenangkan."
+        }
+      },
+      {
+        "segment_id": "SEG_05",
+        "phase": "Empowerment & Seamless Loop Climax",
+        "timestamp_range": "00:43 - 00:52",
+        "duration_seconds": 9,
+        "spoken_text": "Kopi terbaik adalah yang diminum saat hormon kortisolmu mulai turun secara wajar. Mulai besok pagi, ingat baik-baik rahasia ini:",
+        "word_count": 19,
+        "visual_direction": "Outro Card Zen Dita Gentle Wellness dengan logo sage green & emas, bersiap menyambung ulang ke detik ke-0.",
+        "audio_design": {
+          "voice_inflection": "Menutup tuntas dan mengalir mulus ke kalimat pertama.",
+          "sfx": "Bell chime zen lembut di ujung video.",
+          "bgm": "Fade-out anggun yang beresonansi harmonis."
+        }
+      }
+    ]
+  },
+  "seamless_loop_mechanism": {
+    "loop_phrase_ending": "Kopi terbaik adalah yang diminum saat hormon kortisolmu mulai turun secara wajar. Mulai besok pagi, ingat baik-baik rahasia ini:",
+    "hook_phrase_beginning": "Stop minum kopi di sembilan puluh menit pertama setelah kamu bangun tidur! Ini alasan biologisnya.",
+    "full_loop_sentence": "Kopi terbaik adalah yang diminum saat hormon kortisolmu mulai turun secara wajar. Mulai besok pagi, ingat baik-baik rahasia ini: Stop minum kopi di sembilan puluh menit pertama setelah kamu bangun tidur! Ini alasan biologisnya.",
+    "retention_mechanic": "Kalimat penutup tuntas secara tata bahasa, namun saat diputar ulang di feed medsos langsung menjadi pembuka logis bagi kalimat shock hook di detik awal."
+  },
+  "verbatim_script_master": {
+    "full_spoken_text_id": "Stop minum kopi di sembilan puluh menit pertama setelah kamu bangun tidur! Ini alasan biologisnya. Saat bangun, zat kimia adenosin masih menumpuk di otak. Kafein yang masuk terlalu cepat hanya memblokir reseptor sementara tanpa membersihkannya. Akibatnya, saat kafein habis di jam dua siang, seluruh adenosin menyerbu sekaligus, memicu rasa lemas dan kantuk yang luar biasa parah. Tunda cangkir pertamamu minimal sembilan puluh menit. Biarkan foton matahari pagi dan hidrasi air putih membersihkan adenosinmu secara alami. Kopi terbaik adalah yang diminum saat hormon kortisolmu mulai turun secara wajar. Mulai besok pagi, ingat baik-baik rahasia ini:",
+    "total_word_count": 94,
+    "estimated_reading_duration_seconds": 51.0,
+    "average_wpm": 120,
+    "voiceover_profile": {
+      "service": "Edge TTS",
+      "voice_name": "id-ID-GadisNeural",
+      "rate": "+0%",
+      "pitch": "+0Hz",
+      "volume": "+0%"
+    }
+  },
+  "production_prompts_for_fullmontage": {
+    "hyperframes_scene_spec": "Diagram pembersihan molekul adenosin (biru) vs reseptor kafein (merah) dengan grafik crash jam 14:00.",
+    "broll_queries": [
+      "pouring black coffee morning cup",
+      "tired office worker rubbing eyes afternoon",
+      "morning sunlight kitchen window",
+      "glass of water wooden table",
+      "steam rising coffee ceramic mug"
+    ]
+  },
+  "social_fleet_distribution_metadata": {
+    "title": "Stop Minum Kopi di 90 Menit Pertama Bangun Tidur! Ini Bahayanya ☕🌿",
+    "youtube_shorts_title": "Stop Minum Kopi di 90 Menit Pertama Bangun Tidur #Shorts #DitaWellness",
+    "caption_instagram_tiktok": "Stop minum kopi di sembilan puluh menit pertama setelah kamu bangun tidur! Ini alasan biologisnya.\n\nSecara biologis: Saat bangun, zat kimia adenosin masih menumpuk di otak. Kafein yang masuk terlalu cepat hanya memblokir reseptor sementara tanpa membersihkannya. Akibatnya, saat kafein habis di jam dua siang, seluruh adenosin menyerbu sekaligus, memicu rasa lemas dan kantuk yang luar biasa parah.\n\n🌿 Protokol Lembut Hari Ini:\nTunda cangkir pertamamu minimal sembilan puluh menit. Biarkan foton matahari pagi dan hidrasi air putih membersihkan adenosinmu secara alami.\n\n💬 Kamu tim yang mana: bangun langsung ngopi hitam, atau tunggu sarapan dulu? Tulis kebiasaan kopimu di bawah! 👇\n\nSimpan video ini biar nggak lupa, dan share ke orang tersayang yang butuh tips sehat alami ini! ✨\n\n#ditawellness #gentlewellness #biohackingindonesia #hidupsehatalami #kesehatantubuh #tipssehatalami #polahidupsehat #sainskesehatan"
+  }
+}
