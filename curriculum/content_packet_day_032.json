@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "channel_id": "DITA-03",
+    "channel_name": "Dita Gentle Wellness",
+    "handle": "@ditawellness",
+    "day_number": 32,
+    "cycle_number": 5,
+    "cycle_theme": "Arsitektur Tidur Dalam (Deep Sleep)",
+    "topic_pillar_id": "P1",
+    "topic_pillar_name": "Arsitektur Tidur Dalam (Deep Sleep)",
+    "narrative_format_id": "F1",
+    "narrative_format_name": "Protokol Harian Siap Tiru (Step-by-Step Practical Routine)",
+    "emotional_trigger": "Pencerahan Menenangkan & Solusi Biologis Tanpa Biaya",
+    "visual_pacing": "Transisi Sinematik Estetik menuju Visual Sains HyperFrames dan Protokol Praktis",
+    "target_duration_range": "48-53 detik",
+    "cta_hook_type": "Simpan Protokol & Praktikkan Hari Ini",
+    "target_audience": "Profesional muda, pekerja kantoran, pria & wanita usia 22-45 tahun",
+    "created_by": "Content Research & Narrative Architect (@content-researcher)",
+    "reviewed_by": "Herman (Command Point / CEO)",
+    "intended_executor": "Director (@fullmontage) & Fleet Operator (@social-operator)"
+  },
+  "scientific_research_dossier": {
+    "core_topic": "Tidur Miring ke Kiri: Saluran Glymphatic Membersihkan Otak! 🧠🛌",
+    "academic_citations": [
+      {
+        "author": "Dr. Matthew Walker, Ph.D.",
+        "publication": "Why We Sleep: The New Science of Sleep and Dreams (Scribner)",
+        "key_findings": "Sistem Glymphatic otak bekerja sepuluh kali lipat lebih aktif saat tidur untuk membersihkan plak amiloid beta pemicu demensia. Penelitian neuroimaging membuktikan posisi lateral kiri memaksimalkan drainase cairan serebrospinal dan mencegah asam lambung naik ke kerongkongan."
+      }
+    ],
+    "psychological_mechanism_breakdown": {
+      "neurobiological_state": "Penelitian neuroimaging membuktikan posisi lateral kiri memaksimalkan drainase cairan serebrospinal dan mencegah asam lambung naik ke kerongkongan.",
+      "cognitive_limitation": "Kebiasaan modern sering mengabaikan alarm biologis sel tubuh.",
+      "common_trap": "Sistem Glymphatic otak bekerja sepuluh kali lipat lebih aktif saat tidur untuk membersihkan plak amiloid beta pemicu demensia.",
+      "solution_formula": "Gunakan bantal penyangga di antara kedua lutut untuk menjaga tulang belakang lurus saat tidur miring ke sisi kiri."
+    }
+  },
+  "script_architecture_breakdown": {
+    "anatomy": [
+      {
+        "segment_id": "SEG_01",
+        "phase": "Thumb-Stopping Shock Hook",
+        "timestamp_range": "00:00 - 00:05",
+        "duration_seconds": 5,
+        "spoken_text": "Posisi tidur miring ke kiri bukan cuma sunnah kuno, tapi posisi terbaik membersihkan plak racun di otakmu!",
+        "word_count": 17,
+        "visual_direction": "Kamera gerak lambat estetik: sudut ruangan tenang, fajar pagi atau twilight. Bebas wajah frontal. Teks peringatan kontras emas-merah di sepertiga atas layar.",
+        "audio_design": {
+          "voice_inflection": "Tegas, bersahabat, intim, scroll-stopping.",
+          "sfx": "Sub-bass soft impact thud pada detik 0.0.",
+          "bgm": "Petikan dawai akustik dan ambient synth lembut."
+        }
+      },
+      {
+        "segment_id": "SEG_02",
+        "phase": "Emotional & Biological Anchor",
+        "timestamp_range": "00:05 - 00:16",
+        "duration_seconds": 11,
+        "spoken_text": "Sistem Glymphatic otak bekerja sepuluh kali lipat lebih aktif saat tidur untuk membersihkan plak amiloid beta pemicu demensia.",
+        "word_count": 18,
+        "visual_direction": "Close-up macro estetik: seduhan teh, cangkir keramik, atau dedaunan basah berembun dengan pencahayaan alami.",
+        "audio_design": {
+          "voice_inflection": "Empatik, menenangkan, mengurai rasa lemas atau cemas yang dirasakan penonton.",
+          "sfx": "Whoosh lembut pada transisi cut visual.",
+          "bgm": "Alunan dawai mengalir hangat."
+        }
+      },
+      {
+        "segment_id": "SEG_03",
+        "phase": "HyperFrames Scientific Mechanism",
+        "timestamp_range": "00:16 - 00:32",
+        "duration_seconds": 16,
+        "spoken_text": "Penelitian neuroimaging membuktikan posisi lateral kiri memaksimalkan drainase cairan serebrospinal dan mencegah asam lambung naik ke kerongkongan.",
+        "word_count": 17,
+        "visual_direction": "Klip animasi vektor HyperFrames: Aliran cairan serebrospinal (CSF) membilas celah antar neuron otak saat tidur posisi lateral kiri.",
+        "audio_design": {
+          "voice_inflection": "Jernih, edukatif berwibawa, membuka wawasan biologis penonton.",
+          "sfx": "Chime rendah lembut dan suara desau alam.",
+          "bgm": "Harmoni piano ambient mengembang anggun."
+        }
+      },
+      {
+        "segment_id": "SEG_04",
+        "phase": "Actionable Rp 0 Micro-Routine",
+        "timestamp_range": "00:32 - 00:43",
+        "duration_seconds": 11,
+        "spoken_text": "Gunakan bantal penyangga di antara kedua lutut untuk menjaga tulang belakang lurus saat tidur miring ke sisi kiri.",
+        "word_count": 18,
+        "visual_direction": "Gestur tangan tanpa wajah yang sedang mempraktikkan protokol sehat (menuang air, jalan kaki, menyeduh herbal).",
+        "audio_design": {
+          "voice_inflection": "Hangat, memotivasi dengan kelembutan, mengajak aksi nyata.",
+          "sfx": "Foley alami (gemericik air, gesekan dedaunan).",
+          "bgm": "Melodi semakin rileks dan menenangkan."
+        }
+      },
+      {
+        "segment_id": "SEG_05",
+        "phase": "Empowerment & Seamless Loop Climax",
+        "timestamp_range": "00:43 - 00:52",
+        "duration_seconds": 9,
+        "spoken_text": "Posisi tubuhmu saat tidur adalah arsitektur bagi pembersihan sel-sel otakmu setiap malam. Sebelum memejamkan mata, ingat ini:",
+        "word_count": 17,
+        "visual_direction": "Outro Card Zen Dita Gentle Wellness dengan logo sage green & emas, bersiap menyambung ulang ke detik ke-0.",
+        "audio_design": {
+          "voice_inflection": "Menutup tuntas dan mengalir mulus ke kalimat pertama.",
+          "sfx": "Bell chime zen lembut di ujung video.",
+          "bgm": "Fade-out anggun yang beresonansi harmonis."
+        }
+      }
+    ]
+  },
+  "seamless_loop_mechanism": {
+    "loop_phrase_ending": "Posisi tubuhmu saat tidur adalah arsitektur bagi pembersihan sel-sel otakmu setiap malam. Sebelum memejamkan mata, ingat ini:",
+    "hook_phrase_beginning": "Posisi tidur miring ke kiri bukan cuma sunnah kuno, tapi posisi terbaik membersihkan plak racun di otakmu!",
+    "full_loop_sentence": "Posisi tubuhmu saat tidur adalah arsitektur bagi pembersihan sel-sel otakmu setiap malam. Sebelum memejamkan mata, ingat ini: Posisi tidur miring ke kiri bukan cuma sunnah kuno, tapi posisi terbaik membersihkan plak racun di otakmu!",
+    "retention_mechanic": "Kalimat penutup tuntas secara tata bahasa, namun saat diputar ulang di feed medsos langsung menjadi pembuka logis bagi kalimat shock hook di detik awal."
+  },
+  "verbatim_script_master": {
+    "full_spoken_text_id": "Posisi tidur miring ke kiri bukan cuma sunnah kuno, tapi posisi terbaik membersihkan plak racun di otakmu! Sistem Glymphatic otak bekerja sepuluh kali lipat lebih aktif saat tidur untuk membersihkan plak amiloid beta pemicu demensia. Penelitian neuroimaging membuktikan posisi lateral kiri memaksimalkan drainase cairan serebrospinal dan mencegah asam lambung naik ke kerongkongan. Gunakan bantal penyangga di antara kedua lutut untuk menjaga tulang belakang lurus saat tidur miring ke sisi kiri. Posisi tubuhmu saat tidur adalah arsitektur bagi pembersihan sel-sel otakmu setiap malam. Sebelum memejamkan mata, ingat ini:",
+    "total_word_count": 87,
+    "estimated_reading_duration_seconds": 51.0,
+    "average_wpm": 120,
+    "voiceover_profile": {
+      "service": "Edge TTS",
+      "voice_name": "id-ID-GadisNeural",
+      "rate": "+0%",
+      "pitch": "+0Hz",
+      "volume": "+0%"
+    }
+  },
+  "production_prompts_for_fullmontage": {
+    "hyperframes_scene_spec": "Aliran cairan serebrospinal (CSF) membilas celah antar neuron otak saat tidur posisi lateral kiri.",
+    "broll_queries": [
+      "morning sunlight nature",
+      "fresh water glass table",
+      "walking outdoor park",
+      "cozy serene bedroom",
+      "peaceful calm breath"
+    ]
+  },
+  "social_fleet_distribution_metadata": {
+    "title": "Tidur Miring ke Kiri: Saluran Glymphatic Membersihkan Otak! 🧠🛌",
+    "youtube_shorts_title": "Tidur Miring ke Kiri: Saluran Glymphatic Membersihkan Otak #Shorts #DitaWellness",
+    "caption_instagram_tiktok": "Posisi tidur miring ke kiri bukan cuma sunnah kuno, tapi posisi terbaik membersihkan plak racun di otakmu!\n\nSecara biologis: Sistem Glymphatic otak bekerja sepuluh kali lipat lebih aktif saat tidur untuk membersihkan plak amiloid beta pemicu demensia. Penelitian neuroimaging membuktikan posisi lateral kiri memaksimalkan drainase cairan serebrospinal dan mencegah asam lambung naik ke kerongkongan.\n\n🌿 Protokol Lembut Hari Ini:\nGunakan bantal penyangga di antara kedua lutut untuk menjaga tulang belakang lurus saat tidur miring ke sisi kiri.\n\n💬 Kamu biasanya kalau tidur posisinya miring ke kiri, miring ke kanan, atau telentang? Tulis di kolom komentar! 👇\n\nSimpan video ini biar nggak lupa, dan share ke orang tersayang yang butuh tips sehat alami ini! ✨\n\n#ditawellness #gentlewellness #biohackingindonesia #hidupsehatalami #kesehatantubuh #tipssehatalami #polahidupsehat #sainskesehatan"
+  }
+}

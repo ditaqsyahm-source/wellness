@@ -222,40 +222,61 @@ def upload_to_zernio(video_path, caption):
 # 3. MAIN RUNNER
 # -------------------------------------------------------------
 def main():
-    video_path = os.path.join(DIR_PATH, "output", "dita_wellness_day_001_compressed.mp4")
-    if not os.path.exists(video_path):
-        video_path = os.path.join(DIR_PATH, "output", "dita_wellness_day_001_master.mp4")
-        
+    import argparse
+    parser = argparse.ArgumentParser(description="Multi-platform publisher for DITA-03")
+    parser.add_argument("--day", type=int, default=None, help="Day index to publish")
+    parser.add_argument("--video", type=str, default=None, help="Custom video path")
+    args = parser.parse_args()
+
+    day_num = args.day
+    campaign_state_file = os.path.join(DIR_PATH, "..", "state", "campaign_state.json")
+    if day_num is None:
+        if os.path.exists(campaign_state_file):
+            try:
+                with open(campaign_state_file, "r", encoding="utf-8") as f:
+                    cs = json.load(f)
+                    day_num = cs.get("next_day") or (cs.get("active_day", 1) + 1)
+            except Exception:
+                day_num = 1
+        else:
+            day_num = 1
+
+    pad_day = str(day_num).zfill(3)
+    packet_path = os.path.join(DIR_PATH, "..", "curriculum", f"content_packet_day_{pad_day}.json")
+    if not os.path.exists(packet_path):
+        packet_path = os.path.join(DIR_PATH, "curriculum", f"content_packet_day_{pad_day}.json")
+
+    if not os.path.exists(packet_path):
+        print(f"[ERROR] Packet file not found: {packet_path}")
+        sys.exit(1)
+
+    with open(packet_path, "r", encoding="utf-8") as pf:
+        packet = json.load(pf)
+
+    video_path = args.video
+    if not video_path:
+        candidates = [
+            os.path.join(DIR_PATH, "..", "output", f"dita_wellness_day_{pad_day}_compressed.mp4"),
+            os.path.join(DIR_PATH, "..", "output", f"dita_wellness_day_{pad_day}_master.mp4"),
+            os.path.join(DIR_PATH, "output", f"dita_wellness_day_{pad_day}_compressed.mp4"),
+            os.path.join(DIR_PATH, "output", f"dita_wellness_day_{pad_day}_master.mp4"),
+        ]
+        for c in candidates:
+            if os.path.exists(c) and os.path.getsize(c) > 500000:
+                video_path = c
+                break
+
+    if not video_path or not os.path.exists(video_path):
+        print(f"[ERROR] Video file not found for Day {day_num}. Run render-video.ts first.")
+        sys.exit(1)
+
     print(f"Target Video: {video_path}")
-    
-    # Metadata Naskah Day 001
-    yt_title = "Rahasia Bangun Segar Tanpa Brain Fog: Protokol Foton Pagi ☀️🌿 #Shorts"
-    
-    friction_question = "💬 Kamu tim yang mana: langsung cek HP pas melek, atau bisa tahan 15 menit tanpa layar? Tulis kebiasaan pagimu di bawah! 👇"
-    
-    yt_desc = (
-        "Hentikan kebiasaan langsung membuka layar HP di menit-menit pertama kamu membuka mata! "
-        "Cahaya redup layar gawai membingungkan sensor retina matamu dan menahan tubuh dalam kelelahan kronis. "
-        "Foton alami sinar matahari pagi adalah zeitgeber terkuat yang menstimulasi Suprachiasmatic Nucleus (SCN) "
-        "untuk lonjakan energi kortisol alami dan jam tidur nyenyak nanti malam.\n\n"
-        f"{friction_question}\n\n"
-        "🌿 Dita Gentle Wellness: Keseimbangan Hormon & Ketenangan Alami\n\n"
-        "#Shorts #DitaWellness #GentleWellness #BiohackingIndonesia #RitmeSirkadian #KesehatanTubuh #DeepSleep #SainsKesehatan"
-    )
-    
-    z_caption = (
-        "Sering merasa cemas atau lemas seharian padahal baru bangun tidur? Jangan buru-buru menyalahkan kopi atau jam tidurmu. 🌿☀️\n\n"
-        "Menatap layar HP di 10 menit pertama membingungkan jam sirkadian otak. Coba terapkan protokol lembut 10 menit ini besok pagi:\n"
-        "1. Tunda menyentuh layar ponsel\n"
-        "2. Minum segelas air hangat\n"
-        "3. Biarkan foton matahari pagi menyapa matamu selama 10 menit di luar ruangan.\n\n"
-        f"{friction_question}\n\n"
-        "Simpan video ini untuk diingat besok pagi, dan share ke teman yang butuh reset energi alami! ✨\n\n"
-        "#ditawellness #gentlewellness #biohackingindonesia #ritmesirkadian #hidupsehatalami #polahidupsehat #kesehatantubuh #deepsleep #tipssehat"
-    )
-    
+    dist_meta = packet.get("social_fleet_distribution_metadata", {})
+    yt_title = dist_meta.get("youtube_shorts_title") or f"{packet.get('metadata', {}).get('cycle_theme', 'Gentle Wellness')} #Shorts"
+    z_caption = dist_meta.get("caption_instagram_tiktok") or packet.get("verbatim_script_master", {}).get("full_spoken_text_id", "")
+    yt_desc = f"{z_caption}\n\n#Shorts #DitaWellness #GentleWellness #BiohackingIndonesia #SainsKesehatan"
     tags = ["DitaWellness", "Biohacking", "RitmeSirkadian", "Kesehatan", "DeepSleep", "GentleWellness", "Shorts"]
-    
+
     results = {}
     
     # 1. Dispatch YouTube
@@ -284,7 +305,7 @@ def main():
             history = []
             
     history.append({
-        "day": 1,
+        "day": day_num,
         "published_at": datetime.now().isoformat(),
         "video": os.path.basename(video_path),
         "results": results
@@ -294,8 +315,8 @@ def main():
         json.dump(history, f, indent=2)
         
     print(f"\n[STATE] History publikasi tersimpan di {STATE_PATH}")
-    print("\n============================================================")
-    print("  STATUS PUBLIKASI DAY 001 (@ditawellness)")
+    print("============================================================")
+    print(f"  STATUS PUBLIKASI DAY {pad_day} (@ditawellness)")
     print("============================================================")
     for k, v in results.items():
         print(f" - {k.upper()}: {'✅ SUCCESS' if v.get('ok') else '❌ FAILED'} -> {v.get('url') or v.get('postId') or v.get('error')}")

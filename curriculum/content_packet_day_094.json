@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "channel_id": "DITA-03",
+    "channel_name": "Dita Gentle Wellness",
+    "handle": "@ditawellness",
+    "day_number": 94,
+    "cycle_number": 14,
+    "cycle_theme": "Menghilangkan Kembung (Bloating)",
+    "topic_pillar_id": "P3",
+    "topic_pillar_name": "Menghilangkan Kembung (Bloating)",
+    "narrative_format_id": "F1",
+    "narrative_format_name": "Protokol Harian Siap Tiru (Step-by-Step Practical Routine)",
+    "emotional_trigger": "Pencerahan Menenangkan & Solusi Biologis Tanpa Biaya",
+    "visual_pacing": "Transisi Sinematik Estetik menuju Visual Sains HyperFrames dan Protokol Praktis",
+    "target_duration_range": "48-53 detik",
+    "cta_hook_type": "Simpan Protokol & Praktikkan Hari Ini",
+    "target_audience": "Profesional muda, pekerja kantoran, pria & wanita usia 22-45 tahun",
+    "created_by": "Content Research & Narrative Architect (@content-researcher)",
+    "reviewed_by": "Herman (Command Point / CEO)",
+    "intended_executor": "Director (@fullmontage) & Fleet Operator (@social-operator)"
+  },
+  "scientific_research_dossier": {
+    "core_topic": "Menemukan Pemicu Tersembunyi di Perut: Rahasia Biologis Hari ke-94 🌿✨",
+    "academic_citations": [
+      {
+        "author": "Monash University",
+        "publication": "Low FODMAP Diet for Digestive Health",
+        "key_findings": "Banyak orang merasa lemas dan stres karena pola hidup modern bertentangan dengan desain alami sel tubuh. Riset membuktikan: mengunyah makanan hingga lembut dan menghindari pemanis buatan mencegah fermentasi gas abnormal di usus halus."
+      }
+    ],
+    "psychological_mechanism_breakdown": {
+      "neurobiological_state": "Riset membuktikan: mengunyah makanan hingga lembut dan menghindari pemanis buatan mencegah fermentasi gas abnormal di usus halus.",
+      "cognitive_limitation": "Kebiasaan modern sering mengabaikan alarm biologis sel tubuh.",
+      "common_trap": "Banyak orang merasa lemas dan stres karena pola hidup modern bertentangan dengan desain alami sel tubuh.",
+      "solution_formula": "Terapkan kebiasaan lembut ini hari ini: berikan jeda sepuluh menit bagi ragamu untuk menyerap kebaikan alami."
+    }
+  },
+  "script_architecture_breakdown": {
+    "anatomy": [
+      {
+        "segment_id": "SEG_01",
+        "phase": "Thumb-Stopping Shock Hook",
+        "timestamp_range": "00:00 - 00:05",
+        "duration_seconds": 5,
+        "spoken_text": "Jangan abaikan sinyal tubuhmu ini! Ini fakta biologis menemukan pemicu tersembunyi di perut yang jarang disadari orang.",
+        "word_count": 17,
+        "visual_direction": "Kamera gerak lambat estetik: sudut ruangan tenang, fajar pagi atau twilight. Bebas wajah frontal. Teks peringatan kontras emas-merah di sepertiga atas layar.",
+        "audio_design": {
+          "voice_inflection": "Tegas, bersahabat, intim, scroll-stopping.",
+          "sfx": "Sub-bass soft impact thud pada detik 0.0.",
+          "bgm": "Petikan dawai akustik dan ambient synth lembut."
+        }
+      },
+      {
+        "segment_id": "SEG_02",
+        "phase": "Emotional & Biological Anchor",
+        "timestamp_range": "00:05 - 00:16",
+        "duration_seconds": 11,
+        "spoken_text": "Banyak orang merasa lemas dan stres karena pola hidup modern bertentangan dengan desain alami sel tubuh.",
+        "word_count": 16,
+        "visual_direction": "Close-up macro estetik: seduhan teh, cangkir keramik, atau dedaunan basah berembun dengan pencahayaan alami.",
+        "audio_design": {
+          "voice_inflection": "Empatik, menenangkan, mengurai rasa lemas atau cemas yang dirasakan penonton.",
+          "sfx": "Whoosh lembut pada transisi cut visual.",
+          "bgm": "Alunan dawai mengalir hangat."
+        }
+      },
+      {
+        "segment_id": "SEG_03",
+        "phase": "HyperFrames Scientific Mechanism",
+        "timestamp_range": "00:16 - 00:32",
+        "duration_seconds": 16,
+        "spoken_text": "Riset membuktikan: mengunyah makanan hingga lembut dan menghindari pemanis buatan mencegah fermentasi gas abnormal di usus halus.",
+        "word_count": 17,
+        "visual_direction": "Klip animasi vektor HyperFrames: Diagram infografis ilmiah bertema Menemukan Pemicu Tersembunyi di Perut dengan kurva ritme biologis dinamis.",
+        "audio_design": {
+          "voice_inflection": "Jernih, edukatif berwibawa, membuka wawasan biologis penonton.",
+          "sfx": "Chime rendah lembut dan suara desau alam.",
+          "bgm": "Harmoni piano ambient mengembang anggun."
+        }
+      },
+      {
+        "segment_id": "SEG_04",
+        "phase": "Actionable Rp 0 Micro-Routine",
+        "timestamp_range": "00:32 - 00:43",
+        "duration_seconds": 11,
+        "spoken_text": "Terapkan kebiasaan lembut ini hari ini: berikan jeda sepuluh menit bagi ragamu untuk menyerap kebaikan alami.",
+        "word_count": 16,
+        "visual_direction": "Gestur tangan tanpa wajah yang sedang mempraktikkan protokol sehat (menuang air, jalan kaki, menyeduh herbal).",
+        "audio_design": {
+          "voice_inflection": "Hangat, memotivasi dengan kelembutan, mengajak aksi nyata.",
+          "sfx": "Foley alami (gemericik air, gesekan dedaunan).",
+          "bgm": "Melodi semakin rileks dan menenangkan."
+        }
+      },
+      {
+        "segment_id": "SEG_05",
+        "phase": "Empowerment & Seamless Loop Climax",
+        "timestamp_range": "00:43 - 00:52",
+        "duration_seconds": 9,
+        "spoken_text": "Kesehatan sejati adalah buah dari kesabaran merawat raga setiap hari. Mulai besok pagi, ingat baik-baik pesan ini:",
+        "word_count": 17,
+        "visual_direction": "Outro Card Zen Dita Gentle Wellness dengan logo sage green & emas, bersiap menyambung ulang ke detik ke-0.",
+        "audio_design": {
+          "voice_inflection": "Menutup tuntas dan mengalir mulus ke kalimat pertama.",
+          "sfx": "Bell chime zen lembut di ujung video.",
+          "bgm": "Fade-out anggun yang beresonansi harmonis."
+        }
+      }
+    ]
+  },
+  "seamless_loop_mechanism": {
+    "loop_phrase_ending": "Kesehatan sejati adalah buah dari kesabaran merawat raga setiap hari. Mulai besok pagi, ingat baik-baik pesan ini:",
+    "hook_phrase_beginning": "Jangan abaikan sinyal tubuhmu ini! Ini fakta biologis menemukan pemicu tersembunyi di perut yang jarang disadari orang.",
+    "full_loop_sentence": "Kesehatan sejati adalah buah dari kesabaran merawat raga setiap hari. Mulai besok pagi, ingat baik-baik pesan ini: Jangan abaikan sinyal tubuhmu ini! Ini fakta biologis menemukan pemicu tersembunyi di perut yang jarang disadari orang.",
+    "retention_mechanic": "Kalimat penutup tuntas secara tata bahasa, namun saat diputar ulang di feed medsos langsung menjadi pembuka logis bagi kalimat shock hook di detik awal."
+  },
+  "verbatim_script_master": {
+    "full_spoken_text_id": "Jangan abaikan sinyal tubuhmu ini! Ini fakta biologis menemukan pemicu tersembunyi di perut yang jarang disadari orang. Banyak orang merasa lemas dan stres karena pola hidup modern bertentangan dengan desain alami sel tubuh. Riset membuktikan: mengunyah makanan hingga lembut dan menghindari pemanis buatan mencegah fermentasi gas abnormal di usus halus. Terapkan kebiasaan lembut ini hari ini: berikan jeda sepuluh menit bagi ragamu untuk menyerap kebaikan alami. Kesehatan sejati adalah buah dari kesabaran merawat raga setiap hari. Mulai besok pagi, ingat baik-baik pesan ini:",
+    "total_word_count": 83,
+    "estimated_reading_duration_seconds": 51.0,
+    "average_wpm": 120,
+    "voiceover_profile": {
+      "service": "Edge TTS",
+      "voice_name": "id-ID-GadisNeural",
+      "rate": "+0%",
+      "pitch": "+0Hz",
+      "volume": "+0%"
+    }
+  },
+  "production_prompts_for_fullmontage": {
+    "hyperframes_scene_spec": "Diagram infografis ilmiah bertema Menemukan Pemicu Tersembunyi di Perut dengan kurva ritme biologis dinamis.",
+    "broll_queries": [
+      "morning sunlight nature",
+      "fresh water glass table",
+      "walking outdoor park",
+      "cozy serene bedroom",
+      "peaceful calm breath"
+    ]
+  },
+  "social_fleet_distribution_metadata": {
+    "title": "Menemukan Pemicu Tersembunyi di Perut: Rahasia Biologis Hari ke-94 🌿✨",
+    "youtube_shorts_title": "Menemukan Pemicu Tersembunyi di Perut: Rahasia Biologis Hari ke-94 🌿✨ #Shorts #DitaWellness",
+    "caption_instagram_tiktok": "Jangan abaikan sinyal tubuhmu ini! Ini fakta biologis menemukan pemicu tersembunyi di perut yang jarang disadari orang.\n\nSecara biologis: Banyak orang merasa lemas dan stres karena pola hidup modern bertentangan dengan desain alami sel tubuh. Riset membuktikan: mengunyah makanan hingga lembut dan menghindari pemanis buatan mencegah fermentasi gas abnormal di usus halus.\n\n🌿 Protokol Lembut Hari Ini:\nTerapkan kebiasaan lembut ini hari ini: berikan jeda sepuluh menit bagi ragamu untuk menyerap kebaikan alami.\n\n💬 Kamu sudah menerapkan kebiasaan menemukan pemicu tersembunyi di perut ini belum di rumah? Tulis ceritamu di bawah! 👇\n\nSimpan video ini biar nggak lupa, dan share ke orang tersayang yang butuh tips sehat alami ini! ✨\n\n#ditawellness #gentlewellness #biohackingindonesia #hidupsehatalami #kesehatantubuh #tipssehatalami #polahidupsehat #sainskesehatan"
+  }
+}

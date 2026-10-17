@@ -34,29 +34,36 @@ async def synthesize_one(day_num: int, text: str):
             shutil.copyfile(out_path1, out_path2)
         return
 
-    print(f"Synthesizing Day {day_num} ({len(text.split())} words)...")
-    comm = edge_tts.Communicate(text, VOICE, rate="+0%", pitch="+0Hz")
-    
     for attempt in range(1, 4):
         try:
+            comm = edge_tts.Communicate(text, VOICE, rate="+0%", pitch="+0Hz")
             await comm.save(out_path1)
             if os.path.exists(out_path1) and os.path.getsize(out_path1) > 5000:
                 import shutil
                 shutil.copyfile(out_path1, out_path2)
-                print(f"✅ Day {day_num} saved -> {file_name} ({os.path.getsize(out_path1)} bytes)")
-                return
+                print(f"✅ Day {str(day_num).zfill(3)} saved -> {file_name} ({os.path.getsize(out_path1)} bytes)")
+                return True
         except Exception as e:
-            print(f"⚠️ Day {day_num} attempt {attempt} failed: {e}")
-            await asyncio.sleep(2 * attempt)
+            print(f"⚠️ Day {str(day_num).zfill(3)} attempt {attempt} failed: {e}")
+            await asyncio.sleep(2.5 * attempt)
 
-    print(f"❌ Day {day_num} failed after 3 attempts.")
+    print(f"❌ Day {str(day_num).zfill(3)} failed after 3 attempts.")
+    return False
 
 async def main():
-    print("=== BATCH SYNTHESIZING VOICEOVERS DAY 002 - DAY 030 ===")
-    for day_num in range(2, 31):
+    import argparse
+    parser = argparse.ArgumentParser(description="Batch synthesize voiceovers for Dita Gentle Wellness")
+    parser.add_argument("--start", type=int, default=1, help="Start day (default: 1)")
+    parser.add_argument("--end", type=int, default=180, help="End day (default: 180)")
+    args = parser.parse_args()
+
+    print(f"=== BATCH SYNTHESIZING VOICEOVERS: DAY {args.start} S/D DAY {args.end} ===")
+    success_count = 0
+    skipped_count = 0
+
+    for day_num in range(args.start, args.end + 1):
         packet_file = os.path.join(CURRICULUM_PATH, f"content_packet_day_{str(day_num).zfill(3)}.json")
         if not os.path.exists(packet_file):
-            print(f"Packet file not found: {packet_file}")
             continue
         with open(packet_file, "r", encoding="utf-8") as f:
             packet = json.load(f)
@@ -65,10 +72,17 @@ async def main():
             print(f"No text in packet Day {day_num}")
             continue
 
-        await synthesize_one(day_num, text)
-        await asyncio.sleep(0.4) # respectful throttling
+        file_name = f"voiceover_day_{str(day_num).zfill(3)}.mp3"
+        out_path1 = os.path.join(AUDIO_OUT_DIR, file_name)
+        if os.path.exists(out_path1) and os.path.getsize(out_path1) > 20000:
+            skipped_count += 1
+            continue
 
-    print("\n[SUCCESS] Batch Voiceover Synthesis Completed!")
+        await synthesize_one(day_num, text)
+        success_count += 1
+        await asyncio.sleep(0.2) # respectful throttling
+
+    print(f"\n[SUCCESS] Batch finished: {success_count} newly synthesized, {skipped_count} already existed.")
 
 if __name__ == "__main__":
     asyncio.run(main())
