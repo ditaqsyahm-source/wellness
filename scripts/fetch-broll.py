@@ -144,6 +144,14 @@ def derive_queries_for_day(day_num, packet):
             "candle flame flickering dark serene",
             "peaceful sleep in cozy white bed"
         ]
+    elif any(w in core_topic for w in ["muhasabah", "renungan", "syukur", "ikhlas", "tawakal", "jiwa", "batin", "lelah", "hati", "hampa", "sepertiga malam", "overthinking", "tenang", "damai", "penyejuk"]):
+        return [
+            "candle amber glow dark window twilight",
+            "rain on window pane cozy calm room",
+            "hands holding warm ceramic tea cup steam",
+            "person walking misty pine forest peaceful back view",
+            "stars night sky peaceful time lapse"
+        ]
     
     # General Wellness & Zen Aesthetic Rotation (Deterministic per day)
     general_pool = [
