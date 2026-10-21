@@ -88,13 +88,21 @@ async function main() {
   if (fs.existsSync(CAMPAIGN_STATE_PATH)) {
     try {
       const state = JSON.parse(fs.readFileSync(CAMPAIGN_STATE_PATH, "utf-8"));
-      state.active_day = dayNum;
-      state.next_day = dayNum + 1;
-      state.total_published = (state.total_published || 1) + 1;
-      state.last_updated = new Date().toISOString();
+      state.pipeline_status = state.pipeline_status || {};
       state.pipeline_status[`day_${pad3(dayNum)}`] = "PUBLISHED";
+      
+      const currentActive = state.active_day || 1;
+      state.active_day = Math.max(currentActive, dayNum);
+
+      let nextUnpublished = 1;
+      while (state.pipeline_status[`day_${pad3(nextUnpublished)}`] === "PUBLISHED") {
+        nextUnpublished++;
+      }
+      state.next_day = Math.max(state.active_day + 1, nextUnpublished);
+      state.last_updated = new Date().toISOString();
+
       fs.writeFileSync(CAMPAIGN_STATE_PATH, JSON.stringify(state, null, 2), "utf-8");
-      console.log(`[State] Advanced active_day to ${dayNum}, next_day to ${dayNum + 1}`);
+      console.log(`[State] Updated active_day to ${state.active_day}, next_day to ${state.next_day}`);
     } catch (e) {
       console.warn("Could not advance campaign state:", e);
     }
