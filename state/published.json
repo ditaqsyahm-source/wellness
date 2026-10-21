@@ -95,5 +95,102 @@
         }
       }
     }
+  },
+  {
+    "day": 2,
+    "published_at": "2026-10-21T12:03:41.294960",
+    "video": "dita_wellness_day_002_compressed.mp4",
+    "results": {
+      "youtube": {
+        "platform": "youtube",
+        "ok": true,
+        "videoId": "iPB682G2iDs",
+        "url": "https://youtube.com/shorts/iPB682G2iDs"
+      },
+      "zernio": {
+        "platform": "zernio",
+        "ok": true,
+        "postId": "6ad8aa11251e163cb261014c",
+        "data": {
+          "_id": "6ad8aa11251e163cb261014c",
+          "userId": "6ac0fee4b5fe160e5da5505e",
+          "title": "Stop minum kopi di sembilan puluh menit pertama setelah kamu bangun tidur! Ini a",
+          "content": "Stop minum kopi di sembilan puluh menit pertama setelah kamu bangun tidur! Ini alasan biologisnya.\n\nSecara biologis: Saat bangun, zat kimia adenosin masih menumpuk di otak. Kafein yang masuk terlalu cepat hanya memblokir reseptor sementara tanpa membersihkannya. Akibatnya, saat kafein habis di jam dua siang, seluruh adenosin menyerbu sekaligus, memicu rasa lemas dan kantuk yang luar biasa parah.\n\n\ud83c\udf3f Protokol Lembut Hari Ini:\nTunda cangkir pertamamu minimal sembilan puluh menit. Biarkan foton matahari pagi dan hidrasi air putih membersihkan adenosinmu secara alami.\n\n\ud83d\udcac Kamu tim yang mana: bangun langsung ngopi hitam, atau tunggu sarapan dulu? Tulis kebiasaan kopimu di bawah! \ud83d\udc47\n\nSimpan video ini biar nggak lupa, dan share ke orang tersayang yang butuh tips sehat alami ini! \u2728\n\n#ditawellness #gentlewellness #biohackingindonesia #hidupsehatalami #kesehatantubuh #tipssehatalami #polahidupsehat #sainskesehatan",
+          "mediaItems": [
+            {
+              "_id": "6ad8aa11251e163cb261014f",
+              "url": "https://media.zernio.com/media/1792584206963_73w25ta5_dita_wellness_day_002_compressed.mp4",
+              "type": "video"
+            }
+          ],
+          "scheduledFor": "2026-10-21T12:03:28.036Z",
+          "timezone": "UTC",
+          "status": "publishing",
+          "tags": [],
+          "hashtags": [],
+          "mentions": [],
+          "visibility": "public",
+          "crosspostingEnabled": true,
+          "metadata": {
+            "usageCounted": true
+          },
+          "publishingClaimedAt": "2026-10-21T12:03:29.112Z",
+          "recycling": {
+            "enabled": false,
+            "gapFreq": "month",
+            "recycleCount": 0,
+            "contentVariations": [],
+            "contentVariationIndex": 0
+          },
+          "createdAt": "2026-10-21T12:03:29.055Z",
+          "updatedAt": "2026-10-21T12:03:41.165Z",
+          "platforms": [
+            {
+              "_id": "6ad8aa11251e163cb261014a",
+              "platform": "tiktok",
+              "accountId": {
+                "_id": "6ac101d7b7173e371b8e5d31",
+                "platform": "tiktok",
+                "username": "ditawellness",
+                "displayName": "ditawellness",
+                "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/861510685ce99bc54cb77c064296059e~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=79b7ce33&x-expires=1792735200&x-signature=ypDiCp%2BkoanhOscEjYsLNHOT8kE%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my",
+                "isActive": true,
+                "profileId": "6ac0fee4b5fe160e5da55060"
+              },
+              "profileId": "6ac0fee4b5fe160e5da55060",
+              "customMedia": [],
+              "scheduledFor": "2026-10-21T12:03:28.036Z",
+              "platformSpecificData": {
+                "tiktokBusinessPublishId": "v_pub_url~v2.7699090490867779602"
+              },
+              "status": "published",
+              "publishedAt": "2026-10-21T12:03:41.152Z",
+              "platformPostId": "v_pub_url~v2.7699090490867779602",
+              "publishAttempts": 1,
+              "contentHash": "3838f4ff2f1dea3a8e1a65ebac157cc4"
+            },
+            {
+              "_id": "6ad8aa11251e163cb261014b",
+              "platform": "instagram",
+              "accountId": {
+                "_id": "6ac0fff63c403551667bfd7d",
+                "platform": "instagram",
+                "username": "ditawellness",
+                "displayName": "Dita Gentle Wellness",
+                "profilePicture": null,
+                "isActive": true,
+                "profileId": "6ac0fee4b5fe160e5da55060"
+              },
+              "profileId": "6ac0fee4b5fe160e5da55060",
+              "customMedia": [],
+              "scheduledFor": "2026-10-21T12:03:28.036Z",
+              "status": "processing",
+              "publishAttempts": 1,
+              "contentHash": "112610e5dbb13f9c8ff787e17f79a731"
+            }
+          ]
+        }
+      }
+    }
   }
 ]
