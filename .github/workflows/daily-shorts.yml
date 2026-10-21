@@ -14,7 +14,9 @@ on:
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 45
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout Repository
@@ -23,18 +25,17 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'npm'
+          node-version: 20
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install System Dependencies (FFmpeg)
+      - name: Install System Dependencies (Chrome & FFmpeg)
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg
+          sudo apt-get install -y google-chrome-stable ffmpeg curl
 
       - name: Install Node Dependencies
         run: npm install
@@ -50,6 +51,28 @@ jobs:
           GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          REMOTION_BROWSER_EXECUTABLE: /usr/bin/google-chrome-stable
         run: |
           echo "Running Dita Gentle Wellness Daily Autonomous Pipeline..."
-          npm run pipeline
+          if [ -n "${{ github.event.inputs.day }}" ]; then
+            npm run pipeline -- --day "${{ github.event.inputs.day }}"
+          else
+            npm run pipeline
+          fi
+
+      - name: Commit State & Receipts
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state/
+          git diff --staged --quiet || git commit -m "chore(pipeline): update campaign and published state [skip ci]"
+          git push
+
+      - name: Upload Video Artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dita-wellness-video
+          path: output/
+          retention-days: 3

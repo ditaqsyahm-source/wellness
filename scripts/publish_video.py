@@ -6,19 +6,20 @@ import urllib.request
 from datetime import datetime
 
 DIR_PATH = os.path.dirname(os.path.abspath(__file__))
-ENV_PATH = os.path.join(DIR_PATH, ".env")
-STATE_PATH = os.path.join(DIR_PATH, "state", "published.json")
-os.makedirs(os.path.join(DIR_PATH, "state"), exist_ok=True)
+STATE_PATH = os.path.join(DIR_PATH, "..", "state", "published.json")
+os.makedirs(os.path.dirname(STATE_PATH), exist_ok=True)
 
 def load_env():
-    env = {}
-    if os.path.exists(ENV_PATH):
-        with open(ENV_PATH, "r", encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if line and not line.startswith("#") and "=" in line:
-                    k, v = line.split("=", 1)
-                    env[k.strip()] = v.strip()
+    env = dict(os.environ)
+    for candidate in [os.path.join(DIR_PATH, ".env"), os.path.join(DIR_PATH, "..", ".env")]:
+        if os.path.exists(candidate):
+            with open(candidate, "r", encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if line and not line.startswith("#") and "=" in line:
+                        k, v = line.split("=", 1)
+                        if k.strip() not in env:
+                            env[k.strip()] = v.strip()
     return env
 
 ENV = load_env()

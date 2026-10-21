@@ -78,7 +78,7 @@ async function main() {
 
   // 5. Multi-Platform Publication (YouTube Shorts, TikTok, Instagram)
   console.log(`[Publish] Dispatching to YouTube Shorts, TikTok & Instagram Reels...`);
-  runCmd(`python3 scripts/publish_video.py`);
+  runCmd(`python3 scripts/publish_video.py --day ${dayNum}`);
 
   // 6. Advance Campaign State
   if (fs.existsSync(CAMPAIGN_STATE_PATH)) {
