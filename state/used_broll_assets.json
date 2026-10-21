@@ -1,21 +1,26 @@
 {
-  "total_used": 20,
-  "last_updated": "2026-10-21T16:26:50.941970",
+  "total_used": 25,
+  "last_updated": "2026-10-22T00:48:45.832817",
   "used_ids": [
     19086477,
     7531023,
     3801360,
     30309529,
+    39056665,
     6658334,
     7505952,
     8719392,
     7213860,
+    28925348,
     8375468,
     6845748,
     8926011,
     8926013,
+    9127880,
+    39885262,
     7506000,
     9063506,
+    20583513,
     7577435,
     6810588,
     6598889,
@@ -163,6 +168,41 @@
       "video_id": 7034346,
       "query": "roasted coffee beans macro aesthetic",
       "downloaded_at": "2026-10-21T16:26:50.941731"
+    },
+    {
+      "day": 4,
+      "scene": "01",
+      "video_id": 28925348,
+      "query": "sunset golden hour sky clouds",
+      "downloaded_at": "2026-10-22T00:48:09.781806"
+    },
+    {
+      "day": 4,
+      "scene": "02",
+      "video_id": 9127880,
+      "query": "person looking sunset horizon silhouette",
+      "downloaded_at": "2026-10-22T00:48:21.561621"
+    },
+    {
+      "day": 4,
+      "scene": "03",
+      "video_id": 39885262,
+      "query": "orange pink dusk clouds timelapse",
+      "downloaded_at": "2026-10-22T00:48:32.565989"
+    },
+    {
+      "day": 4,
+      "scene": "04",
+      "video_id": 20583513,
+      "query": "evening walk park nature silhouette",
+      "downloaded_at": "2026-10-22T00:48:41.315574"
+    },
+    {
+      "day": 4,
+      "scene": "05",
+      "video_id": 39056665,
+      "query": "night sky stars peaceful twilight",
+      "downloaded_at": "2026-10-22T00:48:45.831869"
     }
   ]
 }
