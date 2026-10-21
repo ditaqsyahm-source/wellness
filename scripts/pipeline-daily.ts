@@ -56,7 +56,7 @@ async function main() {
   const audioFile = path.join(ROOT_DIR, "public", `voiceover_day_${pad3(dayNum)}.mp3`);
   if (!fs.existsSync(audioFile) || fs.statSync(audioFile).size < 10000) {
     console.log(`[Audio] Voiceover not found for Day ${dayNum}, synthesizing via Edge TTS...`);
-    runCmd(`python3 scripts/batch_generate_voiceovers.py`);
+    runCmd(`python3 scripts/batch_generate_voiceovers.py --start ${dayNum} --end ${dayNum}`);
   }
 
   // 2b. Ensure Unique Topic B-Roll Exists (Anti-Dejavu Mandate)

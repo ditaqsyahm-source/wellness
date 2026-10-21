@@ -26,6 +26,7 @@ export interface WellnessShortsProps {
   hookCategory?: string;
   script: string;
   audioFile?: string;
+  bgmFile?: string;
   scenes?: WellnessSceneItem[];
 }
 
@@ -46,6 +47,7 @@ export const WellnessShorts: React.FC<WellnessShortsProps> = ({
   hookCategory = "⚠️ PROTOKOL BIOLOGIS",
   script,
   audioFile = "voiceover_day_001.mp3",
+  bgmFile = "bgm_wellness_ambient.mp3",
   scenes = [],
 }) => {
   const frame = useCurrentFrame();
@@ -101,6 +103,14 @@ export const WellnessShorts: React.FC<WellnessShortsProps> = ({
     >
       {/* 1. Voiceover Audio */}
       <Audio src={staticFile(audioFile)} />
+
+      {/* 1b. Ambient Soothing BGM (Ducked at -18dB / 0.12 volume) */}
+      {bgmFile && (
+        <Audio
+          src={staticFile(bgmFile)}
+          volume={0.12}
+        />
+      )}
 
       {/* 2. Video Track: B-Roll + HyperFrames Sequences */}
       <AbsoluteFill style={{ transform: `scale(${bgScale})` }}>

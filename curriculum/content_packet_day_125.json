@@ -1,38 +1,38 @@
 {
   "metadata": {
     "channel_id": "DITA-03",
-    "channel_name": "Dita Gentle Wellness",
+    "channel_name": "Dita Gentle Wellness & Penyejuk Hati",
     "handle": "@ditawellness",
     "day_number": 125,
     "cycle_number": 18,
-    "cycle_theme": "Puasa Intermiten Bijak",
-    "topic_pillar_id": "P5",
-    "topic_pillar_name": "Puasa Intermiten Bijak",
+    "cycle_theme": "Pengingat Diri: Melepas Beban Ekspektasi",
+    "topic_pillar_id": "P6",
+    "topic_pillar_name": "Pengingat Diri: Melepas Beban Ekspektasi",
     "narrative_format_id": "F1",
-    "narrative_format_name": "Protokol Harian Siap Tiru (Step-by-Step Practical Routine)",
+    "narrative_format_name": "Protokol Harian Siap Tiru",
     "emotional_trigger": "Pencerahan Menenangkan & Solusi Biologis Tanpa Biaya",
-    "visual_pacing": "Transisi Sinematik Estetik menuju Visual Sains HyperFrames dan Protokol Praktis",
+    "visual_pacing": "Transisi Sinematik Estetik Zen menuju Visual Sains dan Kalbu yang Tenang",
     "target_duration_range": "48-53 detik",
-    "cta_hook_type": "Simpan Protokol & Praktikkan Hari Ini",
+    "cta_hook_type": "Simpan Renungan & Praktikkan Hari Ini",
     "target_audience": "Profesional muda, pekerja kantoran, pria & wanita usia 22-45 tahun",
     "created_by": "Content Research & Narrative Architect (@content-researcher)",
     "reviewed_by": "Herman (Command Point / CEO)",
     "intended_executor": "Director (@fullmontage) & Fleet Operator (@social-operator)"
   },
   "scientific_research_dossier": {
-    "core_topic": "Menjaga Autofagi Tanpa Merusak Tiroid: Rahasia Biologis Hari ke-125 🌿✨",
+    "core_topic": "Seni Merasa Cukup (Qana'ah): Penawar Haus Duniawi yang Melelahkan",
     "academic_citations": [
       {
-        "author": "Dr. Valter Longo, Ph.D.",
-        "publication": "The Longevity Diet (Penguin)",
-        "key_findings": "Banyak orang merasa lemas dan stres karena pola hidup modern bertentangan dengan desain alami sel tubuh. Riset membuktikan: jendela puasa lembut dua belas jam memberi kesempatan sel melakukan autofagi pembersihan sampah metabolik."
+        "author": "Kearifan Sufistik Klasik",
+        "publication": "Konsep Qana'ah & Zuhud",
+        "key_findings": "Nafsu manusia ibarat meminum air laut; semakin banyak diteguk, semakin membakar rasa haus di kerongkonganmu. Qana'ah adalah benteng ketenangan batin yang membuatmu merasa kaya raya meskipun hanya memiliki sepiring nasi dan atap berteduh."
       }
     ],
     "psychological_mechanism_breakdown": {
-      "neurobiological_state": "Riset membuktikan: jendela puasa lembut dua belas jam memberi kesempatan sel melakukan autofagi pembersihan sampah metabolik.",
-      "cognitive_limitation": "Kebiasaan modern sering mengabaikan alarm biologis sel tubuh.",
-      "common_trap": "Banyak orang merasa lemas dan stres karena pola hidup modern bertentangan dengan desain alami sel tubuh.",
-      "solution_formula": "Terapkan kebiasaan lembut ini hari ini: berikan jeda sepuluh menit bagi ragamu untuk menyerap kebaikan alami."
+      "neurobiological_state": "Qana'ah adalah benteng ketenangan batin yang membuatmu merasa kaya raya meskipun hanya memiliki sepiring nasi dan atap berteduh.",
+      "cognitive_limitation": "Kebiasaan modern sering mengabaikan panggilan istirahat alami raga dan ketenangan jiwa.",
+      "common_trap": "Nafsu manusia ibarat meminum air laut; semakin banyak diteguk, semakin membakar rasa haus di kerongkonganmu.",
+      "solution_formula": "Tataplah orang-orang yang berada di bawahmu dalam urusan materi dunia, agar hatimu tidak meremehkan nikmat Tuhan yang melimpah padamu."
     }
   },
   "script_architecture_breakdown": {
@@ -42,8 +42,8 @@
         "phase": "Thumb-Stopping Shock Hook",
         "timestamp_range": "00:00 - 00:05",
         "duration_seconds": 5,
-        "spoken_text": "Jangan abaikan sinyal tubuhmu ini! Ini fakta biologis menjaga autofagi tanpa merusak tiroid yang jarang disadari orang.",
-        "word_count": 17,
+        "spoken_text": "Merasa hidupmu selalu kurang dan terus mengejar standar yang tak pernah ada ujungnya? Jiwamu hanya butuh rasa cukup.",
+        "word_count": 18,
         "visual_direction": "Kamera gerak lambat estetik: sudut ruangan tenang, fajar pagi atau twilight. Bebas wajah frontal. Teks peringatan kontras emas-merah di sepertiga atas layar.",
         "audio_design": {
           "voice_inflection": "Tegas, bersahabat, intim, scroll-stopping.",
@@ -56,8 +56,8 @@
         "phase": "Emotional & Biological Anchor",
         "timestamp_range": "00:05 - 00:16",
         "duration_seconds": 11,
-        "spoken_text": "Banyak orang merasa lemas dan stres karena pola hidup modern bertentangan dengan desain alami sel tubuh.",
-        "word_count": 16,
+        "spoken_text": "Nafsu manusia ibarat meminum air laut; semakin banyak diteguk, semakin membakar rasa haus di kerongkonganmu.",
+        "word_count": 15,
         "visual_direction": "Close-up macro estetik: seduhan teh, cangkir keramik, atau dedaunan basah berembun dengan pencahayaan alami.",
         "audio_design": {
           "voice_inflection": "Empatik, menenangkan, mengurai rasa lemas atau cemas yang dirasakan penonton.",
@@ -70,11 +70,11 @@
         "phase": "HyperFrames Scientific Mechanism",
         "timestamp_range": "00:16 - 00:32",
         "duration_seconds": 16,
-        "spoken_text": "Riset membuktikan: jendela puasa lembut dua belas jam memberi kesempatan sel melakukan autofagi pembersihan sampah metabolik.",
-        "word_count": 16,
-        "visual_direction": "Klip animasi vektor HyperFrames: Diagram infografis ilmiah bertema Menjaga Autofagi Tanpa Merusak Tiroid dengan kurva ritme biologis dinamis.",
+        "spoken_text": "Qana'ah adalah benteng ketenangan batin yang membuatmu merasa kaya raya meskipun hanya memiliki sepiring nasi dan atap berteduh.",
+        "word_count": 18,
+        "visual_direction": "Klip animasi vektor HyperFrames / Estetika Zen: Pergeseran lokus evaluasi dari eksternal ke internal mereduksi stres finansial kronis.",
         "audio_design": {
-          "voice_inflection": "Jernih, edukatif berwibawa, membuka wawasan biologis penonton.",
+          "voice_inflection": "Jernih, edukatif berwibawa, membuka wawasan biologis dan kalbu penonton.",
           "sfx": "Chime rendah lembut dan suara desau alam.",
           "bgm": "Harmoni piano ambient mengembang anggun."
         }
@@ -84,12 +84,12 @@
         "phase": "Actionable Rp 0 Micro-Routine",
         "timestamp_range": "00:32 - 00:43",
         "duration_seconds": 11,
-        "spoken_text": "Terapkan kebiasaan lembut ini hari ini: berikan jeda sepuluh menit bagi ragamu untuk menyerap kebaikan alami.",
-        "word_count": 16,
-        "visual_direction": "Gestur tangan tanpa wajah yang sedang mempraktikkan protokol sehat (menuang air, jalan kaki, menyeduh herbal).",
+        "spoken_text": "Tataplah orang-orang yang berada di bawahmu dalam urusan materi dunia, agar hatimu tidak meremehkan nikmat Tuhan yang melimpah padamu.",
+        "word_count": 19,
+        "visual_direction": "Gestur tangan tanpa wajah yang mempraktikkan protokol sehat atau bersedekap tenang di alam.",
         "audio_design": {
-          "voice_inflection": "Hangat, memotivasi dengan kelembutan, mengajak aksi nyata.",
-          "sfx": "Foley alami (gemericik air, gesekan dedaunan).",
+          "voice_inflection": "Hangat, mengajak aksi konkret dan ketenangan batin tanpa beban.",
+          "sfx": "Foley alami (gemericik air, gesekan dedaunan, uap teh).",
           "bgm": "Melodi semakin rileks dan menenangkan."
         }
       },
@@ -98,49 +98,36 @@
         "phase": "Empowerment & Seamless Loop Climax",
         "timestamp_range": "00:43 - 00:52",
         "duration_seconds": 9,
-        "spoken_text": "Kesehatan sejati adalah buah dari kesabaran merawat raga setiap hari. Mulai besok pagi, ingat baik-baik pesan ini:",
-        "word_count": 17,
-        "visual_direction": "Outro Card Zen Dita Gentle Wellness dengan logo sage green & emas, bersiap menyambung ulang ke detik ke-0.",
+        "spoken_text": "Kekayaan yang hakiki bukanlah banyaknya harta benda, melainkan jiwa yang merasa cukup atas segala pemberian. Renungi hikmah ini:",
+        "word_count": 18,
+        "visual_direction": "Outro Card Zen Dita Gentle Wellness & Penyejuk Hati dengan palet sage green & emas, bersiap menyambung ulang ke detik ke-0.",
         "audio_design": {
-          "voice_inflection": "Menutup tuntas dan mengalir mulus ke kalimat pertama.",
+          "voice_inflection": "Menutup tuntas dan mengalir mulus ke kalimat pembuka.",
           "sfx": "Bell chime zen lembut di ujung video.",
           "bgm": "Fade-out anggun yang beresonansi harmonis."
         }
       }
     ]
   },
-  "seamless_loop_mechanism": {
-    "loop_phrase_ending": "Kesehatan sejati adalah buah dari kesabaran merawat raga setiap hari. Mulai besok pagi, ingat baik-baik pesan ini:",
-    "hook_phrase_beginning": "Jangan abaikan sinyal tubuhmu ini! Ini fakta biologis menjaga autofagi tanpa merusak tiroid yang jarang disadari orang.",
-    "full_loop_sentence": "Kesehatan sejati adalah buah dari kesabaran merawat raga setiap hari. Mulai besok pagi, ingat baik-baik pesan ini: Jangan abaikan sinyal tubuhmu ini! Ini fakta biologis menjaga autofagi tanpa merusak tiroid yang jarang disadari orang.",
-    "retention_mechanic": "Kalimat penutup tuntas secara tata bahasa, namun saat diputar ulang di feed medsos langsung menjadi pembuka logis bagi kalimat shock hook di detik awal."
-  },
   "verbatim_script_master": {
-    "full_spoken_text_id": "Jangan abaikan sinyal tubuhmu ini! Ini fakta biologis menjaga autofagi tanpa merusak tiroid yang jarang disadari orang. Banyak orang merasa lemas dan stres karena pola hidup modern bertentangan dengan desain alami sel tubuh. Riset membuktikan: jendela puasa lembut dua belas jam memberi kesempatan sel melakukan autofagi pembersihan sampah metabolik. Terapkan kebiasaan lembut ini hari ini: berikan jeda sepuluh menit bagi ragamu untuk menyerap kebaikan alami. Kesehatan sejati adalah buah dari kesabaran merawat raga setiap hari. Mulai besok pagi, ingat baik-baik pesan ini:",
-    "total_word_count": 82,
-    "estimated_reading_duration_seconds": 51.0,
-    "average_wpm": 120,
-    "voiceover_profile": {
-      "service": "Edge TTS",
-      "voice_name": "id-ID-GadisNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz",
-      "volume": "+0%"
-    }
-  },
-  "production_prompts_for_fullmontage": {
-    "hyperframes_scene_spec": "Diagram infografis ilmiah bertema Menjaga Autofagi Tanpa Merusak Tiroid dengan kurva ritme biologis dinamis.",
-    "broll_queries": [
-      "morning sunlight nature",
-      "fresh water glass table",
-      "walking outdoor park",
-      "cozy serene bedroom",
-      "peaceful calm breath"
-    ]
+    "full_spoken_text_id": "Merasa hidupmu selalu kurang dan terus mengejar standar yang tak pernah ada ujungnya? Jiwamu hanya butuh rasa cukup. Nafsu manusia ibarat meminum air laut; semakin banyak diteguk, semakin membakar rasa haus di kerongkonganmu. Qana'ah adalah benteng ketenangan batin yang membuatmu merasa kaya raya meskipun hanya memiliki sepiring nasi dan atap berteduh. Tataplah orang-orang yang berada di bawahmu dalam urusan materi dunia, agar hatimu tidak meremehkan nikmat Tuhan yang melimpah padamu. Kekayaan yang hakiki bukanlah banyaknya harta benda, melainkan jiwa yang merasa cukup atas segala pemberian. Renungi hikmah ini:",
+    "target_audio_duration_seconds": 50.5,
+    "word_count": 88,
+    "friction_comment_question": "💬 Apa satu hal sederhana di rumahmu hari ini yang bikin kamu merasa: 'Alhamdulillah, hidupku sebenarnya sudah sangat cukup'? 👇"
   },
   "social_fleet_distribution_metadata": {
-    "title": "Menjaga Autofagi Tanpa Merusak Tiroid: Rahasia Biologis Hari ke-125 🌿✨",
-    "youtube_shorts_title": "Menjaga Autofagi Tanpa Merusak Tiroid: Rahasia Biologis Hari ke-125 🌿✨ #Shorts #DitaWellness",
-    "caption_instagram_tiktok": "Jangan abaikan sinyal tubuhmu ini! Ini fakta biologis menjaga autofagi tanpa merusak tiroid yang jarang disadari orang.\n\nSecara biologis: Banyak orang merasa lemas dan stres karena pola hidup modern bertentangan dengan desain alami sel tubuh. Riset membuktikan: jendela puasa lembut dua belas jam memberi kesempatan sel melakukan autofagi pembersihan sampah metabolik.\n\n🌿 Protokol Lembut Hari Ini:\nTerapkan kebiasaan lembut ini hari ini: berikan jeda sepuluh menit bagi ragamu untuk menyerap kebaikan alami.\n\n💬 Kamu sudah menerapkan kebiasaan menjaga autofagi tanpa merusak tiroid ini belum di rumah? Tulis ceritamu di bawah! 👇\n\nSimpan video ini biar nggak lupa, dan share ke orang tersayang yang butuh tips sehat alami ini! ✨\n\n#ditawellness #gentlewellness #biohackingindonesia #hidupsehatalami #kesehatantubuh #tipssehatalami #polahidupsehat #sainskesehatan"
+    "title": "Seni Merasa Cukup (Qana'ah): Penawar Haus Duniawi yang Melelahkan 🌿✨ #Shorts",
+    "youtube_shorts_title": "Seni Merasa Cukup (Qana'ah): Penawar Haus Duniawi yang Melelahkan 🌿✨ #Shorts",
+    "caption_instagram_tiktok": "Merasa hidupmu selalu kurang dan terus mengejar standar yang tak pernah ada ujungnya? Jiwamu hanya butuh rasa cukup.\n\nSecara mendalam: Nafsu manusia ibarat meminum air laut; semakin banyak diteguk, semakin membakar rasa haus di kerongkonganmu. Qana'ah adalah benteng ketenangan batin yang membuatmu merasa kaya raya meskipun hanya memiliki sepiring nasi dan atap berteduh.\n\n🌿 Renungan & Protokol Hari Ini:\nTataplah orang-orang yang berada di bawahmu dalam urusan materi dunia, agar hatimu tidak meremehkan nikmat Tuhan yang melimpah padamu.\n\n💬 Apa satu hal sederhana di rumahmu hari ini yang bikin kamu merasa: 'Alhamdulillah, hidupku sebenarnya sudah sangat cukup'? 👇\n\nSimpan video ini biar nggak lupa, dan share ke orang tersayang yang butuh ketenangan raga & jiwa hari ini! ✨\n\n#ditawellness #gentlewellness #penyejukhati #ketenanganbatin #muhasabah #biohackingindonesia #hidupsehatalami #polahidupsehat #sainskesehatan",
+    "hook_category": "🕊️ PENGINGAT DIRI: HAPUS TOXIC PRODUCTIVITY",
+    "tags": [
+      "DitaWellness",
+      "PenyejukHati",
+      "KetenanganBatin",
+      "Biohacking",
+      "Muhasabah",
+      "GentleWellness",
+      "Shorts"
+    ]
   }
 }

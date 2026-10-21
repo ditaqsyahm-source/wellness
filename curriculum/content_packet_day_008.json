@@ -1,38 +1,38 @@
 {
   "metadata": {
     "channel_id": "DITA-03",
-    "channel_name": "Dita Gentle Wellness",
+    "channel_name": "Dita Gentle Wellness & Penyejuk Hati",
     "handle": "@ditawellness",
     "day_number": 8,
     "cycle_number": 2,
-    "cycle_theme": "Keseimbangan Hormon & Regulasi Sistem Saraf",
-    "topic_pillar_id": "P2",
-    "topic_pillar_name": "Keseimbangan Hormon & Regulasi Sistem Saraf",
+    "cycle_theme": "Ritme Sirkadian & Arsitektur Tidur Dalam",
+    "topic_pillar_id": "P1",
+    "topic_pillar_name": "Ritme Sirkadian & Arsitektur Tidur Dalam",
     "narrative_format_id": "F1",
-    "narrative_format_name": "Protokol Harian Siap Tiru (Step-by-Step Practical Routine)",
+    "narrative_format_name": "Protokol Harian Siap Tiru",
     "emotional_trigger": "Pencerahan Menenangkan & Solusi Biologis Tanpa Biaya",
-    "visual_pacing": "Transisi Sinematik Estetik menuju Visual Sains HyperFrames dan Protokol Praktis",
+    "visual_pacing": "Transisi Sinematik Estetik Zen menuju Visual Sains dan Kalbu yang Tenang",
     "target_duration_range": "48-53 detik",
-    "cta_hook_type": "Simpan Protokol & Praktikkan Hari Ini",
+    "cta_hook_type": "Simpan Renungan & Praktikkan Hari Ini",
     "target_audience": "Profesional muda, pekerja kantoran, pria & wanita usia 22-45 tahun",
     "created_by": "Content Research & Narrative Architect (@content-researcher)",
     "reviewed_by": "Herman (Command Point / CEO)",
     "intended_executor": "Director (@fullmontage) & Fleet Operator (@social-operator)"
   },
   "scientific_research_dossier": {
-    "core_topic": "Physiological Sigh: Trik Napas 30 Detik Penurun Detak Jantung! 🫁✨",
+    "core_topic": "Physiological Sigh: Trik Napas 30 Detik Penurun Detak Jantung",
     "academic_citations": [
       {
-        "author": "Dr. Jack Feldman & Dr. Andrew Huberman",
-        "publication": "Cell Reports Medicine: Brief Structured Respiration Enhances Mood and Reduces Anxiety (Stanford 2023)",
-        "key_findings": "Saat stres, kantung udara kecil di paru-parumu kolaps, memicu penumpukan gas karbon dioksida yang membuat otak panik. Dua kali tarikan napas pendek melalui hidung diikuti satu hembusan panjang lewat mulut langsung membuka alveoli dan menenangkan saraf vagus."
+        "author": "Dr. Andrew Huberman",
+        "publication": "Stanford Medicine Studies",
+        "key_findings": "Saat cemas, kantung udara kecil di paru-parumu (alveoli) mengempis dan memicu penumpukan gas karbon dioksida di darah. Dua tarikan napas cepat lewat hidung diikuti satu hembusan panjang lewat mulut membuka kembali alveoli dan menurunkan nadi seketika."
       }
     ],
     "psychological_mechanism_breakdown": {
-      "neurobiological_state": "Dua kali tarikan napas pendek melalui hidung diikuti satu hembusan panjang lewat mulut langsung membuka alveoli dan menenangkan saraf vagus.",
-      "cognitive_limitation": "Pola kebiasaan modern sering bertentangan dengan jam biologis purba sel manusia.",
-      "common_trap": "Saat stres, kantung udara kecil di paru-parumu kolaps, memicu penumpukan gas karbon dioksida yang membuat otak panik.",
-      "solution_formula": "Tarik napas dalam lewat hidung, lalu tarik sedikit lagi di puncaknya, lalu hembuskan perlahan lewat mulut. Ulangi tiga kali."
+      "neurobiological_state": "Dua tarikan napas cepat lewat hidung diikuti satu hembusan panjang lewat mulut membuka kembali alveoli dan menurunkan nadi seketika.",
+      "cognitive_limitation": "Kebiasaan modern sering mengabaikan panggilan istirahat alami raga dan ketenangan jiwa.",
+      "common_trap": "Saat cemas, kantung udara kecil di paru-parumu (alveoli) mengempis dan memicu penumpukan gas karbon dioksida di darah.",
+      "solution_formula": "Tarik napas dalam, tarik sedikit lagi di ujung napas, lalu hembuskan perlahan lewat mulut. Ulangi tiga kali."
     }
   },
   "script_architecture_breakdown": {
@@ -42,12 +42,12 @@
         "phase": "Thumb-Stopping Shock Hook",
         "timestamp_range": "00:00 - 00:05",
         "duration_seconds": 5,
-        "spoken_text": "Saat dadamu sesak dan cemas tiba-tiba, lakukan satu trik napas rahasia ini sekarang juga!",
+        "spoken_text": "Jantungmu berdebar kencang karena panik mendadak? Lakukan trik napas dua detik ini sekarang juga!",
         "word_count": 14,
-        "visual_direction": "Kamera gerak lambat: visual estetika zen pagi hari / suasana tenang tanpa wajah. Headline peringatan emas-merah di sepertiga atas layar.",
+        "visual_direction": "Kamera gerak lambat estetik: sudut ruangan tenang, fajar pagi atau twilight. Bebas wajah frontal. Teks peringatan kontras emas-merah di sepertiga atas layar.",
         "audio_design": {
-          "voice_inflection": "Tegas, intim, bersahabat, scroll-stopping.",
-          "sfx": "Sub-bass soft impact thud pada frame ke-1.",
+          "voice_inflection": "Tegas, bersahabat, intim, scroll-stopping.",
+          "sfx": "Sub-bass soft impact thud pada detik 0.0.",
           "bgm": "Petikan dawai akustik dan ambient synth lembut."
         }
       },
@@ -56,12 +56,12 @@
         "phase": "Emotional & Biological Anchor",
         "timestamp_range": "00:05 - 00:16",
         "duration_seconds": 11,
-        "spoken_text": "Saat stres, kantung udara kecil di paru-parumu kolaps, memicu penumpukan gas karbon dioksida yang membuat otak panik.",
+        "spoken_text": "Saat cemas, kantung udara kecil di paru-parumu (alveoli) mengempis dan memicu penumpukan gas karbon dioksida di darah.",
         "word_count": 17,
-        "visual_direction": "Close-up macro estetika: cangkir teh, piring makanan sehat, atau detail dedaunan dengan cahaya alami.",
+        "visual_direction": "Close-up macro estetik: seduhan teh, cangkir keramik, atau dedaunan basah berembun dengan pencahayaan alami.",
         "audio_design": {
-          "voice_inflection": "Empatik, mengurai rasa lemas atau cemas yang selama ini dirasakan penonton.",
-          "sfx": "Whoosh lembut pada transisi adegan.",
+          "voice_inflection": "Empatik, menenangkan, mengurai rasa lemas atau cemas yang dirasakan penonton.",
+          "sfx": "Whoosh lembut pada transisi cut visual.",
           "bgm": "Alunan dawai mengalir hangat."
         }
       },
@@ -70,11 +70,11 @@
         "phase": "HyperFrames Scientific Mechanism",
         "timestamp_range": "00:16 - 00:32",
         "duration_seconds": 16,
-        "spoken_text": "Dua kali tarikan napas pendek melalui hidung diikuti satu hembusan panjang lewat mulut langsung membuka alveoli dan menenangkan saraf vagus.",
-        "word_count": 20,
-        "visual_direction": "Klip animasi vektor HyperFrames: Diagram alveoli paru-paru membuka maksimal + grafik detak jantung (BPM) melambat dari 98 ke 68 BPM.",
+        "spoken_text": "Dua tarikan napas cepat lewat hidung diikuti satu hembusan panjang lewat mulut membuka kembali alveoli dan menurunkan nadi seketika.",
+        "word_count": 19,
+        "visual_direction": "Klip animasi vektor HyperFrames / Estetika Zen: Aktivasi alveoli paru-paru memicu barorefleks jantung menurunkan denyut nadi.",
         "audio_design": {
-          "voice_inflection": "Jernih, edukatif berwibawa, membuka mata audiens.",
+          "voice_inflection": "Jernih, edukatif berwibawa, membuka wawasan biologis dan kalbu penonton.",
           "sfx": "Chime rendah lembut dan suara desau alam.",
           "bgm": "Harmoni piano ambient mengembang anggun."
         }
@@ -84,12 +84,12 @@
         "phase": "Actionable Rp 0 Micro-Routine",
         "timestamp_range": "00:32 - 00:43",
         "duration_seconds": 11,
-        "spoken_text": "Tarik napas dalam lewat hidung, lalu tarik sedikit lagi di puncaknya, lalu hembuskan perlahan lewat mulut. Ulangi tiga kali.",
-        "word_count": 19,
-        "visual_direction": "Gestur tangan tanpa wajah yang sedang mempraktikkan protokol sehat (menuang air, menyeduh teh, jalan kaki).",
+        "spoken_text": "Tarik napas dalam, tarik sedikit lagi di ujung napas, lalu hembuskan perlahan lewat mulut. Ulangi tiga kali.",
+        "word_count": 17,
+        "visual_direction": "Gestur tangan tanpa wajah yang mempraktikkan protokol sehat atau bersedekap tenang di alam.",
         "audio_design": {
-          "voice_inflection": "Hangat, mengajak aksi konkret tanpa beban.",
-          "sfx": "Foley alami (gemericik air, gesekan dedaunan).",
+          "voice_inflection": "Hangat, mengajak aksi konkret dan ketenangan batin tanpa beban.",
+          "sfx": "Foley alami (gemericik air, gesekan dedaunan, uap teh).",
           "bgm": "Melodi semakin rileks dan menenangkan."
         }
       },
@@ -98,49 +98,36 @@
         "phase": "Empowerment & Seamless Loop Climax",
         "timestamp_range": "00:43 - 00:52",
         "duration_seconds": 9,
-        "spoken_text": "Ketenangan batin ada di kendali napasmu sendiri dalam hitungan detik. Setiap kali kepanikan mulai menyerang, ingat baik-baik:",
-        "word_count": 17,
-        "visual_direction": "Outro Card Zen Dita Gentle Wellness dengan logo sage green & emas, bersiap menyambung ulang ke detik ke-0.",
+        "spoken_text": "Ketenangan sistem sarafmu ada di ujung tarikan napasmu sendiri. Saat kepanikan mulai melanda, ingat trik ini:",
+        "word_count": 16,
+        "visual_direction": "Outro Card Zen Dita Gentle Wellness & Penyejuk Hati dengan palet sage green & emas, bersiap menyambung ulang ke detik ke-0.",
         "audio_design": {
-          "voice_inflection": "Menutup tuntas dan mengalir mulus ke kalimat pertama.",
+          "voice_inflection": "Menutup tuntas dan mengalir mulus ke kalimat pembuka.",
           "sfx": "Bell chime zen lembut di ujung video.",
           "bgm": "Fade-out anggun yang beresonansi harmonis."
         }
       }
     ]
   },
-  "seamless_loop_mechanism": {
-    "loop_phrase_ending": "Ketenangan batin ada di kendali napasmu sendiri dalam hitungan detik. Setiap kali kepanikan mulai menyerang, ingat baik-baik:",
-    "hook_phrase_beginning": "Saat dadamu sesak dan cemas tiba-tiba, lakukan satu trik napas rahasia ini sekarang juga!",
-    "full_loop_sentence": "Ketenangan batin ada di kendali napasmu sendiri dalam hitungan detik. Setiap kali kepanikan mulai menyerang, ingat baik-baik: Saat dadamu sesak dan cemas tiba-tiba, lakukan satu trik napas rahasia ini sekarang juga!",
-    "retention_mechanic": "Kalimat penutup tuntas secara tata bahasa, namun saat diputar ulang di feed medsos langsung menjadi pembuka logis bagi kalimat shock hook di detik awal."
-  },
   "verbatim_script_master": {
-    "full_spoken_text_id": "Saat dadamu sesak dan cemas tiba-tiba, lakukan satu trik napas rahasia ini sekarang juga! Saat stres, kantung udara kecil di paru-parumu kolaps, memicu penumpukan gas karbon dioksida yang membuat otak panik. Dua kali tarikan napas pendek melalui hidung diikuti satu hembusan panjang lewat mulut langsung membuka alveoli dan menenangkan saraf vagus. Tarik napas dalam lewat hidung, lalu tarik sedikit lagi di puncaknya, lalu hembuskan perlahan lewat mulut. Ulangi tiga kali. Ketenangan batin ada di kendali napasmu sendiri dalam hitungan detik. Setiap kali kepanikan mulai menyerang, ingat baik-baik:",
-    "total_word_count": 87,
-    "estimated_reading_duration_seconds": 51.0,
-    "average_wpm": 120,
-    "voiceover_profile": {
-      "service": "Edge TTS",
-      "voice_name": "id-ID-GadisNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz",
-      "volume": "+0%"
-    }
-  },
-  "production_prompts_for_fullmontage": {
-    "hyperframes_scene_spec": "Diagram alveoli paru-paru membuka maksimal + grafik detak jantung (BPM) melambat dari 98 ke 68 BPM.",
-    "broll_queries": [
-      "person inhaling deeply garden morning",
-      "hand placed on chest feeling heartbeat",
-      "chest expanding slow deep breath",
-      "calm ocean waves gentle shore",
-      "peaceful serene forest greenery"
-    ]
+    "full_spoken_text_id": "Jantungmu berdebar kencang karena panik mendadak? Lakukan trik napas dua detik ini sekarang juga! Saat cemas, kantung udara kecil di paru-parumu (alveoli) mengempis dan memicu penumpukan gas karbon dioksida di darah. Dua tarikan napas cepat lewat hidung diikuti satu hembusan panjang lewat mulut membuka kembali alveoli dan menurunkan nadi seketika. Tarik napas dalam, tarik sedikit lagi di ujung napas, lalu hembuskan perlahan lewat mulut. Ulangi tiga kali. Ketenangan sistem sarafmu ada di ujung tarikan napasmu sendiri. Saat kepanikan mulai melanda, ingat trik ini:",
+    "target_audio_duration_seconds": 50.5,
+    "word_count": 83,
+    "friction_comment_question": "💬 Coba tes dua kali tarik napas lalu hembuskan panjang sekarang. Terasa ada beban yang lepas di dada nggak? 👇"
   },
   "social_fleet_distribution_metadata": {
-    "title": "Physiological Sigh: Trik Napas 30 Detik Penurun Detak Jantung! 🫁✨",
-    "youtube_shorts_title": "Physiological Sigh: Trik Napas 30 Detik Penurun Detak Jantung #Shorts #DitaWellness",
-    "caption_instagram_tiktok": "Saat dadamu sesak dan cemas tiba-tiba, lakukan satu trik napas rahasia ini sekarang juga!\n\nSecara biologis: Saat stres, kantung udara kecil di paru-parumu kolaps, memicu penumpukan gas karbon dioksida yang membuat otak panik. Dua kali tarikan napas pendek melalui hidung diikuti satu hembusan panjang lewat mulut langsung membuka alveoli dan menenangkan saraf vagus.\n\n🌿 Protokol Lembut Hari Ini:\nTarik napas dalam lewat hidung, lalu tarik sedikit lagi di puncaknya, lalu hembuskan perlahan lewat mulut. Ulangi tiga kali.\n\n💬 Coba praktikkan sekarang: tarik 2x lewat hidung, hembus panjang lewat mulut. Terasa lebih lega nggak? Tulis di bawah! 👇\n\nSimpan video ini biar nggak lupa, dan share ke orang tersayang yang butuh tips sehat alami ini! ✨\n\n#ditawellness #gentlewellness #biohackingindonesia #hidupsehatalami #kesehatantubuh #tipssehatalami #polahidupsehat #sainskesehatan"
+    "title": "Physiological Sigh: Trik Napas 30 Detik Penurun Detak Jantung 🌿✨ #Shorts",
+    "youtube_shorts_title": "Physiological Sigh: Trik Napas 30 Detik Penurun Detak Jantung 🌿✨ #Shorts",
+    "caption_instagram_tiktok": "Jantungmu berdebar kencang karena panik mendadak? Lakukan trik napas dua detik ini sekarang juga!\n\nSecara mendalam: Saat cemas, kantung udara kecil di paru-parumu (alveoli) mengempis dan memicu penumpukan gas karbon dioksida di darah. Dua tarikan napas cepat lewat hidung diikuti satu hembusan panjang lewat mulut membuka kembali alveoli dan menurunkan nadi seketika.\n\n🌿 Renungan & Protokol Hari Ini:\nTarik napas dalam, tarik sedikit lagi di ujung napas, lalu hembuskan perlahan lewat mulut. Ulangi tiga kali.\n\n💬 Coba tes dua kali tarik napas lalu hembuskan panjang sekarang. Terasa ada beban yang lepas di dada nggak? 👇\n\nSimpan video ini biar nggak lupa, dan share ke orang tersayang yang butuh ketenangan raga & jiwa hari ini! ✨\n\n#ditawellness #gentlewellness #penyejukhati #ketenanganbatin #muhasabah #biohackingindonesia #hidupsehatalami #polahidupsehat #sainskesehatan",
+    "hook_category": "🌿 RITME SIRKADIAN & RESET SEMANGAT",
+    "tags": [
+      "DitaWellness",
+      "PenyejukHati",
+      "KetenanganBatin",
+      "Biohacking",
+      "Muhasabah",
+      "GentleWellness",
+      "Shorts"
+    ]
   }
 }
