@@ -27,43 +27,59 @@ async function main() {
     packet.script_text ||
     "";
 
-  // Dynamic sequence configuration based on packet anatomy
-  let scenes = [
-    { scene_id: "SCENE_01_BEDROOM", timeStart: 0, timeEnd: 5.0, videoSrc: "wellness/scene1_bedroom.mp4" },
-    { scene_id: "SCENE_02_HYPERFRAMES_SCN", timeStart: 5.0, timeEnd: 21.0, videoSrc: "wellness/hyperframes_circadian.mp4" },
-    { scene_id: "SCENE_03_SUNLIGHT", timeStart: 21.0, timeEnd: 35.0, videoSrc: "wellness/scene3_sunlight.mp4" },
-    { scene_id: "SCENE_04_TEA", timeStart: 35.0, timeEnd: 44.0, videoSrc: "wellness/scene4_tea.mp4" },
-    { scene_id: "SCENE_05_NATURE", timeStart: 44.0, timeEnd: 55.5, videoSrc: "wellness/scene5_nature.mp4" },
-  ];
+  const dayStr = String(dayNum).padStart(3, "0");
+  const dayBrollDir = path.resolve(`public/broll/day_${dayStr}`);
 
+  // Dynamic sequence configuration based on packet anatomy & unique day B-roll
   const anatomy = packet.script_architecture_breakdown?.anatomy;
-  if (Array.isArray(anatomy) && anatomy.length > 0) {
-    const brollPool = [
-      "wellness/scene1_bedroom.mp4",
-      "wellness/scene3_sunlight.mp4",
-      "wellness/hyperframes_circadian.mp4",
-      "wellness/scene4_tea.mp4",
-      "wellness/scene5_nature.mp4"
-    ];
-    let curTime = 0;
-    scenes = anatomy.map((seg: any, idx: number) => {
-      const dur = seg.duration_seconds || 10;
-      const start = curTime;
-      const end = curTime + dur;
-      curTime = end;
-      return {
-        scene_id: seg.segment_id || `SCENE_${idx + 1}`,
-        timeStart: start,
-        timeEnd: end,
-        videoSrc: brollPool[idx % brollPool.length],
-      };
+  const numScenes = Array.isArray(anatomy) && anatomy.length > 0 ? anatomy.length : 5;
+  let curTime = 0;
+  const scenes = [];
+
+  for (let idx = 0; idx < numScenes; idx++) {
+    const scNum = String(idx + 1).padStart(2, "0");
+    const dur = anatomy && anatomy[idx]?.duration_seconds ? anatomy[idx].duration_seconds : 10;
+    const start = curTime;
+    const end = curTime + dur;
+    curTime = end;
+
+    // Check if day-specific unique B-roll exists
+    const dayClip = path.join(dayBrollDir, `scene_${scNum}.mp4`);
+    let videoSrc = `broll/day_${dayStr}/scene_${scNum}.mp4`;
+    if (!fs.existsSync(dayClip)) {
+      const brollPool = [
+        "wellness/scene1_bedroom.mp4",
+        "wellness/scene3_sunlight.mp4",
+        "wellness/hyperframes_circadian.mp4",
+        "wellness/scene4_tea.mp4",
+        "wellness/scene5_nature.mp4"
+      ];
+      videoSrc = brollPool[idx % brollPool.length];
+    }
+
+    scenes.push({
+      scene_id: anatomy && anatomy[idx]?.segment_id ? anatomy[idx].segment_id : `SCENE_${scNum}`,
+      timeStart: start,
+      timeEnd: end,
+      videoSrc,
     });
   }
+
+  const hookHeadline =
+    packet.social_fleet_distribution_metadata?.title?.replace(/#\w+/g, "").trim() ||
+    packet.scientific_research_dossier?.core_topic?.split("!")[0]?.trim() ||
+    "PERINGATAN SAINS BIOHACKING";
+
+  const hookCategory =
+    packet.metadata?.topic_pillar_name ||
+    "GENTLE WELLNESS & PENYEJUK HATI";
 
   const inputProps = {
     channelName: "Dita Gentle Wellness",
     channelHandle: "@ditawellness",
     title: packet.social_fleet_distribution_metadata?.title || "Ritme Sirkadian: Jam Master Tubuh",
+    hookHeadline,
+    hookCategory,
     script,
     audioFile: `voiceover_day_${String(dayNum).padStart(3, "0")}.mp3`,
     scenes,

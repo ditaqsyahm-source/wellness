@@ -22,6 +22,8 @@ export interface WellnessShortsProps {
   channelName?: string;
   channelHandle?: string;
   title?: string;
+  hookHeadline?: string;
+  hookCategory?: string;
   script: string;
   audioFile?: string;
   scenes?: WellnessSceneItem[];
@@ -40,6 +42,8 @@ export const WellnessShorts: React.FC<WellnessShortsProps> = ({
   channelName = "Dita Gentle Wellness",
   channelHandle = "@ditawellness",
   title = "Ritme Sirkadian: Jam Master Tubuh",
+  hookHeadline,
+  hookCategory = "⚠️ PROTOKOL BIOLOGIS",
   script,
   audioFile = "voiceover_day_001.mp3",
   scenes = [],
@@ -229,7 +233,7 @@ export const WellnessShorts: React.FC<WellnessShortsProps> = ({
                 marginBottom: 6,
               }}
             >
-              ⚠️ PROTOKOL PAGI
+              {hookCategory.toUpperCase()}
             </span>
             <h2
               style={{
@@ -238,9 +242,10 @@ export const WellnessShorts: React.FC<WellnessShortsProps> = ({
                 lineHeight: 1.25,
                 color: "#ffffff",
                 margin: 0,
+                textTransform: "uppercase",
               }}
             >
-              JANGAN BUKA HP SAAT BANGUN TIDUR!
+              {hookHeadline || title}
             </h2>
           </div>
         </div>

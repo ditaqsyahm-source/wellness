@@ -59,6 +59,10 @@ async function main() {
     runCmd(`python3 scripts/batch_generate_voiceovers.py`);
   }
 
+  // 2b. Ensure Unique Topic B-Roll Exists (Anti-Dejavu Mandate)
+  console.log(`[B-Roll] Ensuring unique topic-curated B-roll for Day ${dayNum}...`);
+  runCmd(`python3 scripts/fetch-broll.py --day ${dayNum}`);
+
   // 3. Render Remotion Video Shorts
   const masterMp4 = path.join(ROOT_DIR, "output", `dita_wellness_day_${pad3(dayNum)}_master.mp4`);
   const compressedMp4 = path.join(ROOT_DIR, "output", `dita_wellness_day_${pad3(dayNum)}_compressed.mp4`);

@@ -1,0 +1,88 @@
+{
+  "total_used": 10,
+  "last_updated": "2026-10-21T19:38:28.671452",
+  "used_ids": [
+    8926011,
+    7213860,
+    7034351,
+    3801360,
+    7506000,
+    9063506,
+    6845748,
+    7505656,
+    30309529,
+    7577435
+  ],
+  "history": [
+    {
+      "day": 2,
+      "scene": "01",
+      "video_id": 7577435,
+      "query": "hot coffee cup steam morning",
+      "downloaded_at": "2026-10-21T19:33:40.834250"
+    },
+    {
+      "day": 2,
+      "scene": "02",
+      "video_id": 3801360,
+      "query": "tired waking up bed morning",
+      "downloaded_at": "2026-10-21T19:33:59.829456"
+    },
+    {
+      "day": 2,
+      "scene": "03",
+      "video_id": 9063506,
+      "query": "exhausted office worker afternoon desk",
+      "downloaded_at": "2026-10-21T19:34:28.250567"
+    },
+    {
+      "day": 2,
+      "scene": "04",
+      "video_id": 7213860,
+      "query": "drinking fresh water morning glass",
+      "downloaded_at": "2026-10-21T19:34:37.339646"
+    },
+    {
+      "day": 2,
+      "scene": "05",
+      "video_id": 7034351,
+      "query": "roasted coffee beans macro aesthetic",
+      "downloaded_at": "2026-10-21T19:34:44.533783"
+    },
+    {
+      "day": 3,
+      "scene": "01",
+      "video_id": 8926011,
+      "query": "running bath water steam bathtub",
+      "downloaded_at": "2026-10-21T19:37:49.013946"
+    },
+    {
+      "day": 3,
+      "scene": "02",
+      "video_id": 30309529,
+      "query": "cozy bedroom candlelight night",
+      "downloaded_at": "2026-10-21T19:37:57.246363"
+    },
+    {
+      "day": 3,
+      "scene": "03",
+      "video_id": 6845748,
+      "query": "warm water soothing drops bath",
+      "downloaded_at": "2026-10-21T19:38:11.542996"
+    },
+    {
+      "day": 3,
+      "scene": "04",
+      "video_id": 7506000,
+      "query": "stretching bedroom night dim lamp",
+      "downloaded_at": "2026-10-21T19:38:21.220843"
+    },
+    {
+      "day": 3,
+      "scene": "05",
+      "video_id": 7505656,
+      "query": "sleeping peacefully cozy bed dark",
+      "downloaded_at": "2026-10-21T19:38:28.670379"
+    }
+  ]
+}
