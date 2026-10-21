@@ -1,9 +1,12 @@
 {
-  "total_used": 10,
-  "last_updated": "2026-10-21T19:38:28.671452",
+  "total_used": 15,
+  "last_updated": "2026-10-21T12:40:56.914625",
   "used_ids": [
-    8926011,
+    7505952,
+    7577435,
     7213860,
+    6598889,
+    8375468,
     7034351,
     3801360,
     7506000,
@@ -11,7 +14,9 @@
     6845748,
     7505656,
     30309529,
-    7577435
+    8926011,
+    6810588,
+    8926013
   ],
   "history": [
     {
@@ -83,6 +88,41 @@
       "video_id": 7505656,
       "query": "sleeping peacefully cozy bed dark",
       "downloaded_at": "2026-10-21T19:38:28.670379"
+    },
+    {
+      "day": 3,
+      "scene": "01",
+      "video_id": 6810588,
+      "query": "running bath water steam bathtub",
+      "downloaded_at": "2026-10-21T12:40:34.356175"
+    },
+    {
+      "day": 3,
+      "scene": "02",
+      "video_id": 7505952,
+      "query": "cozy bedroom candlelight night",
+      "downloaded_at": "2026-10-21T12:40:36.292866"
+    },
+    {
+      "day": 3,
+      "scene": "03",
+      "video_id": 8926013,
+      "query": "warm water soothing drops bath",
+      "downloaded_at": "2026-10-21T12:40:42.605092"
+    },
+    {
+      "day": 3,
+      "scene": "04",
+      "video_id": 6598889,
+      "query": "stretching bedroom night dim lamp",
+      "downloaded_at": "2026-10-21T12:40:45.294096"
+    },
+    {
+      "day": 3,
+      "scene": "05",
+      "video_id": 8375468,
+      "query": "sleeping peacefully cozy bed dark",
+      "downloaded_at": "2026-10-21T12:40:56.914307"
     }
   ]
 }

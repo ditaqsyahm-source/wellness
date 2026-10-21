@@ -192,5 +192,101 @@
         }
       }
     }
+  },
+  {
+    "day": 3,
+    "published_at": "2026-10-21T12:45:06.495259",
+    "video": "dita_wellness_day_003_compressed.mp4",
+    "results": {
+      "youtube": {
+        "platform": "youtube",
+        "ok": true,
+        "videoId": "iYZTm3VbjzI",
+        "url": "https://youtube.com/shorts/iYZTm3VbjzI"
+      },
+      "zernio": {
+        "platform": "zernio",
+        "ok": true,
+        "postId": "6ad8b3c6ca759f643e8c6f7c",
+        "data": {
+          "_id": "6ad8b3c6ca759f643e8c6f7c",
+          "userId": "6ac0fee4b5fe160e5da5505e",
+          "title": "Mandi air hangat sebelum tidur bikin badan rileks dan cepat tidur? Ternyata meka",
+          "content": "Mandi air hangat sebelum tidur bikin badan rileks dan cepat tidur? Ternyata mekanismenya bukan seperti yang kamu kira!\n\nSecara biologis: Tubuh manusia membutuhkan penurunan suhu inti sebesar satu derajat celsius agar otak bisa memicu rasa kantuk dan hormon melatonin. Air hangat melebarkan pembuluh darah tepi di kulitmu, membuang panas inti tubuh ke udara, sehingga suhu dalam tubuhmu justru turun drastis.\n\n\ud83c\udf3f Protokol Lembut Hari Ini:\nMandi air hangat satu jam sebelum tidur malam. Suhu ruangan yang sejuk akan mempercepat penurunan suhu inti dan membuatmu lelap seketika.\n\n\ud83d\udcac Kamu lebih suka mandi air hangat atau air dingin sebelum tidur malam? Ceritakan di kolom komentar! \ud83d\udc47\n\nSimpan video ini biar nggak lupa, dan share ke orang tersayang yang butuh tips sehat alami ini! \u2728\n\n#ditawellness #gentlewellness #biohackingindonesia #hidupsehatalami #kesehatantubuh #tipssehatalami #polahidupsehat #sainskesehatan",
+          "mediaItems": [
+            {
+              "_id": "6ad8b3c6ca759f643e8c6f7f",
+              "url": "https://media.zernio.com/media/1792586692032_665rrztd_dita_wellness_day_003_compressed.mp4",
+              "type": "video"
+            }
+          ],
+          "scheduledFor": "2026-10-21T12:44:53.383Z",
+          "timezone": "UTC",
+          "status": "publishing",
+          "tags": [],
+          "hashtags": [],
+          "mentions": [],
+          "visibility": "public",
+          "crosspostingEnabled": true,
+          "metadata": {
+            "usageCounted": true
+          },
+          "publishingClaimedAt": "2026-10-21T12:44:54.169Z",
+          "recycling": {
+            "enabled": false,
+            "gapFreq": "month",
+            "recycleCount": 0,
+            "contentVariations": [],
+            "contentVariationIndex": 0
+          },
+          "createdAt": "2026-10-21T12:44:54.127Z",
+          "updatedAt": "2026-10-21T12:45:06.340Z",
+          "platforms": [
+            {
+              "_id": "6ad8b3c6ca759f643e8c6f7a",
+              "platform": "tiktok",
+              "accountId": {
+                "_id": "6ac101d7b7173e371b8e5d31",
+                "platform": "tiktok",
+                "username": "ditawellness",
+                "displayName": "ditawellness",
+                "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/861510685ce99bc54cb77c064296059e~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=79b7ce33&x-expires=1792735200&x-signature=ypDiCp%2BkoanhOscEjYsLNHOT8kE%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my",
+                "isActive": true,
+                "profileId": "6ac0fee4b5fe160e5da55060"
+              },
+              "profileId": "6ac0fee4b5fe160e5da55060",
+              "customMedia": [],
+              "scheduledFor": "2026-10-21T12:44:53.383Z",
+              "platformSpecificData": {
+                "tiktokUploadTimeoutAt": "2026-10-21T12:45:06.300Z",
+                "tiktokBusinessPublishId": "v_pub_url~v2.7699100888195008513"
+              },
+              "status": "uploading",
+              "publishAttempts": 1,
+              "contentHash": "fc1a593c6d82328413c2f1ac66e73f65"
+            },
+            {
+              "_id": "6ad8b3c6ca759f643e8c6f7b",
+              "platform": "instagram",
+              "accountId": {
+                "_id": "6ac0fff63c403551667bfd7d",
+                "platform": "instagram",
+                "username": "ditawellness",
+                "displayName": "Dita Gentle Wellness",
+                "profilePicture": null,
+                "isActive": true,
+                "profileId": "6ac0fee4b5fe160e5da55060"
+              },
+              "profileId": "6ac0fee4b5fe160e5da55060",
+              "customMedia": [],
+              "scheduledFor": "2026-10-21T12:44:53.383Z",
+              "status": "processing",
+              "publishAttempts": 1,
+              "contentHash": "01be4f32d78524cbb8ee37a90e0b91ad"
+            }
+          ]
+        }
+      }
+    }
   }
 ]
