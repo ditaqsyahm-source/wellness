@@ -1,22 +1,27 @@
 {
-  "total_used": 15,
-  "last_updated": "2026-10-21T12:40:56.914625",
+  "total_used": 20,
+  "last_updated": "2026-10-21T16:26:50.941970",
   "used_ids": [
-    7505952,
-    7577435,
-    7213860,
-    6598889,
-    8375468,
-    7034351,
+    19086477,
+    7531023,
     3801360,
+    30309529,
+    6658334,
+    7505952,
+    8719392,
+    7213860,
+    8375468,
+    6845748,
+    8926011,
+    8926013,
     7506000,
     9063506,
-    6845748,
-    7505656,
-    30309529,
-    8926011,
+    7577435,
     6810588,
-    8926013
+    6598889,
+    7034346,
+    7034351,
+    7505656
   ],
   "history": [
     {
@@ -123,6 +128,41 @@
       "video_id": 8375468,
       "query": "sleeping peacefully cozy bed dark",
       "downloaded_at": "2026-10-21T12:40:56.914307"
+    },
+    {
+      "day": 2,
+      "scene": "01",
+      "video_id": 19086477,
+      "query": "hot coffee cup steam morning",
+      "downloaded_at": "2026-10-21T16:26:29.862380"
+    },
+    {
+      "day": 2,
+      "scene": "02",
+      "video_id": 6658334,
+      "query": "tired waking up bed morning",
+      "downloaded_at": "2026-10-21T16:26:38.328274"
+    },
+    {
+      "day": 2,
+      "scene": "03",
+      "video_id": 8719392,
+      "query": "exhausted office worker afternoon desk",
+      "downloaded_at": "2026-10-21T16:26:44.886850"
+    },
+    {
+      "day": 2,
+      "scene": "04",
+      "video_id": 7531023,
+      "query": "drinking fresh water morning glass",
+      "downloaded_at": "2026-10-21T16:26:47.729601"
+    },
+    {
+      "day": 2,
+      "scene": "05",
+      "video_id": 7034346,
+      "query": "roasted coffee beans macro aesthetic",
+      "downloaded_at": "2026-10-21T16:26:50.941731"
     }
   ]
 }
