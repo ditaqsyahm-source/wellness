@@ -482,5 +482,102 @@
         }
       }
     }
+  },
+  {
+    "day": 5,
+    "published_at": "2026-10-23T01:47:00.596992",
+    "video": "dita_wellness_day_005_compressed.mp4",
+    "results": {
+      "youtube": {
+        "platform": "youtube",
+        "ok": true,
+        "videoId": "qiWKV7-xqXE",
+        "url": "https://youtube.com/shorts/qiWKV7-xqXE"
+      },
+      "zernio": {
+        "platform": "zernio",
+        "ok": true,
+        "postId": "6adabc8857b93a3e4b0c27b4",
+        "data": {
+          "_id": "6adabc8857b93a3e4b0c27b4",
+          "userId": "6ac0fee4b5fe160e5da5505e",
+          "title": "Saat langkahmu terasa begitu berat dan hatimu dipenuhi sesak, berhentilah sejena",
+          "content": "Saat langkahmu terasa begitu berat dan hatimu dipenuhi sesak, berhentilah sejenak. Kamu bukan mesin yang tak boleh lelah.\n\nSecara mendalam: Banyak jiwa menjadi hancur bukan karena beratnya ujian, melainkan karena enggan mengakui bahwa dirinya hanyalah manusia yang rapuh. Keikhlasan sejati dimulai saat kamu melepaskan kendali atas apa yang memang tidak pernah berada di dalam genggaman tanganmu.\n\n\ud83c\udf3f Renungan & Protokol Hari Ini:\nTarik napas perlahan di hari Jumat yang berkah ini. Ucapkan terima kasih pada ragamu yang telah bertahan sejauh ini, lalu serahkan segalanya pada Tuhan.\n\n\ud83d\udcac Kapan terakhir kali kamu duduk diam tanpa memikirkan pekerjaan dan berkata pada dirimu: 'Terima kasih sudah bertahan'? \ud83d\udc47\n\nSimpan video ini biar nggak lupa, dan share ke orang tersayang yang butuh ketenangan raga & jiwa hari ini! \u2728\n\n#ditawellness #gentlewellness #penyejukhati #ketenanganbatin #muhasabah #biohackingindonesia #hidupsehatalami #polahidupsehat #sainskesehatan",
+          "mediaItems": [
+            {
+              "_id": "6adabc8857b93a3e4b0c27b7",
+              "url": "https://media.zernio.com/media/1792720006057_j8xlybi8_dita_wellness_day_005_compressed.mp4",
+              "type": "video"
+            }
+          ],
+          "scheduledFor": "2026-10-23T01:46:47.832Z",
+          "timezone": "UTC",
+          "status": "publishing",
+          "tags": [],
+          "hashtags": [],
+          "mentions": [],
+          "visibility": "public",
+          "crosspostingEnabled": true,
+          "metadata": {
+            "usageCounted": true
+          },
+          "publishingClaimedAt": "2026-10-23T01:46:48.598Z",
+          "recycling": {
+            "enabled": false,
+            "gapFreq": "month",
+            "recycleCount": 0,
+            "contentVariations": [],
+            "contentVariationIndex": 0
+          },
+          "createdAt": "2026-10-23T01:46:48.540Z",
+          "updatedAt": "2026-10-23T01:47:00.488Z",
+          "platforms": [
+            {
+              "_id": "6adabc8857b93a3e4b0c27b2",
+              "platform": "tiktok",
+              "accountId": {
+                "_id": "6ac101d7b7173e371b8e5d31",
+                "platform": "tiktok",
+                "username": "ditawellness",
+                "displayName": "ditawellness",
+                "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/861510685ce99bc54cb77c064296059e~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=2a78944d&x-expires=1792825200&x-signature=Vl9OsZrQfHXbXCgBQChuWt11AU0%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my2",
+                "isActive": true,
+                "profileId": "6ac0fee4b5fe160e5da55060"
+              },
+              "profileId": "6ac0fee4b5fe160e5da55060",
+              "customMedia": [],
+              "scheduledFor": "2026-10-23T01:46:47.832Z",
+              "platformSpecificData": {
+                "tiktokBusinessPublishId": "v_pub_url~v2.7699673246148577300"
+              },
+              "status": "published",
+              "publishedAt": "2026-10-23T01:47:00.478Z",
+              "platformPostId": "v_pub_url~v2.7699673246148577300",
+              "publishAttempts": 1,
+              "contentHash": "80eea8cf6ebb80484f1d0b5321aec7da"
+            },
+            {
+              "_id": "6adabc8857b93a3e4b0c27b3",
+              "platform": "instagram",
+              "accountId": {
+                "_id": "6ac0fff63c403551667bfd7d",
+                "platform": "instagram",
+                "username": "ditawellness",
+                "displayName": "Dita Gentle Wellness",
+                "profilePicture": null,
+                "isActive": true,
+                "profileId": "6ac0fee4b5fe160e5da55060"
+              },
+              "profileId": "6ac0fee4b5fe160e5da55060",
+              "customMedia": [],
+              "scheduledFor": "2026-10-23T01:46:47.832Z",
+              "status": "processing",
+              "publishAttempts": 1,
+              "contentHash": "be2ec53ed4cc2c5943d77dde1d603968"
+            }
+          ]
+        }
+      }
+    }
   }
 ]
