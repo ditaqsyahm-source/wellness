@@ -1,17 +1,19 @@
 {
-  "total_used": 35,
-  "last_updated": "2026-10-23T01:42:32.103119",
+  "total_used": 40,
+  "last_updated": "2026-10-24T01:45:54.093528",
   "used_ids": [
     35684737,
+    9969030,
     19086477,
     7531023,
     3801360,
-    6267799,
     35621399,
-    30309529,
+    6267799,
     39056665,
+    30309529,
     30182685,
     6658334,
+    27517087,
     7505952,
     8719392,
     7213860,
@@ -19,6 +21,7 @@
     38957094,
     38782629,
     5983910,
+    28478884,
     8375468,
     6845748,
     8926011,
@@ -31,12 +34,14 @@
     6306000,
     9063506,
     20583513,
+    31145306,
     7577435,
     6810588,
     6598889,
     7034346,
     7034351,
-    7505656
+    7505656,
+    38990843
   ],
   "history": [
     {
@@ -283,6 +288,41 @@
       "video_id": 30039749,
       "query": "stars night sky peaceful time lapse",
       "downloaded_at": "2026-10-23T01:42:32.102803"
+    },
+    {
+      "day": 6,
+      "scene": "01",
+      "video_id": 9969030,
+      "query": "warm knit blanket reading book cozy",
+      "downloaded_at": "2026-10-24T01:45:43.332546"
+    },
+    {
+      "day": 6,
+      "scene": "02",
+      "video_id": 28478884,
+      "query": "morning mist rising mountain forest",
+      "downloaded_at": "2026-10-24T01:45:46.570864"
+    },
+    {
+      "day": 6,
+      "scene": "03",
+      "video_id": 38990843,
+      "query": "minimalist botanical nature aesthetic",
+      "downloaded_at": "2026-10-24T01:45:49.058116"
+    },
+    {
+      "day": 6,
+      "scene": "04",
+      "video_id": 31145306,
+      "query": "morning window sunlight calm aesthetic",
+      "downloaded_at": "2026-10-24T01:45:52.046465"
+    },
+    {
+      "day": 6,
+      "scene": "05",
+      "video_id": 27517087,
+      "query": "herbal tea pouring steam cup macro",
+      "downloaded_at": "2026-10-24T01:45:54.093209"
     }
   ]
 }
