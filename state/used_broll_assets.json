@@ -1,22 +1,22 @@
 {
-  "total_used": 45,
-  "last_updated": "2026-10-25T00:00:42.057590",
+  "total_used": 50,
+  "last_updated": "2026-10-26T00:00:50.278046",
   "used_ids": [
     35684737,
     9969030,
     19086477,
     7531023,
     3801360,
-    6267799,
     35621399,
-    30309529,
+    6267799,
     39056665,
+    30309529,
     30182685,
     6658334,
-    27517087,
+    19095583,
     7505952,
     8719392,
-    19095583,
+    27517087,
     7213860,
     28925348,
     38957094,
@@ -31,16 +31,21 @@
     19474117,
     9127880,
     5828553,
+    37385289,
     39885262,
     7506000,
     6306000,
     9063506,
     35441619,
+    7576277,
     20583513,
     31145306,
     7577435,
     6810588,
+    10758621,
+    8296159,
     8233828,
+    38470504,
     6598889,
     7034346,
     7034351,
@@ -363,6 +368,41 @@
       "video_id": 39054455,
       "query": "stars night sky peaceful time lapse",
       "downloaded_at": "2026-10-25T00:00:42.057292"
+    },
+    {
+      "day": 8,
+      "scene": "01",
+      "video_id": 38470504,
+      "query": "zen stone water garden peaceful",
+      "downloaded_at": "2026-10-26T00:00:31.225733"
+    },
+    {
+      "day": 8,
+      "scene": "02",
+      "video_id": 7576277,
+      "query": "hands writing journal aesthetic desk",
+      "downloaded_at": "2026-10-26T00:00:34.332838"
+    },
+    {
+      "day": 8,
+      "scene": "03",
+      "video_id": 8296159,
+      "query": "green tea matcha whisking bamboo",
+      "downloaded_at": "2026-10-26T00:00:41.283017"
+    },
+    {
+      "day": 8,
+      "scene": "04",
+      "video_id": 37385289,
+      "query": "calm water ripples slow motion aesthetic",
+      "downloaded_at": "2026-10-26T00:00:48.072343"
+    },
+    {
+      "day": 8,
+      "scene": "05",
+      "video_id": 10758621,
+      "query": "warm knit blanket reading book cozy",
+      "downloaded_at": "2026-10-26T00:00:50.277806"
     }
   ]
 }

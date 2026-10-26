@@ -773,5 +773,102 @@
         }
       }
     }
+  },
+  {
+    "day": 8,
+    "published_at": "2026-10-26T00:07:37.498876",
+    "video": "dita_wellness_day_008_compressed.mp4",
+    "results": {
+      "youtube": {
+        "platform": "youtube",
+        "ok": true,
+        "videoId": "SMMSYEGoRlw",
+        "url": "https://youtube.com/shorts/SMMSYEGoRlw"
+      },
+      "zernio": {
+        "platform": "zernio",
+        "ok": true,
+        "postId": "6ade99bdbc8927ac9def823b",
+        "data": {
+          "_id": "6ade99bdbc8927ac9def823b",
+          "userId": "6ac0fee4b5fe160e5da5505e",
+          "title": "Jantungmu berdebar kencang karena panik mendadak? Lakukan trik napas dua detik i",
+          "content": "Jantungmu berdebar kencang karena panik mendadak? Lakukan trik napas dua detik ini sekarang juga!\n\nSecara mendalam: Saat cemas, kantung udara kecil di paru-parumu (alveoli) mengempis dan memicu penumpukan gas karbon dioksida di darah. Dua tarikan napas cepat lewat hidung diikuti satu hembusan panjang lewat mulut membuka kembali alveoli dan menurunkan nadi seketika.\n\n\ud83c\udf3f Renungan & Protokol Hari Ini:\nTarik napas dalam, tarik sedikit lagi di ujung napas, lalu hembuskan perlahan lewat mulut. Ulangi tiga kali.\n\n\ud83d\udcac Coba tes dua kali tarik napas lalu hembuskan panjang sekarang. Terasa ada beban yang lepas di dada nggak? \ud83d\udc47\n\nSimpan video ini biar nggak lupa, dan share ke orang tersayang yang butuh ketenangan raga & jiwa hari ini! \u2728\n\n#ditawellness #gentlewellness #penyejukhati #ketenanganbatin #muhasabah #biohackingindonesia #hidupsehatalami #polahidupsehat #sainskesehatan",
+          "mediaItems": [
+            {
+              "_id": "6ade99bdbc8927ac9def823e",
+              "url": "https://media.zernio.com/media/1792973242810_ddyxapyh_dita_wellness_day_008_compressed.mp4",
+              "type": "video"
+            }
+          ],
+          "scheduledFor": "2026-10-26T00:07:24.594Z",
+          "timezone": "UTC",
+          "status": "publishing",
+          "tags": [],
+          "hashtags": [],
+          "mentions": [],
+          "visibility": "public",
+          "crosspostingEnabled": true,
+          "metadata": {
+            "usageCounted": true
+          },
+          "publishingClaimedAt": "2026-10-26T00:07:25.355Z",
+          "recycling": {
+            "enabled": false,
+            "gapFreq": "month",
+            "recycleCount": 0,
+            "contentVariations": [],
+            "contentVariationIndex": 0
+          },
+          "createdAt": "2026-10-26T00:07:25.292Z",
+          "updatedAt": "2026-10-26T00:07:37.344Z",
+          "platforms": [
+            {
+              "_id": "6ade99bdbc8927ac9def8239",
+              "platform": "tiktok",
+              "accountId": {
+                "_id": "6ac101d7b7173e371b8e5d31",
+                "platform": "tiktok",
+                "username": "ditawellness",
+                "displayName": "ditawellness",
+                "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/861510685ce99bc54cb77c064296059e~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=013cead1&x-expires=1793080800&x-signature=QW7qwYHBIAAAMueEjdbFu%2FHrfeE%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my",
+                "isActive": true,
+                "profileId": "6ac0fee4b5fe160e5da55060"
+              },
+              "profileId": "6ac0fee4b5fe160e5da55060",
+              "customMedia": [],
+              "scheduledFor": "2026-10-26T00:07:24.594Z",
+              "platformSpecificData": {
+                "tiktokBusinessPublishId": "v_pub_url~v2.7700760393064417287"
+              },
+              "status": "published",
+              "publishedAt": "2026-10-26T00:07:37.334Z",
+              "platformPostId": "v_pub_url~v2.7700760393064417287",
+              "publishAttempts": 1,
+              "contentHash": "e4c124568c7eb74dbde6aa6214026769"
+            },
+            {
+              "_id": "6ade99bdbc8927ac9def823a",
+              "platform": "instagram",
+              "accountId": {
+                "_id": "6ac0fff63c403551667bfd7d",
+                "platform": "instagram",
+                "username": "ditawellness",
+                "displayName": "Dita Gentle Wellness",
+                "profilePicture": null,
+                "isActive": true,
+                "profileId": "6ac0fee4b5fe160e5da55060"
+              },
+              "profileId": "6ac0fee4b5fe160e5da55060",
+              "customMedia": [],
+              "scheduledFor": "2026-10-26T00:07:24.594Z",
+              "status": "processing",
+              "publishAttempts": 1,
+              "contentHash": "12b558da2b42dc353d6b51a112e804ee"
+            }
+          ]
+        }
+      }
+    }
   }
 ]
