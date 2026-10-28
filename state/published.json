@@ -967,5 +967,102 @@
         }
       }
     }
+  },
+  {
+    "day": 10,
+    "published_at": "2026-10-28T01:04:47.982909",
+    "video": "dita_wellness_day_010_compressed.mp4",
+    "results": {
+      "youtube": {
+        "platform": "youtube",
+        "ok": true,
+        "videoId": "yweSoqz-9ho",
+        "url": "https://youtube.com/shorts/yweSoqz-9ho"
+      },
+      "zernio": {
+        "platform": "zernio",
+        "ok": true,
+        "postId": "6ae14a2372c8ad9caf03de31",
+        "data": {
+          "_id": "6ae14a2372c8ad9caf03de31",
+          "userId": "6ac0fee4b5fe160e5da5505e",
+          "title": "Merasa aman minum soda diet karena label nol kalori? Pemanis buatan itu diam-dia",
+          "content": "Merasa aman minum soda diet karena label nol kalori? Pemanis buatan itu diam-diam merusak keseimbangan mentalmu!\n\nSecara mendalam: Pemanis buatan seperti sukralosa dan aspartam mengubah komposisi bakteri baik di usus besar menjadi bakteri pemicu radang. Kondisi disbiosis usus ini menurunkan sensitivitas insulin dan memicu fluktuasi suasana hati serta kecemasan tanpa sebab yang jelas.\n\n\ud83c\udf3f Renungan & Protokol Hari Ini:\nGanti minuman manis buatan dengan air dingin beraroma irisan lemon segar, daun mint, atau seduhan teh hijau tanpa gula.\n\n\ud83d\udcac Kamu masih sering minum minuman berlabel 'Zero Sugar' atau 'Diet'? Yuk jujur di kolom komentar! \ud83d\udc47\n\nSimpan video ini biar nggak lupa, dan share ke orang tersayang yang butuh ketenangan raga & jiwa hari ini! \u2728\n\n#ditawellness #gentlewellness #penyejukhati #ketenanganbatin #muhasabah #biohackingindonesia #hidupsehatalami #polahidupsehat #sainskesehatan",
+          "mediaItems": [
+            {
+              "_id": "6ae14a2372c8ad9caf03de34",
+              "url": "https://media.zernio.com/media/1793149473202_5434807746791b9b_dita_wellness_day_010_compressed.mp4",
+              "type": "video"
+            }
+          ],
+          "scheduledFor": "2026-10-28T01:04:34.310Z",
+          "timezone": "UTC",
+          "status": "publishing",
+          "tags": [],
+          "hashtags": [],
+          "mentions": [],
+          "visibility": "public",
+          "crosspostingEnabled": true,
+          "metadata": {
+            "usageCounted": true
+          },
+          "publishingClaimedAt": "2026-10-28T01:04:35.101Z",
+          "recycling": {
+            "enabled": false,
+            "gapFreq": "month",
+            "recycleCount": 0,
+            "contentVariations": [],
+            "contentVariationIndex": 0
+          },
+          "createdAt": "2026-10-28T01:04:35.064Z",
+          "updatedAt": "2026-10-28T01:04:47.832Z",
+          "platforms": [
+            {
+              "_id": "6ae14a2372c8ad9caf03de2f",
+              "platform": "tiktok",
+              "accountId": {
+                "_id": "6ac101d7b7173e371b8e5d31",
+                "platform": "tiktok",
+                "username": "ditawellness",
+                "displayName": "ditawellness",
+                "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/861510685ce99bc54cb77c064296059e~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=ea9ed31e&x-expires=1793253600&x-signature=3mZFdKpWdhGoo4XtaZhK7v8uKvw%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my",
+                "isActive": true,
+                "profileId": "6ac0fee4b5fe160e5da55060"
+              },
+              "profileId": "6ac0fee4b5fe160e5da55060",
+              "customMedia": [],
+              "scheduledFor": "2026-10-28T01:04:34.310Z",
+              "platformSpecificData": {
+                "tiktokBusinessPublishId": "v_pub_url~v2.7701518198977497096"
+              },
+              "status": "published",
+              "publishedAt": "2026-10-28T01:04:47.766Z",
+              "platformPostId": "v_pub_url~v2.7701518198977497096",
+              "publishAttempts": 1,
+              "contentHash": "9f49f847ce59ad44bc1d60c26a6be13c"
+            },
+            {
+              "_id": "6ae14a2372c8ad9caf03de30",
+              "platform": "instagram",
+              "accountId": {
+                "_id": "6ac0fff63c403551667bfd7d",
+                "platform": "instagram",
+                "username": "ditawellness",
+                "displayName": "Dita Gentle Wellness",
+                "profilePicture": null,
+                "isActive": true,
+                "profileId": "6ac0fee4b5fe160e5da55060"
+              },
+              "profileId": "6ac0fee4b5fe160e5da55060",
+              "customMedia": [],
+              "scheduledFor": "2026-10-28T01:04:34.310Z",
+              "status": "processing",
+              "publishAttempts": 1,
+              "contentHash": "badf6319142067e1af22458834b7461b"
+            }
+          ]
+        }
+      }
+    }
   }
 ]
