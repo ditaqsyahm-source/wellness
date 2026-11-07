@@ -111,9 +111,27 @@ async function main() {
   console.log("\n============================================================");
   console.log(`  DAY ${pad3(dayNum)} PIPELINE COMPLETED SUCCESSFULLY!`);
   console.log("============================================================");
+
+  // 7. Dispatch Detailed Telegram Report (Success)
+  try {
+    console.log("[Telegram] Dispatching success report to Owner...");
+    runCmd(`python3 scripts/report_telegram.py --day ${dayNum}`);
+  } catch (e) {
+    console.warn("[Telegram] Could not send success notification:", e);
+  }
 }
 
 main().catch((err) => {
   console.error("Pipeline failure:", err);
+  // Dispatch Detailed Telegram Report (Failure)
+  try {
+    const errMsg = (err instanceof Error ? err.stack || err.message : String(err)).replace(/"/g, "'");
+    execSync(`python3 scripts/report_telegram.py --failure 0 "${errMsg.slice(0, 500)}"`, {
+      stdio: "inherit",
+      cwd: ROOT_DIR,
+    });
+  } catch (e) {
+    console.warn("Failed to dispatch telegram failure report:", e);
+  }
   process.exit(1);
 });

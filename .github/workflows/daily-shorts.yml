@@ -57,6 +57,8 @@ jobs:
           GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           REMOTION_BROWSER_EXECUTABLE: /usr/bin/google-chrome-stable
         run: |
           echo "Running Dita Gentle Wellness Daily Autonomous Pipeline..."
@@ -74,6 +76,14 @@ jobs:
           git add state/
           git diff --staged --quiet || git commit -m "chore(pipeline): update campaign and published state [skip ci]"
           git push
+
+      - name: Notify Telegram on Workflow Failure
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python3 scripts/report_telegram.py --failure 0 "GitHub Action workflow job failed unexpectedly (Exit code 1). Periksa log runner selengkapnya."
 
       - name: Upload Video Artifacts
         if: always()
