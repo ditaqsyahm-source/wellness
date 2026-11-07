@@ -1064,5 +1064,102 @@
         }
       }
     }
+  },
+  {
+    "day": 11,
+    "published_at": "2026-11-07T08:07:40.728187",
+    "video": "dita_wellness_day_011_compressed.mp4",
+    "results": {
+      "youtube": {
+        "platform": "youtube",
+        "ok": true,
+        "videoId": "Re1CQC1xywI",
+        "url": "https://youtube.com/shorts/Re1CQC1xywI"
+      },
+      "zernio": {
+        "platform": "zernio",
+        "ok": true,
+        "postId": "6aeedc45a5b5f9c68b63e3b9",
+        "data": {
+          "_id": "6aeedc45a5b5f9c68b63e3b9",
+          "userId": "6ac0fee4b5fe160e5da5505e",
+          "title": "Sering merasa sangat mengantuk dan lemas satu jam setelah makan siang? Urutan ma",
+          "content": "Sering merasa sangat mengantuk dan lemas satu jam setelah makan siang? Urutan makanmu keliru fatal!\n\nSecara mendalam: Karbohidrat sederhana yang masuk ke lambung kosong diserap sangat cepat, memicu lonjakan tajam glukosa dan insulin di darah. Serat sayuran yang dimakan pertama kali melapisi dinding usus halus, memperlambat pemecahan glukosa dan menjaga energi stabil.\n\n\ud83c\udf3f Renungan & Protokol Hari Ini:\nTerapkan aturan baku ini: santap sayuran berserat terlebih dahulu, lanjutkan dengan lauk berprotein, dan akhiri dengan nasi.\n\n\ud83d\udcac Kamu kalau makan biasanya habisin nasinya duluan, sayurnya dulu, atau diaduk campur semua? Tulis di bawah! \ud83d\udc47\n\nSimpan video ini biar nggak lupa, dan share ke orang tersayang yang butuh ketenangan raga & jiwa hari ini! \u2728\n\n#ditawellness #gentlewellness #penyejukhati #ketenanganbatin #muhasabah #biohackingindonesia #hidupsehatalami #polahidupsehat #sainskesehatan",
+          "mediaItems": [
+            {
+              "_id": "6aeedc45a5b5f9c68b63e3bc",
+              "url": "https://media.zernio.com/media/1794038852156_d7501bc5a391b3e8_dita_wellness_day_011_compressed.mp4",
+              "type": "video"
+            }
+          ],
+          "scheduledFor": "2026-11-07T08:07:33.070Z",
+          "timezone": "UTC",
+          "status": "publishing",
+          "tags": [],
+          "hashtags": [],
+          "mentions": [],
+          "visibility": "public",
+          "crosspostingEnabled": true,
+          "metadata": {
+            "usageCounted": true
+          },
+          "publishingClaimedAt": "2026-11-07T08:07:33.625Z",
+          "recycling": {
+            "enabled": false,
+            "gapFreq": "month",
+            "recycleCount": 0,
+            "contentVariations": [],
+            "contentVariationIndex": 0
+          },
+          "createdAt": "2026-11-07T08:07:33.574Z",
+          "updatedAt": "2026-11-07T08:07:40.596Z",
+          "platforms": [
+            {
+              "_id": "6aeedc45a5b5f9c68b63e3b7",
+              "platform": "tiktok",
+              "accountId": {
+                "_id": "6ac101d7b7173e371b8e5d31",
+                "platform": "tiktok",
+                "username": "ditawellness",
+                "displayName": "ditawellness",
+                "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/861510685ce99bc54cb77c064296059e~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=9e8ef4e9&x-expires=1794121200&x-signature=8WT3BsKVc8lXUNObxu3U76o1y7w%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my",
+                "isActive": true,
+                "profileId": "6ac0fee4b5fe160e5da55060"
+              },
+              "profileId": "6ac0fee4b5fe160e5da55060",
+              "customMedia": [],
+              "scheduledFor": "2026-11-07T08:07:33.070Z",
+              "platformSpecificData": {
+                "tiktokBusinessPublishId": "v_pub_url~v2.7705337715130386484"
+              },
+              "status": "published",
+              "publishedAt": "2026-11-07T08:07:40.590Z",
+              "platformPostId": "v_pub_url~v2.7705337715130386484",
+              "publishAttempts": 1,
+              "contentHash": "f70194c7eb862070b705f1a8fed60992"
+            },
+            {
+              "_id": "6aeedc45a5b5f9c68b63e3b8",
+              "platform": "instagram",
+              "accountId": {
+                "_id": "6ac0fff63c403551667bfd7d",
+                "platform": "instagram",
+                "username": "ditawellness",
+                "displayName": "Dita Gentle Wellness",
+                "profilePicture": null,
+                "isActive": true,
+                "profileId": "6ac0fee4b5fe160e5da55060"
+              },
+              "profileId": "6ac0fee4b5fe160e5da55060",
+              "customMedia": [],
+              "scheduledFor": "2026-11-07T08:07:33.070Z",
+              "status": "processing",
+              "publishAttempts": 1,
+              "contentHash": "56c98cda0095061a70f6320621652fb6"
+            }
+          ]
+        }
+      }
+    }
   }
 ]

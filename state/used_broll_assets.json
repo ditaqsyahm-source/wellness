@@ -1,22 +1,24 @@
 {
-  "total_used": 60,
-  "last_updated": "2026-10-28T01:00:05.236228",
+  "total_used": 65,
+  "last_updated": "2026-11-07T08:02:38.189684",
   "used_ids": [
     35684737,
     9969030,
     19086477,
     7531023,
     3801360,
-    35621399,
     6267799,
-    39056665,
+    35621399,
     30309529,
+    39056665,
+    4974746,
+    6718232,
     30182685,
     6658334,
-    19095583,
+    27517087,
     7505952,
     8719392,
-    27517087,
+    19095583,
     7213860,
     28925348,
     38957094,
@@ -27,8 +29,10 @@
     6845748,
     8296117,
     8926011,
+    6961596,
     8926013,
     39657533,
+    8296126,
     30039749,
     19474117,
     9127880,
@@ -57,6 +61,7 @@
     6598889,
     7034346,
     31560809,
+    6753388,
     7034351,
     6376689,
     39054455,
@@ -483,6 +488,41 @@
       "video_id": 20393300,
       "query": "clean aesthetic kitchen herbs botanical",
       "downloaded_at": "2026-10-28T01:00:05.235945"
+    },
+    {
+      "day": 11,
+      "scene": "01",
+      "video_id": 6961596,
+      "query": "dinner table food evening plate",
+      "downloaded_at": "2026-11-07T08:02:17.710716"
+    },
+    {
+      "day": 11,
+      "scene": "02",
+      "video_id": 6753388,
+      "query": "person sleeping tossing turning uncomfortable",
+      "downloaded_at": "2026-11-07T08:02:23.526503"
+    },
+    {
+      "day": 11,
+      "scene": "03",
+      "video_id": 8296126,
+      "query": "digestion stomach herbal tea cup",
+      "downloaded_at": "2026-11-07T08:02:26.716524"
+    },
+    {
+      "day": 11,
+      "scene": "04",
+      "video_id": 4974746,
+      "query": "drinking warm chamomile tea night",
+      "downloaded_at": "2026-11-07T08:02:34.322963"
+    },
+    {
+      "day": 11,
+      "scene": "05",
+      "video_id": 6718232,
+      "query": "deep calm sleep bedroom night",
+      "downloaded_at": "2026-11-07T08:02:38.189448"
     }
   ]
 }
