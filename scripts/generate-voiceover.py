@@ -7,17 +7,26 @@ import edge_tts.constants
 import edge_tts.communicate
 import subprocess
 
-# Fix Microsoft Edge TTS 403 on cloud runners (synthesize via api.msedgeservices.com)
-_NEW_WSS = (
-    "wss://api.msedgeservices.com/tts/cognitiveservices/websocket/v1"
-    f"?Ocp-Apim-Subscription-Key={edge_tts.constants.TRUSTED_CLIENT_TOKEN}"
-)
-edge_tts.constants.WSS_URL = _NEW_WSS
-edge_tts.communicate.WSS_URL = _NEW_WSS
+# Resilient multi-endpoint candidate URLs to avoid datacenter 403 or server rotation
+ENDPOINTS = [
+    f"wss://api.msedgeservices.com/tts/cognitiveservices/websocket/v1?Ocp-Apim-Subscription-Key={edge_tts.constants.TRUSTED_CLIENT_TOKEN}",
+    f"wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken={edge_tts.constants.TRUSTED_CLIENT_TOKEN}",
+]
 
 async def synthesize(text, voice, output_path):
-    communicate = edge_tts.Communicate(text, voice, rate="+10%")
-    await communicate.save(output_path)
+    for attempt in range(1, 5):
+        target_url = ENDPOINTS[(attempt - 1) % len(ENDPOINTS)]
+        edge_tts.constants.WSS_URL = target_url
+        setattr(edge_tts.communicate, "WSS_URL", target_url)
+        try:
+            communicate = edge_tts.Communicate(text, voice, rate="+10%")
+            await communicate.save(output_path)
+            if os.path.exists(output_path) and os.path.getsize(output_path) > 5000:
+                return True
+        except Exception as e:
+            print(f"⚠️ Synthesis attempt {attempt} failed via {target_url.split('?')[0]}: {e}")
+            await asyncio.sleep(2.0 * attempt)
+    raise RuntimeError(f"Failed to synthesize voiceover after 4 attempts.")
 
 def get_audio_duration(file_path):
     try:

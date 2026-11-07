@@ -12,13 +12,14 @@ PUBLIC_AUDIO_DIR = os.path.join(REPO_PATH, "public")
 os.makedirs(AUDIO_OUT_DIR, exist_ok=True)
 os.makedirs(PUBLIC_AUDIO_DIR, exist_ok=True)
 
-# Patch Edge TTS modern endpoint to avoid datacenter 403
+# Resilient multi-endpoint candidate URLs to avoid datacenter 403 or server rotation
 import edge_tts.constants
 import edge_tts.communicate
 
-_MODERN_URL = f"wss://api.msedgeservices.com/tts/cognitiveservices/websocket/v1?Ocp-Apim-Subscription-Key={edge_tts.constants.TRUSTED_CLIENT_TOKEN}"
-edge_tts.constants.WSS_URL = _MODERN_URL
-setattr(edge_tts.communicate, "WSS_URL", _MODERN_URL)
+ENDPOINTS = [
+    f"wss://api.msedgeservices.com/tts/cognitiveservices/websocket/v1?Ocp-Apim-Subscription-Key={edge_tts.constants.TRUSTED_CLIENT_TOKEN}",
+    f"wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken={edge_tts.constants.TRUSTED_CLIENT_TOKEN}",
+]
 
 VOICE = "id-ID-GadisNeural"
 
@@ -32,9 +33,12 @@ async def synthesize_one(day_num: int, text: str):
         if not os.path.exists(out_path2):
             import shutil
             shutil.copyfile(out_path1, out_path2)
-        return
+        return True
 
-    for attempt in range(1, 4):
+    for attempt in range(1, 5):
+        target_url = ENDPOINTS[(attempt - 1) % len(ENDPOINTS)]
+        edge_tts.constants.WSS_URL = target_url
+        setattr(edge_tts.communicate, "WSS_URL", target_url)
         try:
             comm = edge_tts.Communicate(text, VOICE, rate="+0%", pitch="+0Hz")
             await comm.save(out_path1)
@@ -44,10 +48,10 @@ async def synthesize_one(day_num: int, text: str):
                 print(f"✅ Day {str(day_num).zfill(3)} saved -> {file_name} ({os.path.getsize(out_path1)} bytes)")
                 return True
         except Exception as e:
-            print(f"⚠️ Day {str(day_num).zfill(3)} attempt {attempt} failed: {e}")
-            await asyncio.sleep(2.5 * attempt)
+            print(f"⚠️ Day {str(day_num).zfill(3)} attempt {attempt} failed via {target_url.split('?')[0]}: {e}")
+            await asyncio.sleep(2.0 * attempt)
 
-    print(f"❌ Day {str(day_num).zfill(3)} failed after 3 attempts.")
+    print(f"❌ Day {str(day_num).zfill(3)} failed after 4 attempts.")
     return False
 
 async def main():
