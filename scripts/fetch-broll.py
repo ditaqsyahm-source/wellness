@@ -262,11 +262,15 @@ def fetch_broll_for_day(day_num):
         with urllib.request.urlopen(req, timeout=30) as resp, open(temp_dest, "wb") as f_out:
             f_out.write(resp.read())
 
-        # Normalize with ffmpeg to 720x1280 @ 24fps libx264
+        # Normalize with ffmpeg to 720x1280 @ 24fps libx264 with fixed keyframes & yuv420p
         cmd_norm = [
             "ffmpeg", "-y", "-i", temp_dest,
-            "-vf", "scale=720:1280:force_original_aspect_ratio=increase,crop=720:1280",
-            "-c:v", "libx264", "-crf", "22", "-preset", "veryfast", "-an",
+            "-vf", "scale=720:1280:force_original_aspect_ratio=increase,crop=720:1280,fps=24",
+            "-r", "24",
+            "-c:v", "libx264", "-crf", "22", "-preset", "veryfast",
+            "-pix_fmt", "yuv420p",
+            "-g", "24", "-keyint_min", "24", "-sc_threshold", "0",
+            "-an",
             dest_mp4
         ]
         try:

@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { execSync } from "child_process";
 import { bundle } from "@remotion/bundler";
 import { renderMedia, selectComposition } from "@remotion/renderer";
 
@@ -65,6 +66,39 @@ async function main() {
     });
   }
 
+  // Precise Audio Duration Resolution via ffprobe to prevent cutoffs or dead silence
+  const audioRelPath = `voiceover_day_${dayStr}.mp3`;
+  const audioDiskPath = path.resolve(`public/${audioRelPath}`);
+  let exactAudioDuration = 0;
+  if (fs.existsSync(audioDiskPath)) {
+    try {
+      const probeOut = execSync(
+        `ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "${audioDiskPath}"`,
+        { encoding: "utf-8" }
+      ).trim();
+      const dur = parseFloat(probeOut);
+      if (!isNaN(dur) && dur > 10) {
+        exactAudioDuration = dur;
+        console.log(`[Audio Probe] Exact voiceover audio duration: ${exactAudioDuration.toFixed(2)}s`);
+      }
+    } catch (e) {
+      console.warn("[Audio Probe] ffprobe failed, using fallback packet timing:", e);
+    }
+  }
+
+  // If exact audio duration is known, align scene durations proportionally
+  if (exactAudioDuration > 0 && scenes.length > 0) {
+    const plannedTotal = scenes[scenes.length - 1].timeEnd || 50;
+    const factor = exactAudioDuration / plannedTotal;
+    let runTime = 0;
+    for (let i = 0; i < scenes.length; i++) {
+      const segLength = (scenes[i].timeEnd - scenes[i].timeStart) * factor;
+      scenes[i].timeStart = runTime;
+      scenes[i].timeEnd = i === scenes.length - 1 ? exactAudioDuration : runTime + segLength;
+      runTime = scenes[i].timeEnd;
+    }
+  }
+
   const hookHeadline =
     packet.social_fleet_distribution_metadata?.title?.replace(/#\w+/g, "").trim() ||
     packet.scientific_research_dossier?.core_topic?.split("!")[0]?.trim() ||
@@ -81,12 +115,14 @@ async function main() {
     hookHeadline,
     hookCategory,
     script,
-    audioFile: `voiceover_day_${String(dayNum).padStart(3, "0")}.mp3`,
+    audioFile: audioRelPath,
     scenes,
   };
 
-  const totalDuration = scenes.length > 0 ? scenes[scenes.length - 1].timeEnd : 55.0;
-  const durationInFrames = Math.round(totalDuration * 24) + 12; // safety frames
+  const totalDuration = exactAudioDuration > 0
+    ? exactAudioDuration
+    : (scenes.length > 0 ? scenes[scenes.length - 1].timeEnd : 55.0);
+  const durationInFrames = Math.round(totalDuration * 24) + 12; // +0.5s safety frames
 
   console.log(`[Remotion + HyperFrames] Bundling composition entry...`);
   const bundleLocation = await bundle({

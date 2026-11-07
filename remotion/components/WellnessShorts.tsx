@@ -39,6 +39,59 @@ function chunkWords(text: string, maxWords = 4): string[] {
   return out;
 }
 
+// Helper component for individual scene visual with smooth crossfade & Ken Burns motion
+const WellnessSceneVisual: React.FC<{
+  videoSrc: string;
+  durationInFrames: number;
+  isFirst: boolean;
+}> = ({ videoSrc, durationInFrames, isFirst }) => {
+  const relFrame = useCurrentFrame();
+
+  // Subtle organic Ken Burns zoom (1.02 -> 1.09)
+  const scale = interpolate(relFrame, [0, durationInFrames], [1.02, 1.09], {
+    extrapolateRight: "clamp",
+  });
+
+  // Gentle horizontal drift (-8px -> +8px)
+  const panX = interpolate(
+    relFrame,
+    [0, durationInFrames],
+    [isFirst ? 0 : -8, 8],
+    { extrapolateRight: "clamp" }
+  );
+
+  // Crossfade opacity (12 frames) to completely eliminate black flashes / hard-cut glitching
+  const fade = Math.min(12, Math.floor(durationInFrames / 3));
+  const opacity = interpolate(
+    relFrame,
+    [0, fade, durationInFrames - fade, durationInFrames],
+    [isFirst ? 0.6 : 0.2, 1.0, 1.0, 0.3],
+    { extrapolateLeft: "clamp", extrapolateRight: "clamp" }
+  );
+
+  return (
+    <AbsoluteFill style={{ overflow: "hidden" }}>
+      <AbsoluteFill
+        style={{
+          transform: `scale(${scale}) translate(${panX}px, 0px)`,
+          opacity,
+        }}
+      >
+        <Video
+          src={staticFile(videoSrc)}
+          muted
+          loop
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+          }}
+        />
+      </AbsoluteFill>
+    </AbsoluteFill>
+  );
+};
+
 export const WellnessShorts: React.FC<WellnessShortsProps> = ({
   channelName = "Dita Gentle Wellness",
   channelHandle = "@ditawellness",
@@ -126,14 +179,10 @@ export const WellnessShorts: React.FC<WellnessShortsProps> = ({
                 from={startFrame}
                 durationInFrames={duration}
               >
-                <Video
-                  src={staticFile(sc.videoSrc)}
-                  muted
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    objectFit: "cover",
-                  }}
+                <WellnessSceneVisual
+                  videoSrc={sc.videoSrc}
+                  durationInFrames={duration}
+                  isFirst={idx === 0}
                 />
               </Sequence>
             );
