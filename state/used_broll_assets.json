@@ -1,30 +1,32 @@
 {
-  "total_used": 65,
-  "last_updated": "2026-11-07T08:02:38.189684",
+  "total_used": 70,
+  "last_updated": "2026-11-08T01:06:50.437261",
   "used_ids": [
     35684737,
     9969030,
     19086477,
     7531023,
     3801360,
-    6267799,
     35621399,
-    30309529,
+    6267799,
     39056665,
-    4974746,
     6718232,
+    30309529,
+    4974746,
     30182685,
     6658334,
-    27517087,
+    19095583,
     7505952,
     8719392,
-    19095583,
+    27517087,
     7213860,
     28925348,
     38957094,
     38782629,
     5983910,
     28478884,
+    10833065,
+    39591591,
     8375468,
     6845748,
     8296117,
@@ -33,13 +35,16 @@
     8926013,
     39657533,
     8296126,
+    36207172,
     30039749,
     19474117,
     9127880,
     5828553,
     37385289,
+    19474122,
     8233165,
     39885262,
+    37977293,
     7506000,
     6306000,
     9063506,
@@ -523,6 +528,41 @@
       "video_id": 6718232,
       "query": "deep calm sleep bedroom night",
       "downloaded_at": "2026-11-07T08:02:38.189448"
+    },
+    {
+      "day": 12,
+      "scene": "01",
+      "video_id": 10833065,
+      "query": "candle amber glow dark window twilight",
+      "downloaded_at": "2026-11-08T01:06:39.862851"
+    },
+    {
+      "day": 12,
+      "scene": "02",
+      "video_id": 36207172,
+      "query": "rain on window pane cozy calm room",
+      "downloaded_at": "2026-11-08T01:06:43.378223"
+    },
+    {
+      "day": 12,
+      "scene": "03",
+      "video_id": 37977293,
+      "query": "hands holding warm ceramic tea cup steam",
+      "downloaded_at": "2026-11-08T01:06:45.886042"
+    },
+    {
+      "day": 12,
+      "scene": "04",
+      "video_id": 19474122,
+      "query": "person walking misty pine forest peaceful back view",
+      "downloaded_at": "2026-11-08T01:06:48.516916"
+    },
+    {
+      "day": 12,
+      "scene": "05",
+      "video_id": 39591591,
+      "query": "stars night sky peaceful time lapse",
+      "downloaded_at": "2026-11-08T01:06:50.436921"
     }
   ]
 }
