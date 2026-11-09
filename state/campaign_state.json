@@ -1,9 +1,9 @@
 {
   "channel": "@ditawellness",
-  "active_day": 12,
-  "next_day": 13,
+  "active_day": 13,
+  "next_day": 14,
   "total_published": 3,
-  "last_updated": "2026-11-08T01:10:18.083Z",
+  "last_updated": "2026-11-09T01:30:29.064Z",
   "pipeline_status": {
     "day_001": "PUBLISHED",
     "day_002": "PUBLISHED",
@@ -16,7 +16,8 @@
     "day_009": "PUBLISHED",
     "day_010": "PUBLISHED",
     "day_011": "PUBLISHED",
-    "day_012": "PUBLISHED"
+    "day_012": "PUBLISHED",
+    "day_013": "PUBLISHED"
   },
   "day_001_receipt": {
     "title": "Rahasia Bangun Segar Tanpa Brain Fog: Protokol Foton Pagi ☀️🌿 #Shorts",
