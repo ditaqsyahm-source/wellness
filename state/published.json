@@ -1646,5 +1646,102 @@
         }
       }
     }
+  },
+  {
+    "day": 17,
+    "published_at": "2026-11-14T02:02:59.925998",
+    "video": "dita_wellness_day_017_compressed.mp4",
+    "results": {
+      "youtube": {
+        "platform": "youtube",
+        "ok": true,
+        "videoId": "SmG-NOkwUcM",
+        "url": "https://youtube.com/shorts/SmG-NOkwUcM"
+      },
+      "zernio": {
+        "platform": "zernio",
+        "ok": true,
+        "postId": "6af7c146ffaaea74b72692f1",
+        "data": {
+          "_id": "6af7c146ffaaea74b72692f1",
+          "userId": "6ac0fee4b5fe160e5da5505e",
+          "title": "Perut sering kembung, perih, atau begah setelah makan? Lapisan pelindung ususmu ",
+          "content": "Perut sering kembung, perih, atau begah setelah makan? Lapisan pelindung ususmu mungkin sedang mengalami luka mikro!\n\nSecara mendalam: Dinding usus manusia hanya setebal satu lapis sel epitel yang mudah merenggang akibat stres kronis dan pola makan buruk. Asam amino glutamin, prolin, dan kolagen dalam kaldu tulang bekerja merapatkan kembali celah antar sel epitel usus yang bocor.\n\n\ud83c\udf3f Renungan & Protokol Hari Ini:\nNikmati secangkir kaldu tulang hangat dengan sejumput garam mineral di pagi hari sebelum menyantap makanan padat.\n\n\ud83d\udcac Pernah coba minum bone broth hangat pas perut lagi begah atau perih? Rasanya nyaman banget di lambung! \ud83d\udc47\n\nSimpan video ini biar nggak lupa, dan share ke orang tersayang yang butuh ketenangan raga & jiwa hari ini! \u2728\n\n#ditawellness #gentlewellness #penyejukhati #ketenanganbatin #muhasabah #biohackingindonesia #hidupsehatalami #polahidupsehat #sainskesehatan",
+          "mediaItems": [
+            {
+              "_id": "6af7c147ffaaea74b72692fe",
+              "url": "https://media.zernio.com/media/1794621765717_e19f2ef2c2888c42_dita_wellness_day_017_compressed.mp4",
+              "type": "video"
+            }
+          ],
+          "scheduledFor": "2026-11-14T02:02:46.835Z",
+          "timezone": "UTC",
+          "status": "publishing",
+          "tags": [],
+          "hashtags": [],
+          "mentions": [],
+          "visibility": "public",
+          "crosspostingEnabled": true,
+          "metadata": {
+            "usageCounted": true
+          },
+          "publishingClaimedAt": "2026-11-14T02:02:47.841Z",
+          "recycling": {
+            "enabled": false,
+            "gapFreq": "month",
+            "recycleCount": 0,
+            "contentVariations": [],
+            "contentVariationIndex": 0
+          },
+          "createdAt": "2026-11-14T02:02:47.761Z",
+          "updatedAt": "2026-11-14T02:02:59.804Z",
+          "platforms": [
+            {
+              "_id": "6af7c147ffaaea74b72692fa",
+              "platform": "tiktok",
+              "accountId": {
+                "_id": "6ac101d7b7173e371b8e5d31",
+                "platform": "tiktok",
+                "username": "ditawellness",
+                "displayName": "ditawellness",
+                "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/861510685ce99bc54cb77c064296059e~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=7f579117&x-expires=1794722400&x-signature=NDnGi2oKh1rLQ67OElfqcoJ7Ni8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my3",
+                "isActive": true,
+                "profileId": "6ac0fee4b5fe160e5da55060"
+              },
+              "profileId": "6ac0fee4b5fe160e5da55060",
+              "customMedia": [],
+              "scheduledFor": "2026-11-14T02:02:46.835Z",
+              "platformSpecificData": {
+                "tiktokBusinessPublishId": "v_pub_url~v2.7707841743022278677"
+              },
+              "status": "published",
+              "publishedAt": "2026-11-14T02:02:59.802Z",
+              "platformPostId": "v_pub_url~v2.7707841743022278677",
+              "publishAttempts": 1,
+              "contentHash": "1d6dd14ecc40a21c5f610bf9b995f3a8"
+            },
+            {
+              "_id": "6af7c147ffaaea74b72692fb",
+              "platform": "instagram",
+              "accountId": {
+                "_id": "6ac0fff63c403551667bfd7d",
+                "platform": "instagram",
+                "username": "ditawellness",
+                "displayName": "Dita Gentle Wellness",
+                "profilePicture": null,
+                "isActive": true,
+                "profileId": "6ac0fee4b5fe160e5da55060"
+              },
+              "profileId": "6ac0fee4b5fe160e5da55060",
+              "customMedia": [],
+              "scheduledFor": "2026-11-14T02:02:46.835Z",
+              "status": "processing",
+              "publishAttempts": 1,
+              "contentHash": "bcbb9841192886d6982b96eb23e3d045"
+            }
+          ]
+        }
+      }
+    }
   }
 ]
