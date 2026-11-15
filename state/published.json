@@ -1743,5 +1743,102 @@
         }
       }
     }
+  },
+  {
+    "day": 18,
+    "published_at": "2026-11-15T01:34:49.514310",
+    "video": "dita_wellness_day_018_compressed.mp4",
+    "results": {
+      "youtube": {
+        "platform": "youtube",
+        "ok": true,
+        "videoId": "5WoXiQcSu8A",
+        "url": "https://youtube.com/shorts/5WoXiQcSu8A"
+      },
+      "zernio": {
+        "platform": "zernio",
+        "ok": true,
+        "postId": "6af90c2f14e1d9d845219616",
+        "data": {
+          "_id": "6af90c2f14e1d9d845219616",
+          "userId": "6ac0fee4b5fe160e5da5505e",
+          "title": "Mau makan mie atau makanan berkarbohidrat tinggi tanpa merasa bersalah? Minum ra",
+          "content": "Mau makan mie atau makanan berkarbohidrat tinggi tanpa merasa bersalah? Minum ramuan asam lembut ini dua menit sebelumnya!\n\nSecara mendalam: Asam asetat alami dalam cuka sari apel menonaktifkan sementara enzim alfa-amilase di air liur dan cairan lambung. Penonaktifan sementara ini memperlambat pemecahan karbohidrat menjadi gula darah hingga tiga puluh persen.\n\n\ud83c\udf3f Renungan & Protokol Hari Ini:\nLarutkan satu sendok makan cuka apel murni ke dalam segelas air hangat, minum perlahan sebelum menyantap hidangan utama.\n\n\ud83d\udcac Pernah rutin minum cuka apel sebelum makan berat? Sensasi kenyangnya terasa lebih tahan lama kan? \ud83d\udc47\n\nSimpan video ini biar nggak lupa, dan share ke orang tersayang yang butuh ketenangan raga & jiwa hari ini! \u2728\n\n#ditawellness #gentlewellness #penyejukhati #ketenanganbatin #muhasabah #biohackingindonesia #hidupsehatalami #polahidupsehat #sainskesehatan",
+          "mediaItems": [
+            {
+              "_id": "6af90c3014e1d9d84521961f",
+              "url": "https://media.zernio.com/media/1794706478754_7650ec2a2cd2683d_dita_wellness_day_018_compressed.mp4",
+              "type": "video"
+            }
+          ],
+          "scheduledFor": "2026-11-15T01:34:40.011Z",
+          "timezone": "UTC",
+          "status": "publishing",
+          "tags": [],
+          "hashtags": [],
+          "mentions": [],
+          "visibility": "public",
+          "crosspostingEnabled": true,
+          "metadata": {
+            "usageCounted": true
+          },
+          "publishingClaimedAt": "2026-11-15T01:34:41.091Z",
+          "recycling": {
+            "enabled": false,
+            "gapFreq": "month",
+            "recycleCount": 0,
+            "contentVariations": [],
+            "contentVariationIndex": 0
+          },
+          "createdAt": "2026-11-15T01:34:40.890Z",
+          "updatedAt": "2026-11-15T01:34:49.381Z",
+          "platforms": [
+            {
+              "_id": "6af90c3014e1d9d84521961b",
+              "platform": "tiktok",
+              "accountId": {
+                "_id": "6ac101d7b7173e371b8e5d31",
+                "platform": "tiktok",
+                "username": "ditawellness",
+                "displayName": "ditawellness",
+                "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/861510685ce99bc54cb77c064296059e~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=882b65b7&x-expires=1794808800&x-signature=J%2FI%2FLyujUU26Rgt52ZAdKfz8VtM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my2",
+                "isActive": true,
+                "profileId": "6ac0fee4b5fe160e5da55060"
+              },
+              "profileId": "6ac0fee4b5fe160e5da55060",
+              "customMedia": [],
+              "scheduledFor": "2026-11-15T01:34:40.011Z",
+              "platformSpecificData": {
+                "tiktokBusinessPublishId": "v_pub_url~v2.7708205385773844481"
+              },
+              "status": "published",
+              "publishedAt": "2026-11-15T01:34:49.375Z",
+              "platformPostId": "v_pub_url~v2.7708205385773844481",
+              "publishAttempts": 1,
+              "contentHash": "a1f56c555a7f5be04ea6c0f68e6b8c41"
+            },
+            {
+              "_id": "6af90c3014e1d9d84521961c",
+              "platform": "instagram",
+              "accountId": {
+                "_id": "6ac0fff63c403551667bfd7d",
+                "platform": "instagram",
+                "username": "ditawellness",
+                "displayName": "Dita Gentle Wellness",
+                "profilePicture": null,
+                "isActive": true,
+                "profileId": "6ac0fee4b5fe160e5da55060"
+              },
+              "profileId": "6ac0fee4b5fe160e5da55060",
+              "customMedia": [],
+              "scheduledFor": "2026-11-15T01:34:40.011Z",
+              "status": "processing",
+              "publishAttempts": 1,
+              "contentHash": "fc762c2ee4d24056b0eb1fcfd2f54ceb"
+            }
+          ]
+        }
+      }
+    }
   }
 ]
