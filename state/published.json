@@ -2131,5 +2131,103 @@
         }
       }
     }
+  },
+  {
+    "day": 22,
+    "published_at": "2026-11-21T03:02:33.917595",
+    "video": "dita_wellness_day_022_compressed.mp4",
+    "results": {
+      "youtube": {
+        "platform": "youtube",
+        "ok": true,
+        "videoId": "rm3FFVvzMFI",
+        "url": "https://youtube.com/shorts/rm3FFVvzMFI"
+      },
+      "zernio": {
+        "platform": "zernio",
+        "ok": true,
+        "postId": "6b0109bcec410b36036b3372",
+        "data": {
+          "_id": "6b0109bcec410b36036b3372",
+          "userId": "6ac0fee4b5fe160e5da5505e",
+          "workspaceId": "6b004d28db5770c0e800c3c3",
+          "title": "Bangun tidur dengan tenggorokan kering dan kepala pening? Kamu mungkin tidur den",
+          "content": "Bangun tidur dengan tenggorokan kering dan kepala pening? Kamu mungkin tidur dengan mulut terbuka!\n\nSecara mendalam: Bernapas lewat mulut saat tidur menurunkan kadar oksigen darah hingga dua puluh persen dan memicu dengkuran kasar. Napas hidung memproduksi gas nitric oxide yang melebarkan pembuluh darah dan menyaring udara masuk secara steril.\n\n\ud83c\udf3f Renungan & Protokol Hari Ini:\nGunakan plester medis berpori mikro secara vertikal di bibir sebelum tidur untuk melatih pernapasan hidung sepanjang malam.\n\n\ud83d\udcac Siapa yang kalau bangun tidur tenggorokannya kering banget karena tidur mangap? Berani coba mouth tape? \ud83d\udc47\n\nSimpan video ini biar nggak lupa, dan share ke orang tersayang yang butuh ketenangan raga & jiwa hari ini! \u2728\n\n#ditawellness #gentlewellness #penyejukhati #ketenanganbatin #muhasabah #biohackingindonesia #hidupsehatalami #polahidupsehat #sainskesehatan",
+          "mediaItems": [
+            {
+              "_id": "6b0109bdec410b36036b3377",
+              "url": "https://media.zernio.com/media/1795230139157_ac946683244f3bf6_dita_wellness_day_022_compressed.mp4",
+              "type": "video"
+            }
+          ],
+          "scheduledFor": "2026-11-21T03:02:20.919Z",
+          "timezone": "UTC",
+          "status": "publishing",
+          "tags": [],
+          "hashtags": [],
+          "mentions": [],
+          "visibility": "public",
+          "crosspostingEnabled": true,
+          "metadata": {
+            "usageCounted": true
+          },
+          "publishingClaimedAt": "2026-11-21T03:02:21.803Z",
+          "recycling": {
+            "enabled": false,
+            "gapFreq": "month",
+            "recycleCount": 0,
+            "contentVariations": [],
+            "contentVariationIndex": 0
+          },
+          "createdAt": "2026-11-21T03:02:21.656Z",
+          "updatedAt": "2026-11-21T03:02:33.788Z",
+          "platforms": [
+            {
+              "_id": "6b0109bdec410b36036b3373",
+              "platform": "tiktok",
+              "accountId": {
+                "_id": "6ac101d7b7173e371b8e5d31",
+                "platform": "tiktok",
+                "username": "ditawellness",
+                "displayName": "ditawellness",
+                "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/861510685ce99bc54cb77c064296059e~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=cb89c051&x-expires=1795327200&x-signature=OFQ%2F%2BEP4entvvf42MpwS1PhqvbM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my",
+                "isActive": true,
+                "profileId": "6ac0fee4b5fe160e5da55060"
+              },
+              "profileId": "6ac0fee4b5fe160e5da55060",
+              "customMedia": [],
+              "scheduledFor": "2026-11-21T03:02:20.919Z",
+              "platformSpecificData": {
+                "tiktokBusinessPublishId": "v_pub_url~v2.7710454668953962514"
+              },
+              "status": "published",
+              "publishedAt": "2026-11-21T03:02:33.785Z",
+              "platformPostId": "v_pub_url~v2.7710454668953962514",
+              "publishAttempts": 1,
+              "contentHash": "58e3d6c12948146e6bba197d2de22aee"
+            },
+            {
+              "_id": "6b0109bdec410b36036b3374",
+              "platform": "instagram",
+              "accountId": {
+                "_id": "6ac0fff63c403551667bfd7d",
+                "platform": "instagram",
+                "username": "ditawellness",
+                "displayName": "Dita Gentle Wellness",
+                "profilePicture": null,
+                "isActive": true,
+                "profileId": "6ac0fee4b5fe160e5da55060"
+              },
+              "profileId": "6ac0fee4b5fe160e5da55060",
+              "customMedia": [],
+              "scheduledFor": "2026-11-21T03:02:20.919Z",
+              "status": "processing",
+              "publishAttempts": 1,
+              "contentHash": "445978dff13e4c8d519e9755486b91c7"
+            }
+          ]
+        }
+      }
+    }
   }
 ]
