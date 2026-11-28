@@ -2814,5 +2814,102 @@
         }
       }
     }
+  },
+  {
+    "day": 29,
+    "published_at": "2026-11-28T03:46:34.359217",
+    "video": "dita_wellness_day_029_compressed.mp4",
+    "results": {
+      "youtube": {
+        "platform": "youtube",
+        "ok": true,
+        "videoId": "dB8r97O5Ujc",
+        "url": "https://youtube.com/shorts/dB8r97O5Ujc"
+      },
+      "zernio": {
+        "platform": "zernio",
+        "ok": true,
+        "postId": "6b0a4e974a32f01b925ffcc3",
+        "data": {
+          "_id": "6b0a4e974a32f01b925ffcc3",
+          "userId": "6ac0fee4b5fe160e5da5505e",
+          "workspaceId": "6b004d28db5770c0e800c3c3",
+          "title": "Titik lampu LED kecil di colokan atau AC kamarmu itu diam-diam merusak struktur ",
+          "content": "Titik lampu LED kecil di colokan atau AC kamarmu itu diam-diam merusak struktur tidur lelapmu!\n\nSecara mendalam: Kelopak mata manusia sangat tipis dan tetap mampu menyerap foton cahaya buatan bahkan saat terpejam rapat. Paparan cahaya serendah lima lux di kamar tidur menekan pelepasan hormon melatonin dan meningkatkan resistensi insulin di pagi harinya.\n\n\ud83c\udf3f Renungan & Protokol Hari Ini:\nTutup lampu indikator perangkat elektronik dengan stiker hitam, dan pasang tirai blackout agar kamarmu benar-benar gelap gulita.\n\n\ud83d\udcac Kamarmu kalau tidur gelap gulita tanpa cahaya sama sekali, atau masih ada lampu colokan/HP yang kedap-kedip? \ud83d\udc47\n\nSimpan video ini biar nggak lupa, dan share ke orang tersayang yang butuh ketenangan raga & jiwa hari ini! \u2728\n\n#ditawellness #gentlewellness #penyejukhati #ketenanganbatin #muhasabah #biohackingindonesia #hidupsehatalami #polahidupsehat #sainskesehatan",
+          "mediaItems": [
+            {
+              "_id": "6b0a4e974a32f01b925ffcc8",
+              "url": "https://media.zernio.com/media/1795837589981_9e2cc24fe49d6184_dita_wellness_day_029_compressed.mp4",
+              "type": "video"
+            }
+          ],
+          "scheduledFor": "2026-11-28T03:46:31.069Z",
+          "timezone": "UTC",
+          "status": "publishing",
+          "tags": [],
+          "hashtags": [],
+          "mentions": [],
+          "visibility": "public",
+          "crosspostingEnabled": true,
+          "metadata": {
+            "usageCounted": true
+          },
+          "publishingClaimedAt": "2026-11-28T03:46:31.939Z",
+          "recycling": {
+            "enabled": false,
+            "gapFreq": "month",
+            "recycleCount": 0,
+            "contentVariations": [],
+            "contentVariationIndex": 0
+          },
+          "createdAt": "2026-11-28T03:46:31.864Z",
+          "updatedAt": "2026-11-28T03:46:34.153Z",
+          "platforms": [
+            {
+              "_id": "6b0a4e974a32f01b925ffcc4",
+              "platform": "tiktok",
+              "accountId": {
+                "_id": "6ac101d7b7173e371b8e5d31",
+                "platform": "tiktok",
+                "username": "ditawellness",
+                "displayName": "ditawellness",
+                "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/861510685ce99bc54cb77c064296059e~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=ed4768b8&x-expires=1795932000&x-signature=A%2BBp67laD25De4Et0fe4EG1r25U%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my2",
+                "isActive": true,
+                "profileId": "6ac0fee4b5fe160e5da55060"
+              },
+              "profileId": "6ac0fee4b5fe160e5da55060",
+              "customMedia": [],
+              "scheduledFor": "2026-11-28T03:46:31.069Z",
+              "platformSpecificData": {
+                "tiktokUploadTimeoutAt": "2026-11-28T03:46:34.021Z",
+                "tiktokBusinessPublishId": "v_pub_url~v2.7713063031600859144"
+              },
+              "status": "uploading",
+              "publishAttempts": 1,
+              "contentHash": "019d8e388abdd3b531448230f05a5425"
+            },
+            {
+              "_id": "6b0a4e974a32f01b925ffcc5",
+              "platform": "instagram",
+              "accountId": {
+                "_id": "6ac0fff63c403551667bfd7d",
+                "platform": "instagram",
+                "username": "ditawellness",
+                "displayName": "Dita Gentle Wellness",
+                "profilePicture": null,
+                "isActive": true,
+                "profileId": "6ac0fee4b5fe160e5da55060"
+              },
+              "profileId": "6ac0fee4b5fe160e5da55060",
+              "customMedia": [],
+              "scheduledFor": "2026-11-28T03:46:31.069Z",
+              "status": "processing",
+              "publishAttempts": 1,
+              "contentHash": "daf513137530d4a485ec89a08fea1340"
+            }
+          ]
+        }
+      }
+    }
   }
 ]
